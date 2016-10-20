@@ -1,0 +1,86 @@
+---
+title: "Curriculum Vitae"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+****
+
+> [See CV in pdf](CVE.pdf)
+
+****
+### Education
+
+* **Ph.D.**, Economics (cum laude), Universidad de Salamanca, 2016.\
+Dissertation: Three Essays on Applied Time Series Econometrics.\
+
+* **D.E.A.** (Doctoral Studies), Economics, Universidad de Alcalá, 2002.\
+* **M.A.**, Economics, Universidad Nacional de Colombia, 2000.\
+* **B.A.**, Economics, Universidad Nacional de Colombia, 1995.\
+* **B.Sc.**, Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.
+
+****
+
+### Research Areas
+
+Time Series Econometrics, Empirical Macroeconomics, Energy Economics
+
+****
+
+### Professional Activities
+
+* 2002--2014 **Economic Analyst**, Madrid, Spain\
+Universidad Carlos III de Madrid, Department of Economics--Statistics.\
+
+* 2000 **Economic Analyst**, Bogotá, Colombia\
+CGR, Dirección de Estudios Macroeconómicos.\
+
+* 1998--1999 **Project Manager**, Bogotá, Colombia\
+Universidad Nacional de Colombia, Department of Economics.\
+
+* 1995--1998 **Research Assistant**, Bogotá, Colombia\
+Universidad Nacional de Colombia, Department of Economics.\
+
+* 1995--1999 **Lecturer**, Bogotá, Colombia\
+Economics (B.A. and M.A.), Universidad Nacional de Colombia.\
+
+****
+
+### Conference presentations
+
+1. **``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''.** 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.
+
+2. **``The deflationary effect of oil prices in the euro area''.** Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+
+3. **``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
+
+4. **``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías''.** XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
+
+5. **  ``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+
+6. **``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany''.** Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
+
+****
+
+### Honors
+
+2000 **Santander Bank - Universidad de Alcalá**\
+Scholarship\
+
+1995 **Inter-American Development Bank (IDB).** Jerusalem, Israel, 1995.\
+Invited to the Youth and Growth Forum. 
+
+****
+
+### Computer skills
+
+R, LaTeX, SCA, Microsoft Office, *MATLAB*, *Eviews*
+
+****
+
+### Languages
+
+Spanish (native), English (Intermediate)

@@ -1,0 +1,31 @@
+---
+title: "Research"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+****
+### Publications {#pub}
+
+1. **''A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''** Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, (2016), Forthcoming.
+
+2. **``The deflationary effect of oil prices in the euro area.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). *Energy Economics*, (2016), **56**, 389--397.
+
+3. **``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''** Joint with P. Poncela (U. Autónoma de Madrid) and E. Senra (U. Alcalá). *FUNCAS Working papers series*, (2012), **701**.
+
+4. **``Do we see the effects of oil variations in official statistics price data?''** Joint with P. Poncela (U. Autónoma de Madrid), and E. Senra (U. Alcalá). *Boletín de Estadística e Investigación Operativa*, (2011), **27**, 29--41.
+
+5. **``El diferencial de inflación en los servicios entre España y la euro área.''** Joint with E. Carluccio (U. Carlos III de Madrid). *Papeles de Economía Española*, (2009), **120**, 69--89.
+
+6. **``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''** Joint with J. Espitia (CGR Colombia), and J. Villamizar (CGR Colombia). *Gestión Fiscal*, (2000), **8**, 6--33.
+
+### Work in progress or submitted {#wps}
+
+7. **``Oil price pass-through along the price chain in the euro area.''** Joint with R. Jiménez-Rodríguez (U. Salamanca). Submitted.
+
+8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).
+
+9. **``Sources of oil price changes, structural breaks and effects on European inflation.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).

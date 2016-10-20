@@ -1,0 +1,38 @@
+---
+title: "Links"
+output: html_document
+---
+
+****
+### Co-authors
+
+1. [Andrés Barge Gil](https://www.ucm.es/fundamentos-analisis-economico2/barge-gil,-andres)\
+2. [Miguel Jerez](https://www.ucm.es/fundamentos-analisis-economico2/jerez-mendez,-miguel)\
+3. [Rebeca Jiménez-Rodríguez](http://diarium.usal.es/rebecajimenez/)\
+4. [Pilar Poncela](https://www.uam.es/ss/Satellite/Economicas/es/1234888160191/1234888367480/persona/detallePDI/Poncela_Blanco,_Pilar.htm)\
+5. [Eva Senra](http://www3.uah.es/esd/)\
+<!-- end of list -->
+
+****
+### Data
+
+1. [European Central Bank](http://www.ecb.europa.eu/stats/html/index.en.html)
+2. [EIA](http://www.eia.gov/)
+3. [Eurostat](http://ec.europa.eu/eurostat/data/database)
+4. [FED](http://www.federalreserve.gov/)
+5. [Colombian statistic office: DANE](http://www.dane.gov.co/)
+6. [Banco de la República de Colombia](http://www.banrep.gov.co/)
+7. [OECD](https://data.oecd.org/)
+8. [CEPAL](http://www.cepal.org/es/datos-y-estadisticas)
+9. [St. Luois FED: FRED](https://fred.stlouisfed.org/)
+10. [Spanish statistic office: INE](http://www.ine.es/)
+<!-- end of list -->
+
+****
+### R software
+
+1. [CRAN R-project: time series analysis](https://cran.r-project.org/web/views/TimeSeries.html)
+2. [CRAN R-project](https://cran.r-project.org/)
+3. [Quick R](http://www.statmethods.net/about/sitemap.html)
+4. [RStudio](https://www.rstudio.com/)
+5. [knitr package](http://yihui.name/knitr/)

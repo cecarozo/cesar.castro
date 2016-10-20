@@ -1,0 +1,29 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "César Castro"
+  left:
+    - text: "Curriculum Vitae"
+      icon:  fa-graduation-cap
+      href: CV.html
+    - text: "Research"
+      icon: fa-area-chart
+      href: Research.html
+    - text: "Projects"
+      icon:  fa-binoculars
+      href: Colombia.html
+    - text: "Links"
+      icon: glyphicon-glyphicon glyphicon-link
+      href: link.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    includes:
+      after_body: footer.html
+    css: styles.css
+    toc: yes
+    
