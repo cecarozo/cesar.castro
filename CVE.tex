@@ -1,0 +1,235 @@
+\documentclass[11pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt} % Font size - 10pt, 11pt or 12pt
+\usepackage[hmargin=3cm, vmargin=2.5cm]{geometry} % Document margins
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Colors for links, text and headings
+%-----------------------------------------------------------------------
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F0F6F7} % Peach color for the contact information box
+\definecolor{text1}{HTML}{62797B} % Main document font color, off-black
+\definecolor{headings}{HTML}{000066} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{datetime}
+\setlength{\itemsep}{0.4cm} 
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+
+\setlength{\parskip}{1em}            % paragraph separation
+\onehalfspacing
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+\par{\centering{\sffamily\Huge César Castro Rozo}\\ % Your name
+\vspace{5pt}
+{\color{headings} \scshape{October, 2016}}\\
+\vspace{10pt}}
+
+\colorbox{shade}{{
+\begin{tabular}{c|p{13cm}}
+\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017 \\
+\vspace{5pt}\raisebox{-4pt}{\Mobilefone} & (+34) 679 54 82 37\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\
+\vspace{5pt}\raisebox{-4pt}{\Aquarius} & Nationality: Colombia - Spain\\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro/index.html}\\
+\end{tabular}
+}
+}\\[10pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
+
+2016 & \textbf{Ph.D.}, Economics (cum laude), Universidad de Salamanca.\\
+\vspace{5pt}& Dissertation: Three Essays on Applied Time Series Econometrics.\\
+
+\vspace{5pt}2002 & \textbf{D.E.A.} (Doctoral Studies), Economics, Universidad de Alcalá.\\
+
+\vspace{5pt}2000 & \textbf{M.A.}, Economics, Universidad Nacional de Colombia.\\
+
+1995 & \textbf{B.A.}, Economics, Universidad Nacional de Colombia.\\
+\vspace{5pt}& (Approved spanish equivalent B.A.)\\
+
+1993 & \textbf{B.Sc.}, Forestry Engineering, Universidad Distrital, Bogotá, Colombia.\\
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research Interests}
+
+Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+
+\begin{enumerate}
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2016), Forthcoming.
+
+\item \textbf{``The deflationary effect of oil prices in the euro area.''} Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
+
+\item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''} Joint with P. Poncela (U. Autónoma de Madrid) and E. Senra (U. Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
+
+\item \textbf{``Do we see the effects of oil variations in official statistics price data?''} Joint with P. Poncela (U. Autónoma de Madrid), and E. Senra (U. Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
+
+\item \textbf{``El diferencial de inflación en los servicios entre España y la euro área.''} Joint with E. Carluccio (U. Carlos III de Madrid). \emph{Papeles de Economía Española}, (2009), \textbf{120}, 69--89.
+
+\item \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''} Joint with J. Espitia (CGR Colombia), and J. Villamizar (CGR Colombia). \emph{Gestión Fiscal}, (2000), \textbf{8}, 6--33.
+\\
+
+\noindent
+\section{Work in progress or submitted}
+
+\item \textbf{``Oil price pass-through along the price chain in the euro area.''} Joint with R. Jiménez-Rodríguez (U. Salamanca). Submitted.
+
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Joint with R. Jiménez-Rodríguez (U. Salamanca).
+
+\item \textbf{``Sources of oil price changes, structural breaks and effects on European inflation.''} Joint with R. Jiménez-Rodríguez (U. Salamanca).
+\\
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Professional Activities} 
+
+\begin{tabular}{rl{-2cm}}
+
+2002--2014 &  \textbf{Economic Analyst}, Madrid, Spain\\
+\vspace{5pt}& Universidad Carlos III de Madrid, Department of Economics--Statistics.\\
+
+2000 & \textbf{Economic Analyst}, Bogotá, Colombia\\
+\vspace{5pt}& CGR, Dirección de Estudios Macroeconómicos.\\
+
+1998--1999 & \textbf{Project Manager}, Bogotá, Colombia\\
+\vspace{5pt}& Universidad Nacional de Colombia, Department of Economics.\\
+
+1995--1998 & \textbf{Research Assistant}, Bogotá, Colombia\\
+\vspace{5pt}& Universidad Nacional de Colombia, Department of Economics.}\\
+
+1995--1999 & \textbf{Lecturer}, Bogotá, Colombia\\
+\vspace{5pt}& Economics (B.A. and M.A.), Universidad Nacional de Colombia.\\
+
+\end{tabular}
+\vspace{10pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conference presentations} 
+
+\begin{itemize}
+
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''.} 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.
+
+\item \textbf{``The deflationary effect of oil prices in the euro area''.} Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+
+\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.} 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
+
+\item \textbf{``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías''.} XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
+
+\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.} Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+
+\item \textbf{``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany``.} Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Honors} 
+
+\begin{tabular}{rl}
+2000	 & Santander Bank - Universidad de Alcalá\\
+\vspace{5pt}&  Scholarship\\
+
+1995 & Inter-American Development Bank (IDB). Jerusalem, Israel, 1995.\\
+& Invited to the Youth and Growth Forum. 
+
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Computer skills} 
+
+\begin{tabular}{rl}
+R, {\LaTeX}, SCA, Microsoft Office, \textsc{MATLAB}, \textsc{Eviews}\\
+&
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages} 
+
+\begin{tabular}{rl}
+Spanish (native), English (Intermediate)
+\end{tabular}
+
+\end{document}  
