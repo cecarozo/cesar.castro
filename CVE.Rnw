@@ -34,18 +34,18 @@
 \onehalfspacing
 \begin{document}
 
-\par{\centering{\sffamily\Huge César Castro Rozo}\\ % Your name
+\par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
 {\color{headings} \scshape{October, 2016}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
 \begin{tabular}{c|p{13cm}}
-\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017 \\
+\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017, Spain\\
 \vspace{5pt}\raisebox{-4pt}{\Mobilefone} & (+34) 679 54 82 37\\
-\vspace{5pt}\raisebox{-4pt}{\Letter} & \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & email: \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\
 \vspace{5pt}\raisebox{-4pt}{\Aquarius} & Nationality: Colombia - Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Mundus} & \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro/index.html}\\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & www: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro/index.html}\\
 \end{tabular}
 }
 }\\[10pt]
