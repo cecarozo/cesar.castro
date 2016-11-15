@@ -1,8 +1,13 @@
 ---
 title: "Colombia: Recent Economic Developments"
+author: "César Castro"
+date: "11/15/2016"
 output: html_document
-note: "this is"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 ****
 > This section presents the monthly updating forecasts for the GDP, inflation and monetary policy in Colombia. The forecasts are analyzed with time series techniques, especially Bottom-Up procedures in hierarchical structures. The methodology consider the idiosincracy of models at disaggregate level of the variables, with the advantage of including proper monthly indicators for each sector. The forecasts also include a scenario for the movements of one of the most important variable for the Colombian economy: the world oil price. The bottom of the section shows the expected key interest from the Central Bank, based on the Taylor rule.
@@ -185,7 +190,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in September-2016
+### Innovations by sectors in October-2016
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 
@@ -250,4 +255,3 @@ lines(g, type='s')                          # línea tasa de intervención
 # lines(ftaylor, type='s', lwd=5, col='black')      # predicción regla de taylor
 box(col='dimgray')
 ```
-
