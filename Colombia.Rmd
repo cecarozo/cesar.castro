@@ -92,7 +92,7 @@ g <- g[,2]
 
 ### Quarterly GDP growth: change in forecasts
 ```{r GDPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(2, 8),
+plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(1, 8),
      yaxt='n', ylab='', xlab='', main='year-on-year rates')
 rect(time(crecactual)[(62-35):(62-35)],
      8,
