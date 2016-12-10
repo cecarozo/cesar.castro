@@ -113,7 +113,7 @@ legend(2014, 8, c("current quarter", "previous quarter"),
 ```
 
 ****
-### Innovations by sectors in the second quarter-2016
+### Innovations by sectors in the third quarter-2016
 ```{r GDPerror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.gerror) <- c('Weights', 'Observed', 'Forecast', 'innovation')
 
@@ -192,7 +192,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in October-2016
+### Innovations by sectors in November-2016
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 
@@ -237,7 +237,7 @@ print(p.table,
 ****
 ## MONETARY POLICY
 
-The taylor rule shows that in the next months, the Central Bank could decrease the key interest rates, from the current  7.75 to 7
+The taylor rule shows that in the next months, the Central Bank could decreased the key interest rate, from the current 7.75 to 6.5 in the next 6 months. 
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
 g <- window(g, start=c(2010,1))
