@@ -1,9 +1,11 @@
 ---
 title: "Colombia: Recent Economic Developments"
-author: "César Castro"
-date: "11/15/2016"
+author: "César Castro Rozo"
+date: "Updated: December 9th, 2016"
 output: html_document
 ---
+
+****
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -13,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 > This section presents the monthly updating forecasts for the GDP, inflation and monetary policy in Colombia. The forecasts are analyzed with time series techniques, especially Bottom-Up procedures in hierarchical structures. The methodology consider the idiosincracy of models at disaggregate level of the variables, with the advantage of including proper monthly indicators for each sector. The forecasts also include a scenario for the movements of one of the most important variable for the Colombian economy: the world oil price. The bottom of the section shows the expected key interest from the Central Bank, based on the Taylor rule.
 
 ****
-> [See monthly report in PDF (spanish)](colombia.pdf)
+> [See report of December 2016 in PDF (spanish)](colombia.pdf)
 
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
@@ -97,7 +99,7 @@ plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(1, 8),
 rect(time(crecactual)[(62-35):(62-35)],
      8,
      time(crecactual)[32:32],
-     2, density=50, col = "pink")
+     1, density=50, col = "pink")
 abline(h=c(3, 4, 5, 6, 7), col='gray90')
 abline(v = c(2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016),
        col='gray90')  # year line
