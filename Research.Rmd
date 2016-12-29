@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ### Publications {#pub}
 
-1. **''A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''** Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, (2016), Forthcoming.
+1. **''A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''** Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, (2016), Forthcoming. Published on line: [http://link.springer.com/article/10.1007/s40888-016-0048-9](http://link.springer.com/article/10.1007/s40888-016-0048-9)
 
 2. **``The deflationary effect of oil prices in the euro area.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). *Energy Economics*, (2016), **56**, 389--397.
 

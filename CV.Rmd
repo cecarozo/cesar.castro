@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Special Doctorate Award, 2016.\
 Dissertation: Three Essays on Applied Time Series Econometrics.\
 Advisor: Rebeca Jiménez-Rodríguez.\
+Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.\
 
 * **D.E.A.** (Doctoral Studies), Economics, Universidad de Alcalá, 2002.\
 * **M.A.**, Economics, Universidad Nacional de Colombia, 2000.\
