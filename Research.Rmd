@@ -12,13 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 1. **''A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''** Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, (2016), Forthcoming. Published on line: [http://link.springer.com/article/10.1007/s40888-016-0048-9](http://link.springer.com/article/10.1007/s40888-016-0048-9)
 
-2. **``The deflationary effect of oil prices in the euro area.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). *Energy Economics*, (2016), **56**, 389--397.
+2. **``The deflationary effect of oil prices in the euro area.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). *Energy Economics*, (2016), **56**, 389--397. [http://www.sciencedirect.com/science/article/pii/S0140988316300482](http://www.sciencedirect.com/science/article/pii/S0140988316300482)
 
-3. **``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''** Joint with P. Poncela (U. Autónoma de Madrid) and E. Senra (U. Alcalá). *FUNCAS Working papers series*, (2012), **701**.
+3. **``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''** Joint with P. Poncela (U. Autónoma de Madrid) and E. Senra (U. Alcalá). *FUNCAS Working papers series*, (2012), **701**. [http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701](http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701)
 
-4. **``Do we see the effects of oil variations in official statistics price data?''** Joint with P. Poncela (U. Autónoma de Madrid), and E. Senra (U. Alcalá). *Boletín de Estadística e Investigación Operativa*, (2011), **27**, 29--41.
+4. **``Do we see the effects of oil variations in official statistics price data?''** Joint with P. Poncela (U. Autónoma de Madrid), and E. Senra (U. Alcalá). *Boletín de Estadística e Investigación Operativa*, (2011), **27**, 29--41. [http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html](http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html)
 
-5. **``El diferencial de inflación en los servicios entre España y la euro área.''** Joint with E. Carluccio (U. Carlos III de Madrid). *Papeles de Economía Española*, (2009), **120**, 69--89.
+5. **``El diferencial de inflación en los servicios entre España y la euro área.''** Joint with E. Carluccio (U. Carlos III de Madrid). *Papeles de Economía Española*, (2009), **120**, 69--89. [https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262](https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262)
 
 6. **``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''** Joint with J. Espitia (CGR Colombia), and J. Villamizar (CGR Colombia). *Gestión Fiscal*, (2000), **8**, 6--33.
 
