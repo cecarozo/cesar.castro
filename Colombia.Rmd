@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 > This section presents the monthly updating forecasts for the GDP, inflation and monetary policy in Colombia. The forecasts are analyzed with time series techniques, especially Bottom-Up procedures in hierarchical structures. The methodology consider the idiosincracy of models at disaggregate level of the variables, with the advantage of including proper monthly indicators for each sector. The forecasts also include a scenario for the movements of one of the most important variable for the Colombian economy: the world oil price. The bottom of the section shows the expected key interest from the Central Bank, based on the Taylor rule.
 
 ****
-> [See report of January 2017 in PDF (spanish)](colombia.pdf)
+<!-- > [See report of January 2017 in PDF (spanish)](colombia.pdf) -->
 
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
