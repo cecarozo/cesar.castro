@@ -1,7 +1,7 @@
 ---
 title: "Colombia: Recent Economic Developments"
 author: "César Castro Rozo"
-date: "Updated: January 18th, 2017"
+date: "Updated: February 7th, 2017"
 output: html_document
 ---
 
@@ -15,7 +15,17 @@ knitr::opts_chunk$set(echo = TRUE)
 > This section presents the monthly updating forecasts for the GDP, inflation and monetary policy in Colombia. The forecasts are analyzed with time series techniques, especially Bottom-Up procedures in hierarchical structures. The methodology consider the idiosincracy of models at disaggregate level of the variables, with the advantage of including proper monthly indicators for each sector. The forecasts also include a scenario for the movements of one of the most important variable for the Colombian economy: the world oil price. The bottom of the section shows the expected key interest from the Central Bank, based on the Taylor rule.
 
 ****
-> [See report of January 2017 in PDF (spanish)](colombia0117.pdf)
+See monthly reports in PDF (Spanish):\
+ \
+> [February 2017](2Febrero17.pdf)\
+> [January 2017](1Enero17.pdf)\
+ \
+> [December 2016](12Diciembre16.pdf)\
+> [November 2016](11Noviembre16.pdf)\
+> [October 2016](10Octubre16.pdf)\
+> [September 2016](9Septiembre16.pdf)\
+> [August 2016](8Agosto16.pdf)\
+> [July 2016](7Julio16.pdf)
 
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
@@ -192,7 +202,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in November-2016
+### Innovations by sectors in January-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 
