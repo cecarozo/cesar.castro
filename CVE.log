@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  5 FEB 2017 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  2 MAR 2017 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,25 +781,25 @@ the current column of the current alignment.
 Try to go on, since this might almost work.
 
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  (./CVE.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `CVE.out' has not changed.
 (rerunfilecheck)             Checksum: 3207E3F70874357AE990187627DE04D3;460.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 244.
  ) 
 Here is how much of TeX's memory you used:
- 9368 strings out of 493089
- 132497 string characters out of 6134842
+ 9370 strings out of 493089
+ 132524 string characters out of 6134842
  257001 words of memory out of 5000000
- 12688 multiletter control sequences out of 15000+600000
- 8830 words of font info for 31 fonts, out of 8000000 for 9000
+ 12689 multiletter control sequences out of 15000+600000
+ 9124 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,9n,35p,1042b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/cesarcastrorozo/Library/texlive/2015/texmf-var/fonts/pk/ljfour/publi
@@ -809,12 +809,13 @@ fonts/cm/cmcsc10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/m
-arvosym.pfb>
-Output written on CVE.pdf (3 pages, 119201 bytes).
+cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/
+marvosym.pfb>
+Output written on CVE.pdf (3 pages, 126200 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  22 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

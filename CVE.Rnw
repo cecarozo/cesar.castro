@@ -36,7 +36,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{February, 2017}}\\
+{\color{headings} \scshape{March, 2017}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -56,8 +56,8 @@
 
 \begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
 
-2016 & \textbf{Ph.D.}, Economics (cum laude), Universidad de Salamanca.\\
-\vspace{1pt}& Special Doctorate Award, 2016.\\
+2016 & \textbf{Ph.D.}, Economics (Summa cum laude), Universidad de Salamanca.\\
+\vspace{1pt}& Outstanding Doctorate Award, 2016.\\
 \vspace{1pt}& Dissertation title: Three Essays on Applied Time Series Econometrics.\\
 \vspace{1pt}& Advisor: Rebeca Jiménez-Rodríguez.\\
 \vspace{5pt}& Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.\\
@@ -101,11 +101,11 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 \noindent
 \section{Work in progress or submitted}
 
-\item \textbf{``Oil price pass-through along the price chain in the euro area.''} Joint with R. Jiménez-Rodríguez (U. Salamanca). Submitted.
+\item \textbf{``Oil price pass-through along the price chain in the euro area.''} Joint with R. Jiménez-Rodríguez (U. Salamanca). Re-submitted.
 
 \item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Joint with R. Jiménez-Rodríguez (U. Salamanca).
 
-\item \textbf{``Sources of oil price changes, structural breaks and effects on European inflation.''} Joint with R. Jiménez-Rodríguez (U. Salamanca).
+\item \textbf{``Oil price shocks and inflation across euro area countries.''} Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid).
 \\
 \end{enumerate}
 
@@ -161,11 +161,15 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 \section{Honors} 
 
 \begin{tabular}{rl}
-2000	 & Santander Bank - Universidad de Alcalá\\
-\vspace{5pt}&  Scholarship\\
 
-1995 & Inter-American Development Bank (IDB). Jerusalem, Israel, 1995.\\
-& Invited to the Youth and Growth Forum. 
+2016   & \textbf{University of Salamanca}\\
+& Outstanding Doctorate Award\\
+
+2000	 & \textbf{Santander Bank - University of Alcalá}\\
+&  Scholarship\\
+
+1995 & \textbf{Inter-American Development Bank}\\
+& Invited to the Youth and Growth Forum, Jerusalem, Israel.
 
 \end{tabular}
 
@@ -174,7 +178,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 \section{Computer skills} 
 
 \begin{tabular}{rl}
-R, {\LaTeX}, SCA, Microsoft Office, \textsc{MATLAB}, \textsc{Eviews}\\
+\textbf{\textsf{R}} programming language, {\LaTeX}, SCA, Microsoft Office, \textsc{MATLAB}, \textsc{Eviews}\\
 &
 \end{tabular}
 

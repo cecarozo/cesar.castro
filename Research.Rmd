@@ -28,4 +28,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).
 
-9. **``Sources of oil price changes, structural breaks and effects on European inflation.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).
+9. **``Oil price shocks and inflation across euro area countries.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid).

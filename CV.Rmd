@@ -14,8 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ### Education
 
-* **Ph.D.**, Economics (cum laude), Universidad de Salamanca, 2016.\
-Special Doctorate Award, 2016.\
+* **Ph.D.**, Economics (Summa cum laude), Universidad de Salamanca, 2016.\
+Outstanding Doctorate Award, 2016.\
 Dissertation: Three Essays on Applied Time Series Econometrics.\
 Advisor: Rebeca Jiménez-Rodríguez.\
 Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.\
@@ -72,11 +72,14 @@ Economics (B.A. and M.A.), Universidad Nacional de Colombia.\
 
 ### Honors
 
-2000 **Santander Bank - Universidad de Alcalá**\
+2016 **University of Salamanca**\
+Outstanding Doctorate Award\
+
+2000 **Santander Bank - University of Alcalá**\
 Scholarship\
 
-1995 **Inter-American Development Bank (IDB).** Jerusalem, Israel, 1995.\
-Invited to the Youth and Growth Forum. 
+1995 **Inter-American Development Bank (IDB).**\
+Invited to the Youth and Growth Forum, Jerusalem, Israel.
 
 ****
 
