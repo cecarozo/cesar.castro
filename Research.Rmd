@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Work in progress or submitted {#wps}
 
-7. **``Oil price pass-through along the price chain in the euro area.''** Joint with R. Jiménez-Rodríguez (U. Salamanca). Submitted.
+7. **``Oil price pass-through along the price chain in the euro area.''** Joint with R. Jiménez-Rodríguez (U. Salamanca). Re-submitted.
 
 8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).
 
