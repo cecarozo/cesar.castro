@@ -1,7 +1,7 @@
 ---
 title: "Colombia: Recent Economic Developments"
 author: "César Castro Rozo"
-date: "Updated: February 7th, 2017"
+date: "Updated: March 8th, 2017"
 output: html_document
 ---
 
@@ -17,6 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 See monthly reports in PDF (Spanish):\
  \
+> [March 2017](3Marzo17.pdf)\
 > [February 2017](2Febrero17.pdf)\
 > [January 2017](1Enero17.pdf)\
  \
@@ -106,9 +107,9 @@ g <- g[,2]
 ```{r GDPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(1, 8),
      yaxt='n', ylab='', xlab='', main='year-on-year rates')
-rect(time(crecactual)[(62-35):(62-35)],
+rect(time(crecactual)[(62-33):(62-33)],
      8,
-     time(crecactual)[32:32],
+     time(crecactual)[36:36],
      1, density=50, col = "pink")
 abline(h=c(3, 4, 5, 6, 7), col='gray90')
 abline(v = c(2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016),
@@ -123,7 +124,7 @@ legend(2014, 8, c("current quarter", "previous quarter"),
 ```
 
 ****
-### Innovations by sectors in the third quarter-2016
+### Innovations by sectors in the fourth quarter-2016
 ```{r GDPerror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.gerror) <- c('Weights', 'Observed', 'Forecast', 'innovation')
 
@@ -182,9 +183,9 @@ print(d.annual.table,
 ```{r Ifigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 plot(inflactual, type='l', col = "slateblue4", lwd = 3, ylim=c(1.5, 9.5),
      yaxt='n', ylab='', xlab='', bty='n')
-rect(time(inflactual)[(200-120):(200-120)],
+rect(time(inflactual)[(200-113):(200-113)],
      1.5,
-     time(inflactual)[96:96],
+     time(inflactual)[108:108],
      9.5, density=50, col = "lightsteelblue1")
 abline(h=c(2, 4), col='firebrick')
 abline(h=c(3, 5, 6, 7, 8, 9), col='gray90')
@@ -202,7 +203,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in January-2017
+### Innovations by sectors in February-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 
@@ -245,21 +246,21 @@ print(p.table,
 ```
 
 ****
-## MONETARY POLICY
+## MONETARY POLICY (SYSTEMATIC MONETARY POLICY)
 
 The taylor rule shows that in the next months, the Central Bank could decreased the key interest rate, from the current 7.75 to 6.5 in the next 6 months. 
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
 g <- window(g, start=c(2010,1))
 
-plot(g, type='s', ylim=c(2, 8), yaxt='n', xaxt='n', ylab='', xlab='',
-     lwd = 2, lty=1, bty='n', main='Key interest rates, Central Bank')  
-rect(time(inflactual)[(200-120):(200-120)],
+plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
+     lwd = 2, lty=1, bty='n', main='Key interest rate, Central Bank')  
+rect(time(inflactual)[(200-113):(200-113)],
      1.5,
-     time(inflactual)[96:96],
+     time(inflactual)[108:108],
      9.5, density=50, col = "lightpink")
-abline(h=c(3, 4, 5, 6, 7), col='gray90')
-abline(v = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017), col='gray90')
+abline(h=c(3, 4, 5, 6, 7, 8), col='gray90')
+abline(v = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018), col='gray90')
 axis(1, at = seq(2010, 2018, 1), tcl = 0.2)
 axis(2, at = 1:10, las = 2, tcl = 0.5, labels = FALSE)
 axis(4, at = 1:10, las = 2, tcl = 0.5)
