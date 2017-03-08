@@ -249,6 +249,7 @@ print(p.table,
 ## MONETARY POLICY (SYSTEMATIC MONETARY POLICY)
 
 The taylor rule shows that in the next months, the Central Bank could decreased the key interest rate, from the current 7.75 to 6.5 in the next 6 months. 
+
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
 g <- window(g, start=c(2010,1))
