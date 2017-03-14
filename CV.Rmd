@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 
-> [See CV in pdf](CVE.pdf)
+> [Download CV](CVE.pdf)
 
 ****
 ### Education
