@@ -1,0 +1,80 @@
+\documentclass{letter}
+
+\pagenumbering{gobble}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+\today{}
+\\
+\\
+\textbf{CaixaBank\\
+Strategic Planning and Research Department (CaixaBank Research)}\\
+\\
+\textsc\textbf{
+I am writing to apply for the position of economist in the Strategic Planning and Research Department. I am especially interested in macroeconomics markets.
+% I am writing to apply for 3-year Visiting positions at the assistant and associate professor level in the UFAE, Department of Economics and Economic History.
+% I am writing to apply for the position of economic analyst at NERA Economic Consulting.
+% I am very interested in this position and believe that my education and experience would offer a great fit in the position described in EconJobMarket website.
+
+% I am an economist with a strong interest in macroeconometric issues. 
+
+The research topics that I have recently worked on include i) Applied time series econometrics; ii) Analysis and forecasts of macroeconomic variables (especially in the euro area and Spain); iii) Effects of oil price shocks on macroeconomic variables and iv) R programming. The findings of these research have served as a basis for papers that have been accepted for publication in peer-reviewed journals.
+
+I have worked for twelve years as a Research Analyst at Universidad Carlos III de Madrid, applying different time series techniques in the analysis and forecasts of macroeconomic variables, including Bottom-Up procedures in hierarchical structures. In such capacity, I was in charge of designing and implementing econometric models, as well as of writing periodical reports in Spanish and English.
+
+As you can see on my resume, I have received a bachelor's and master degrees in economics from the Universidad Nacional de Colombia, and doctorate degree in economics from the Universidad de Salamanca. My thesis work contributes to better understand the effects of oil price changes on consumer and industrial prices in the euro area and its main economies. It shows the relevance of assuming oil prices as an exogenous variable, supporting the use of ARIMA models, transfer functions and restricted vector autoregressive models. This methodology allows us to forecast oil price under different scenarios and to assess the risk of deflation. Furthermore, the resulting analysis shows that the effect of oil price changes on inflation does not come from higher industrial costs but rather depend on the reaction of consumers.
+
+I have attached for your review my resume, two published papers (chapters 1 and 2 of my thesis work) and two references. I look forward to hearing from you at your earliest convenience.\\
+\\
+Sincerely,\\
+\\
+\textbf{César Castro Rozo}\\
+% C/ Cipriano Sancho, 36, 4A\\
+% Madrid, 28017\\
+ccastrorozo@gmail.com\\
++34 679 54 82 37}
+% \vspace{10pt}
+
+% I am applying for the postdoctoral position available in the Centre for Energy Policy and Economics. I am about to finish my Ph.D. thesis in Energy economy at the University of Salamanca, Spain.
+% 
+% I am an economist with a strong interest in data analysis and energy issues, including Environmental Economics. My research topics have been focused on issues related with i) Techniques for analysis and forecast of economic variables; ii) Effects of oil price shocks on economic variables; iii) Multivariate time series analysis at disaggregate level and iv) R programming and data visualization.
+% 
+% I have worked as an economic analyst using time series techniques at disaggregate level of the variables. The study of the complex of disaggregate behavior of agents from the point of view of the context of global variables, can be of interest for the objectives of the CEPE research. I also have applied different forecasts techniques, including Bottom-Up procedures in hierarchical structures.
+% 
+% I look forward to hearing from you at your earliest convenience.\\
+% \\
+% Yours sincerely,\\
+% Cesar Castro Rozo
+% }
+% \vspace{10pt}
+
+\clearpage
+
+
+\textbf{Reference \#1}
+
+Miguel Jerez Méndez\\
+Departamento de Fundamentos del Análisis Económico II (Economía Cuantitativa)\\
+Facultad de Ciencias Económicas y Empresariales\\
+Universidad Complutense de Madrid\\
+Campus de Somosaguas\\
+E-28223 Pozuelo de Alarcón, Madrid\\
+Tfno.: +34 913 94 24 32\\
+e-mail: mjerezme@ucm.es\\
+\\
+\\
+
+\textbf{Reference \#2}
+
+Rebeca Jiménez-Rodríguez\\
+Department of Economics\\
+IME, Faculty of Economics and Business\\
+University of Salamanca\\
+Building: FES, Campus Miguel de Unamuno, s/n\\
+E-37007 Salamanca\\
+Tfno.: +34 923 29 45 00 ext. 4668 or 1967\\
+Fax: +34 923 29 46 76\\
+e-mail: rebeca.jimenez@usal.es
+
+
+\end{document}

@@ -1,0 +1,197 @@
+\documentclass{article} % Font size - 10pt, 11pt or 12pt
+\usepackage[hmargin=2.5cm, vmargin=2.5cm]{geometry} % Document margins
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Colors for links, text and headings
+%-----------------------------------------------------------------------
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{B9D7D9} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{000066} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{datetime}
+\setlength{\itemsep}{0.2cm} 
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+
+\begin{document}
+
+\par{\centering{\sffamily\Huge César Castro Rozo}\\ % Your name
+\vspace{5pt}
+{\color{headings} \scshape{Curriculum Vitae. Junio de 2016.}}\\
+\vspace{10pt}}
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{14cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017 \\ % Address
+\raisebox{-3pt}{\Mobilefone} & (+34) 679 54 82 37\\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\ % Email address
+\Keyboard & \small{NIF: 03239611S}\\
+\end{tabular}
+}
+}\\[10pt]
+
+\section{Resumen}
+
+\textsc\textbf{Soy economista interesado en i) Análisis de coyuntura y previsión de variables económicas; ii) Mercado petrolero y sus efectos económicos; iii) Modelos de series de tiempo y desagregación en el análisis de variables económicas; iv) Programación en R y su potencial como herramienta de visualización de datos. He trabajado por varios años como analista económico en la Universidad Carlos III de Madrid analizando variables macroeconómicas de España y la euro área a través de técnicas econométricas (series de tiempo) y elaborando informes de coyuntura y predicciones económicas. También he trabajado como director, coordinador y asistente en varias investigaciones realizadas en la Universidad Nacional de Colombia, así como profesor asistente en esta misma Universidad. Doctor en economía por la Universidad de Salamanca, he obtenido el Diploma de Estudios Avanzados (DEA) en economía por la Universidad de Alcalá, y el Magister y la licenciatura en economía por la Universidad Nacional de Colombia.}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Educación} 
+
+\begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
+
+2016 & Doctor en Economía (cum laude), Universidad de Salamanca.\\
+& Tesis: Three Essays on Applied Time Series econometrics\\
+
+2002 & Diploma de Estudios Avanzados en Economía, Universidad de Alcalá.\\
+	 
+2000 & Master en Economía, Universidad Nacional de Colombia.\\
+
+1995 & Licenciatura en Economía, Universidad Nacional de Colombia.\\
+& (Homologado a título equivalente español)\\
+
+1993 & Licenciatura en Ingeniería Forestal, Universidad Distrital (Bogotá, Colombia)\\
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experiencia Profesional} 
+
+\begin{tabular}{rl{-2cm}}
+
+2002--2014 &  Analista Economico, Madrid, España\\
+& Universidad Carlos III de Madrid, Departmento de Estadística.\\
+
+2000 & Analista Economico, Bogotá, Colombia\\
+& CGR, Dirección de Estudios Macroeconómicos.\\
+
+1996--1999 & Director de Proyecto, Bogotá, Colombia\\
+& Universidad Nacional de Colombia, Departmento de Economía.\\
+
+1995--1999 & Profesor asistente, Bogotá, Colombia\\
+& Economía (Licenciatura y master), Universidad Nacional de Colombia.\\
+
+1995--1999 & Asistente de investigación, Bogotá, Colombia\\
+& Universidad Nacional de Colombia, Departmento de economía.}\\
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publicaciones}
+
+\begin{enumerate}
+\item ``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.'' Coautores: R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), y E. Senra (U. Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2016), Forthcoming.
+
+\item ``The deflationary effect of oil prices in the euro area.'' Coautores: A. Barge-Gil (U. Complutense de Madrid), y M. Jerez (U. Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
+
+\item ``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.'' Coautores: P. Poncela (European Commission) y E. Senra (U. Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
+
+\item ``Do we see the effects of oil variations in official statistics price data?'' Coautores: P. Poncela (European Commission), y E. Senra (U. Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
+
+\item ``El diferencial de inflación en los servicios entre España y la euro área.'' Coautor: E. Carluccio (U. Carlos III de Madrid). \emph{Papeles de Economía Española}, (2009), \textbf{120}, 69--89.
+
+\item ``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.'' Coautores: J. Espitia (CGR Colombia), y J. Villamizar (CGR Colombia). \emph{Gestión Fiscal}, (2000), \textbf{8}, 6--33.
+\\
+
+\noindent
+\section{Trabajo en progreso o enviado}
+
+\item ``Oil price pass-through along the price chain in the euro area.'' Coautor: R. Jiménez-Rodríguez (U. Salamanca).
+\\
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  CONFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Presentaciones en conferencias académicas} 
+
+\begin{itemize}
+
+\item ``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''. 7th Research Workshop on Energy Markets, Valencia, España, 2016.
+
+\item ``The deflationary effect of oil prices in the euro area''. Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+
+\item ``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''. 32nd International Symposium on Forecasting, Boston, EE.UU., 2012.
+
+\item ``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías''. XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, España, 2012.
+
+\item ``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''. Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+
+\item ``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany``. Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, España, 2011.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Reconocimientos} 
+
+\begin{tabular}{rl}
+2000	 & Banco Santander - Universidad de Alcalá\\
+& Beca de estudios\\
+
+1995 & Asamblea del Banco Interamericano de Desarrollo. Jerusalem, Israel, 1995.\\
+& Invitación al Foro ``Juventud y desarrollo en América Latina''. 
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	COMPUTER SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conocimiento Informático} 
+
+\begin{tabular}{rl}
+
+R, SCA Statistical System, Excel, Word, Power Point y Publisher, {\LaTeX}, \textsc{MATLAB} y \textsc{Eviews}
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	COMMUNICATION SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Idiomas} 
+
+\begin{tabular}{rl}
+Español (nativo), Inglés (intermedio) 
+
+\end{tabular}
+
+\end{document}  

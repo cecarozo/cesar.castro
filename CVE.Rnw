@@ -36,7 +36,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{March, 2017}}\\
+{\color{headings} \scshape{April, 2017}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -88,7 +88,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 
 \item \textbf{``Oil price pass-through along the price chain in the euro area.''} Joint with R. Jiménez-Rodríguez (U. Salamanca), forthcoming: \emph{Energy Economics}.
 
-\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá), forthcoming: \emph{Economia Politica: Journal of Analytical and Institutional Economics}. Published on line: \href{http://link.springer.com/article/10.1007/s40888-016-0048-9}{http://link.springer.com/article/10.1007/s40888-016-0048-9}
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Joint with R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), and E. Senra (U. Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2017), \textbf{34(1)}, 55--82. \href{http://link.springer.com/article/10.1007/s40888-016-0048-9}{http://link.springer.com/article/10.1007/s40888-016-0048-9}
 
 \item \textbf{``The deflationary effect of oil prices in the euro area.''} Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
 

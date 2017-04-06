@@ -1,0 +1,215 @@
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+\usepackage[hmargin=1.25cm, vmargin=1cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{B9D7D9} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{000066} % Dark red color for headings
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{datetime}
+\setlength{\itemsep}{0.5cm} 
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+
+\begin{document}
+
+\par{\centering{\sffamily\Huge César Castro Rozo}\\ % Your name
+{\color{headings} Curriculum Vitae. Junio de 2015.}
+  
+%----------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{10pt} % Trick for alignment
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  COLORED BOX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017 \\ % Address
+\raisebox{-3pt}{\Mobilefone} & (+34) 679 54 82 37\\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\ % Email address
+\Keyboard & \small{NIF: 03239611S}\\
+\end{tabular}
+}
+}\\[10pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Educación} 
+
+\begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
+
+2015 & \textbf{Doctorado en Economía}, candidato\\ 
+& \textsc{Universidad de Salamanca}\\
+& \small Fecha prevista de grado: noviembre de 2014\\
+
+2002 & \textbf{Diploma de Estudios Avanzados en Economía} \\ 
+& \textsc{Universidad de Alcalá}, Alcalá de Henares\\
+	 
+2000 & \textbf{Master en Economía} \\ 
+& \textsc{Universidad Nacional de Colombia}, Bogotá\\
+	 
+1995 & \textbf{Licenciatura en Economía} (homologado)\\
+& \textsc{Universidad Nacional de Colombia}, Bogotá\\
+
+1993 & \textbf{Licenciatura en Ingeniería Forestal}\\
+& \textsc{Universidad Distrital}, Bogotá 
+
+\end{tabular}\\[10pt]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experiencia Profesional} 
+\vspace{5pt}
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+\begin{itemize}
+\item{\raggedright\textbf{Analista Económico}, Madrid\\}
+{\raggedright\textsc{Universidad Carlos III de Madrid, IFL}\\}
+Octubre 2002 -- Marzo 2014
+
+\item{\raggedright\textbf{Analista Económico}, Bogotá\\}
+{\raggedright\textsc{Contraloría General, República de Colombia}}\\
+Enero 2000 -- Octubre 2000
+
+\item{\raggedright\textbf{Director de proyecto}, Bogotá\\}
+{\raggedright\textsc{Universidad Nacional de Colombia, CID}\\}
+Enero 1996 -- Diciembre 1997
+
+\item\textbf{Profesor asistente}, Bogotá\\
+Universidad Nacional de Colombia, Facultad de Ciencias Económicas}\\
+Enero 1995 -- Diciembre 1999
+
+\item{\raggedright\textbf{Analista Económico}, Bogotá\\}
+{\raggedright\textsc{Universidad Nacional de Colombia, CID}\\}
+Enero 1995 -- Diciembre 1999
+
+\end{itemize}
+\vspace{10pt}
+
+\section{Ponencias en conferencias académicas} 
+
+\begin{itemize}
+
+\item\textbf{32nd International Symposium on Forecasting}\\
+Boston, EE.UU., 24--27 de junio, 2012
+
+\item\textbf{XXXIII Congreso Nacional de Estadística e\\
+Investigación Operativa}\\
+Madrid, España, 17--20 de abril, 2012
+
+\item\textbf{Association of Southern European Economic Theorists}\\
+Evora, Portugal, 27--29 de octubre, 2011
+
+\item\textbf{Euro-Mediterranean Competitiveness Meeting}\\
+Alcalá de Henares, España, 23--25 de marzo, 2011
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{10pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------
+% PUBLICATIONS
+%----------------------------------------------------------------------------------
+\section{Publicaciones}
+
+\begin{itemize}
+
+\item\textbf{Castro C., Jerez M., Barge A., 2015.} The deflationary effect of oil prices in the European Area. \emph{Documento de trabajo}. En revisión.
+
+\item\textbf{Castro C., Jiménez-Rodríguez R., Poncela P., Senra E. 2015.} A new look at oil price pass-through into inflation: Evidence from disaggregated European data. \emph{Documento de trabajo}. En revisión.
+
+\item\textbf{Castro C., Poncela P., Senra E., 2012.} Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain. \emph{FUNCAS Documentos de trabajo}, No.171. Diciembre. 
+
+\item\textbf{Castro C., Poncela P., Senra E., 2011.} Do we see the effects of oil variations in official statistics price data? \emph{Boletín de Estadística e Investigación Operativa}. Vol 27:1. Febrero
+
+\item\textbf{Carluccio E., Castro C., 2009.} El diferencial de inflación en los servicios entre España y la euro área. \emph{Papeles de Economía Española}. Junio.
+
+\item\textbf{Castro C., Espitia J., Villamizar J., 2000.} Mercado de crédito 1990-1999. La factura de cobro del financiamiento. \emph{Gestión Fiscal}, No. 8: 6--33.
+
+\end{itemize}
+%----------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------
+
+\section{Reconocimientos} 
+
+\begin{tabular}{rl}
+2000	 & \textbf{Beca Cátedra Santander Central}\\
+& \textbf{Hispano}\\
+& Banco Santander- Universidad de Alcalá\\
+
+1995 & \textbf{Asamblea del Banco Interamericano}\\
+& \textbf{de Desarrollo}. Jerusalem, Israel.\\
+& Reresentación de Colombia en el Foro:\\
+& ``Juventud y desarrollo en América Latina''. 
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------
+
+\section{Conocimiento Informático} 
+
+\begin{itemize}
+
+\item\textbf{Avanzado:} Programación en R (2 años de experiencia) inluídos paquetes como shiny, knitr, ggplot2 y Rpresentations. Manejo de SCA Statistical System, Excel, Word, Power Point y Publisher.
+
+\item\textbf{Intermedio:} Programación en {\LaTeX} y \textsc{MATLAB}. Manejo de \textsc{Eviews}
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------
+
+\section{Idiomas} 
+
+\begin{tabular}{rl}
+\textbf{Inglés:} Nivel Alto
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+	
+\end{minipage} % End right-hand side of the page
+
+\end{document}  
+
