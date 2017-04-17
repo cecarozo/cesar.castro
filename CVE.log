@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  6 APR 2017 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  17 APR 2017 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -747,13 +747,6 @@ l.108 \begin{tabular}{rl{-2cm}}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \hbox (81.1982pt too wide) in paragraph at lines 142--143
-\OT1/cmr/m/it/10.95 ti-cal and Ins-ti-tu-tio-nal Eco-no-mics\OT1/cmr/m/n/10.95 
-, (2017), \OT1/cmr/bx/n/10.95 34(1)\OT1/cmr/m/n/10.95 , 55--82. [][]http://link
-.springer.com/article/10.1007/s40888-
- []
-
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -808,7 +801,7 @@ Here is how much of TeX's memory you used:
  12689 multiletter control sequences out of 15000+600000
  9124 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,35p,1042b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,35p,1042b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/cesarcastrorozo/Library/texlive/2015/texmf-var/fonts/pk/ljfour/publi
 c/ifsym/ifsym10.657pk></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
@@ -819,10 +812,10 @@ nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/
 marvosym.pfb>
-Output written on CVE.pdf (3 pages, 127006 bytes).
+Output written on CVE.pdf (3 pages, 126749 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  22 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
