@@ -29,7 +29,7 @@ output: html_document
 <!-- end of list -->
 
 ****
-### R software
+### R programming language
 
 1. [CRAN R-project: time series analysis](https://cran.r-project.org/web/views/TimeSeries.html)
 2. [CRAN R-project](https://cran.r-project.org/)
