@@ -36,7 +36,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{April, 2017}}\\
+{\color{headings} \scshape{May, 2017}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -191,4 +191,31 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 Spanish (native), English (Intermediate, B2)
 \end{tabular}
 
-\end{document}  
+% \clearpage
+% 
+% 
+% \textbf{Reference \#1}
+% 
+% \textbf{Miguel Jerez Méndez}\\
+% Department of Economics\\
+% Faculty of Economics and Business\\
+% University Complutense de Madrid\\
+% Campus de Somosaguas\\
+% E-28223 Pozuelo de Alarcón, Madrid\\
+% Tfno.: +34 913 94 24 32\\
+% e-mail: mjerezme@ucm.es\\
+% \\
+% \\
+% 
+% \textbf{Reference \#2}
+% 
+% \textbf{Rebeca Jiménez-Rodríguez}\\
+% Department of Economics\\
+% IME, Faculty of Economics and Business\\
+% University of Salamanca\\
+% Building: FES, Campus Miguel de Unamuno, s/n\\
+% E-37007 Salamanca\\
+% Tfno.: +34 923 29 45 00 ext. 4668 or 1967\\
+% Fax: +34 923 29 46 76\\
+% e-mail: rebeca.jimenez@usal.es
+\end{document}

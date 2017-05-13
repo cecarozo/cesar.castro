@@ -1,0 +1,265 @@
+\documentclass[11pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt} % Font size - 10pt, 11pt or 12pt
+\usepackage[hmargin=3cm, vmargin=2.5cm]{geometry} % Document margins
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Colors for links, text and headings
+%-----------------------------------------------------------------------
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F0F6F7} % Peach color for the contact information box
+\definecolor{text1}{HTML}{62797B} % Main document font color, off-black
+\definecolor{headings}{HTML}{000066} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{datetime}
+\setlength{\itemsep}{0.4cm} 
+\newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+
+\setlength{\parskip}{1em}            % paragraph separation
+\onehalfspacing
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+\par{\centering{\sffamily\Huge César Castro Rozo}\\
+\vspace{5pt}
+{\color{headings} \scshape{Abril de 2017.}}\\
+\vspace{10pt}}
+
+\colorbox{shade}{{
+\begin{tabular}{c|p{13cm}}
+\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017, Spain\\
+\vspace{5pt}\raisebox{-4pt}{\Mobilefone} & +34 679 54 82 37\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & email: \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\
+\vspace{5pt}\raisebox{-4pt}{\Aquarius} & Nacionalidad: Colombia - España\\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & www: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+\end{tabular}
+}
+}\\[10pt]
+
+
+% \section{Resumen}
+
+% \textsc\textbf{Soy economista interesado en i) Análisis de coyuntura y previsión de variables económicas; ii) Mercado petrolero y sus efectos económicos; iii) Modelos de series de tiempo y desagregación en el análisis de variables económicas; iv) Programación en R y su potencial como herramienta de visualización de datos. He trabajado por varios años como analista económico en la Universidad Carlos III de Madrid analizando variables macroeconómicas de España y la euro área a través de técnicas econométricas (series de tiempo) y elaborando informes de coyuntura y predicciones económicas. También he trabajado como director, coordinador y asistente en varias investigaciones realizadas en la Universidad Nacional de Colombia, así como profesor asistente en esta misma Universidad. Doctor en economía por la Universidad de Salamanca, he obtenido el Diploma de Estudios Avanzados (DEA) en economía por la Universidad de Alcalá, y el Magister y la licenciatura en economía por la Universidad Nacional de Colombia.}
+% \vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Educación} 
+
+\begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
+
+2016 & \textbf{Ph.D.}, Economía (Summa cum laude), Universidad de Salamanca.\\
+& Premio extraordinario de doctorado, 2016.\\
+& Tesis: Three Essays on Applied Time Series econometrics.\\
+& Director: Rebeca Jiménez-Rodríguez.\\
+& Comité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós\\
+
+2002 & \textbf{D.E.A.}, Diploma de Estudios Avanzados, Economía, Universidad de Alcalá.\\
+	 
+2000 & \textbf{Máster}, Economía, Universidad Nacional de Colombia.\\
+
+1995 & \textbf{Licenciatura}, Economía, Universidad Nacional de Colombia.\\
+& (Homologado a título equivalente español)\\
+
+1993 & \textbf{Licenciatura}, Ingeniería Forestal, Universidad Distrital (Bogotá, Colombia)\\
+
+\end{tabular}
+\vspace{10pt}
+
+\section{Temas de interés}
+
+Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publicaciones}
+
+\begin{enumerate}
+\item \textbf{``Oil price pass-through along the price chain in the euro area.''} Coautor: R. Jiménez-Rodríguez (U. Salamanca). \emph{Energy Economics}, (2017), \textbf{64}, 24--30.
+
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Coautores: R. Jiménez-Rodríguez (U. Salamanca), P. Poncela (European Commission), y E. Senra (U. Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2017), \textbf{34(1)}, 55--82.
+
+\item \textbf{``The deflationary effect of oil prices in the euro area.''} Coautores: A. Barge-Gil (U. Complutense de Madrid), y M. Jerez (U. Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
+
+\item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''} Coautores: P. Poncela (European Commission) y E. Senra (U. Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
+
+\item \textbf{``Do we see the effects of oil variations in official statistics price data?''} Coautores: P. Poncela (European Commission), y E. Senra (U. Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
+
+\item \textbf{``El diferencial de inflación en los servicios entre España y la euro área.''} Coautor: E. Carluccio (U. Carlos III de Madrid). \emph{Papeles de Economía Española}, (2009), \textbf{120}, 69--89.
+
+\item \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''} Coautores: J. Espitia (CGR Colombia), y J. Villamizar (CGR Colombia). \emph{Gestión Fiscal}, (2000), \textbf{8}, 6--33.
+\\
+
+\noindent
+\section{Trabajos en progreso o enviados}
+
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Coautor: R. Jiménez-Rodríguez (U. Salamanca).
+
+\item \textbf{``Oil price shocks and inflation across euro area countries.''} Coautores: A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid).
+\\
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experiencia Profesional} 
+
+\begin{tabular}{rl{-2cm}}
+
+2002--2014 &  \textbf{Analista Económico}, Madrid, España\\
+& Universidad Carlos III de Madrid, Departamento de Estadística.\\
+
+2000 & \textbf{Analista Económico}, Bogotá, Colombia\\
+& C.G.R., Dirección de Estudios Macroeconómicos.\\
+
+1996--1999 & \textbf{Director de Proyecto}, Bogotá, Colombia\\
+& Universidad Nacional de Colombia, Departamento de Economía.\\
+
+1995--1999 & \textbf{Asistente de investigación}, Bogotá, Colombia\\
+& Universidad Nacional de Colombia, Departamento de Economía.}\\
+
+1995--1999 & \textbf{Profesor asistente}, Bogotá, Colombia\\
+& Economía (Licenciatura y máster), Universidad Nacional de Colombia.\\
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  CONFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Presentaciones en conferencias académicas} 
+
+\begin{itemize}
+
+\item \textbf{``Oil price pass-through along the price chain in the euro area.''.} 12th Conference of the Spanish Association for Energy Economics, Salamanca, España, 2017.
+
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} 7th Research Workshop on Energy Markets, Valencia, España, 2016.
+
+\item \textbf{``The deflationary effect of oil prices in the euro area.''} Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+
+\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} 32nd International Symposium on Forecasting, Boston, EE.UU., 2012.
+
+\item \textbf{``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías.''} XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, España, 2012.
+
+\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+
+\item \textbf{``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany.``} Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, España, 2011.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Reconocimientos} 
+
+\begin{tabular}{rl}
+
+2016   & \textbf{Universidad de Salamanca}\\
+& Premio extraordinario de doctorado\\
+
+2000	 & \textbf{Banco Santander - Universidad de Alcalá}\\
+&  Beca de estudios doctorado\\
+
+1995 & \textbf{Banco Inter-Americano de Desarrollo}\\
+& Invitado al foro Juventud y Crecimiento, Jerusalem, Israel.
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	COMPUTER SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conocimiento Informático} 
+
+\begin{tabular}{rl}
+
+Lenguaje de programación \textbf{\textsf{R}}, SCA, Microsoft Office, {\LaTeX}, \textsc{MATLAB} y \textsc{Eviews}
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	COMMUNICATION SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Idiomas} 
+
+\begin{tabular}{rl}
+Español (nativo), Inglés (intermedio, B2) 
+
+\end{tabular}
+
+\end{document}  
