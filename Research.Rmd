@@ -25,6 +25,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 7. **``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''** Joint with J. Espitia (CGR Colombia), and J. Villamizar (CGR Colombia). *Gestión Fiscal*, (2000), **8**, 6--33.
 
+8. **``La demanda de lotería y juegos de azar''** Joint with J.I. González (U. Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, (2000), **16**, 27--48.
+
 ### Work in progress or submitted {#wps}
 
 8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).

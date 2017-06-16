@@ -1,7 +1,7 @@
 ---
 title: "Colombia: Recent Economic Developments"
 author: "César Castro Rozo"
-date: "Updated: May 12, 2017"
+date: "Updated: June 16, 2017"
 output: html_document
 ---
 
@@ -17,6 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 See monthly reports in PDF (Spanish):\
  \
+> [June 2017](6Junio17.pdf)\
 > [May 2017](5Mayo17.pdf)\
 > [April 2017](4Abril17.pdf)\
 > [March 2017](3Marzo17.pdf)\
@@ -103,7 +104,7 @@ g <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
 g <- g[,2]
 ```
 
-## GDP GROWTH
+## GDP GROWTH: COLOMBIA
 
 ### Quarterly GDP growth: change in forecasts
 ```{r GDPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
@@ -179,7 +180,7 @@ print(d.annual.table,
 ```
 
 ****
-## INFLATION
+## INFLATION: COLOMBIA
 
 ### Monthly inflation: change in forecasts
 ```{r Ifigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
@@ -205,7 +206,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in March-2017
+### Innovations by sectors in May-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 
@@ -248,14 +249,14 @@ print(p.table,
 ```
 
 ****
-## MONETARY POLICY (SYSTEMATIC MONETARY POLICY)
+## SYSTEMATIC MONETARY POLICY
 
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
 g <- window(g, start=c(2010,1))
 
 plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
-     lwd = 2, lty=1, bty='n', main='Key interest rate, Central Bank')  
+     lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
 rect(time(inflactual)[(200-113):(200-113)],
      1.5,
      time(inflactual)[108:108],
