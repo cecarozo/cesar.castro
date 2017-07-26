@@ -29,9 +29,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Work in progress or submitted {#wps}
 
-8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (Universidad de Salamanca).
+9. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (Universidad de Salamanca).
 
-9. **``Oil price shocks and inflation across euro area countries.''** Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+10. **``Oil price shocks and inflation across euro area countries.''** Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
 ### Research Projects {#rp} 
 

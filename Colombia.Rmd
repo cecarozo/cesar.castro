@@ -1,5 +1,6 @@
 ---
-title: "Colombia: Recent Economic Developments"
+title: "Focus Colombia"
+subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
 date: "Updated: July 21, 2017"
 output: html_document
@@ -250,7 +251,7 @@ print(p.table,
 ```
 
 ****
-## SYSTEMATIC MONETARY POLICY
+## SYSTEMATIC MONETARY POLICY: COLOMBIA
 
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
