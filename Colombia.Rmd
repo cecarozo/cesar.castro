@@ -1,7 +1,7 @@
 ---
 title: "Colombia: Recent Economic Developments"
 author: "César Castro Rozo"
-date: "Updated: June 16, 2017"
+date: "Updated: July 21, 2017"
 output: html_document
 ---
 
@@ -17,6 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 See monthly reports in PDF (Spanish):\
  \
+> [July 2017](7Julio17.pdf)\
 > [June 2017](6Junio17.pdf)\
 > [May 2017](5Mayo17.pdf)\
 > [April 2017](4Abril17.pdf)\
@@ -206,7 +207,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in May-2017
+### Innovations by sectors in June-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
 

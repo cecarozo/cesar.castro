@@ -32,3 +32,21 @@ knitr::opts_chunk$set(echo = TRUE)
 8. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (U. Salamanca).
 
 9. **``Oil price shocks and inflation across euro area countries.''** Joint with A. Barge-Gil (U. Complutense de Madrid), and M. Jerez (U. Complutense de Madrid).
+
+### Research Projects {#rp} 
+
+1. **Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.** Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
+
+2. **Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.** Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007--2009.
+
+3. **Analysis and forecasts of inflation.** Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
+
+4. **Analysis and forecasts of inflation in the region of Madrid, Spain** Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002--2006.
+
+5. **Lottery demand.** Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999--2000.
+
+6. **Development plan in the region of Guavio, Colombia.** Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999--2000.
+
+7. **Environmental management in Colombian environmental ministry.** Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.
+
+8. **Economic impact of logging in indigenous area.** Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997--1999.

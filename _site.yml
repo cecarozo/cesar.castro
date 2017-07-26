@@ -9,7 +9,7 @@ navbar:
     - text: "Research"
       icon: fa-area-chart
       href: Research.html
-    - text: "Projects"
+    - text: "Focus Colombia"
       icon:  fa-binoculars
       href: Colombia.html
     - text: "Links"
