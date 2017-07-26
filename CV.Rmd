@@ -85,10 +85,16 @@ Invited to the Youth and Growth Forum, Jerusalem, Israel.
 
 ### Computer skills
 
-**R** programming language, LaTeX, SCA, Microsoft Office, *MATLAB*, *Eviews*
+**R** programming language\
+LaTeX\
+Microsoft Office\
+*MATLAB*\
+*Eviews*\
+SCA Statistical System
 
 ****
 
 ### Languages
 
-Spanish (native), English (Intermediate)
+Spanish (native)\
+English (Intermediate)
