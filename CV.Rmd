@@ -9,21 +9,22 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 
-> [Download CV](CVE.pdf)
+> [Download CV (English)](CVE.pdf)\
+> [Download CV (Español)](CV.pdf)
 
 ****
 ### Education
 
-* **Ph.D.**, Economics (Summa cum laude), Universidad de Salamanca, 2016.\
+* **Ph.D.** in Economics (Summa cum laude), Universidad de Salamanca, Spain, 2016.\
 Outstanding Doctorate Award, 2016.\
 Dissertation: Three Essays on Applied Time Series Econometrics.\
 Advisor: Rebeca Jiménez-Rodríguez.\
 Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.\
 
-* **D.E.A.** (Doctoral Studies), Economics, Universidad de Alcalá, 2002.\
-* **M.A.**, Economics, Universidad Nacional de Colombia, 2000.\
-* **B.A.**, Economics, Universidad Nacional de Colombia, 1995.\
-* **B.Sc.**, Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.
+* **D.E.A.** (Doctoral Studies) in Economics, Universidad de Alcalá, Spain, 2002.\
+* **M.A.** in Economics, Universidad Nacional de Colombia, 2000.\
+* **B.A.** in Economics, Universidad Nacional de Colombia, 1995.\
+* **B.Sc.** in Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.
 
 ****
 
@@ -36,19 +37,19 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 ### Professional Activities
 
 * 2002--2014 **Research Assistant**, Madrid, Spain\
-Universidad Carlos III de Madrid, Department of Economics--Statistics.\
+Department of Economics--Statistics, Universidad Carlos III de Madrid.\
 
 * 2000 **Research Assistant**, Bogotá, Colombia\
-CGR, Dirección de Estudios Macroeconómicos.\
+Macroeconomics Division, General Controller of Colombia.\
 
 * 1998--1999 **Project Manager**, Bogotá, Colombia\
-Universidad Nacional de Colombia, Department of Economics.\
+Department of Economics, Universidad Nacional de Colombia.\
 
 * 1995--1998 **Research Assistant**, Bogotá, Colombia\
-Universidad Nacional de Colombia, Department of Economics.\
+Department of Economics, Universidad Nacional de Colombia.\
 
 * 1995--1999 **Lecturer**, Bogotá, Colombia\
-Economics (B.A. and M.A.), Universidad Nacional de Colombia.\
+Department of Economics (B.A. and M.A.), Universidad Nacional de Colombia.\
 
 ****
 

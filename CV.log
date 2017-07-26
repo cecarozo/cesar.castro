@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  18 MAY 2017 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  26 JUL 2017 05:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -741,22 +741,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \begin{tabular}{rl{-2cm}}
+l.113 \begin{tabular}{rl{-2cm}}
                                 % Start a table with two columns, one for da...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
-
+Overfull \hbox (2.13805pt too wide) in paragraph at lines 113--132
+[][]  
  []
 
 
@@ -766,7 +759,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 \begin{tabular}{rl{-2cm}}
+l.141 \begin{tabular}{rl{-2cm}}
                                
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -774,34 +767,64 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing { inserted.
 <inserted text> 
                 {
-l.190 
+l.154 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Extra }, or forgotten \endgroup.
+l.180 ... Sociales}, (2000), \textbf{16}, 27--48.}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+
+Overfull \hbox (14.09354pt too wide) in paragraph at lines 198--199
+[]\OT1/cmr/bx/n/10.95 Modelos eco-nom^^Setri-cos din^^Sami-cos, pre-dic-ci^^Son
+, an^^Sali-sis de la co-yun-tu-ra econ^^Somi-
+ []
+
+[2
+
+] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
  (./CV.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: 8CD6A7FD03EA63FCB1A9B1D933596D31;506.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+(rerunfilecheck)             Checksum: 83528A8620D0DB049E5AE4A0B32EDBF6;572.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
  ) 
 Here is how much of TeX's memory you used:
- 9370 strings out of 493089
- 132511 string characters out of 6134842
- 257993 words of memory out of 5000000
- 12689 multiletter control sequences out of 15000+600000
+ 9387 strings out of 493089
+ 132615 string characters out of 6134842
+ 257994 words of memory out of 5000000
+ 12688 multiletter control sequences out of 15000+600000
  9124 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,10n,35p,1051b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,10n,35p,1051b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/cesarcastrorozo/Library/texlive/2015/texmf-var/fonts/pk/ljfour/publi
 c/ifsym/ifsym10.657pk></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
@@ -812,10 +835,10 @@ nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 cm/cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/
 marvosym.pfb>
-Output written on CV.pdf (3 pages, 126987 bytes).
+Output written on CV.pdf (4 pages, 130338 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
