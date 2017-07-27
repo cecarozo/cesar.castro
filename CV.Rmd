@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 
 > [Download CV (English)](CVE.pdf)\
-> [Download CV (Español)](CV.pdf)
+> [Descargar CV (Español)](CV.pdf)
 
 ****
 ### Education
@@ -98,4 +98,4 @@ SCA Statistical System
 ### Languages
 
 Spanish (native)\
-English (Intermediate)
+English (C1)
