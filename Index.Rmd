@@ -17,11 +17,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 
 #### Contact
-
+![size=0.001](ESCUDOUSAL.png)\
 Department of Economics\
-University of Salamanca\
-
-E-mail: cecarozo@usal.es
+Universidad de Salamanca\
+Email: cecarozo@usal.es
 
 <!-- * [Curriculum Vitae](#cv)\ -->
 <!-- * [Research](#res) -->

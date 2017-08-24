@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: July 21, 2017"
+date: "Updated: August 23, 2017"
 output: html_document
 ---
 
@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 See monthly reports in PDF (Spanish):\
  \
+> [August 2017](8Agosto17.pdf)\
 > [July 2017](7Julio17.pdf)\
 > [June 2017](6Junio17.pdf)\
 > [May 2017](5Mayo17.pdf)\
@@ -36,7 +37,7 @@ See monthly reports in PDF (Spanish):\
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 libs <- c('readxl',            # leer excel
-          'xlsx',              # escribir excel
+          'WriteXLS',
           'forecast',          # arimas y predicciones
           'fanplot',           # hacer fanchart
           'matrixStats',       # agregación
@@ -44,6 +45,7 @@ libs <- c('readxl',            # leer excel
           'png',
           'dplyr',
           'dlm',
+          'rJava',
           'TSA',
           'knitr',
           'tsoutliers'         # outliers and intervention analysis
@@ -51,9 +53,9 @@ libs <- c('readxl',            # leer excel
 lapply(libs, require, character.only=T)
 
 # GDP: errors
-t.gerror <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
+t.gerror <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos1.xls",
                        "cuadro1")
-t.gerror <- t.gerror[,2:5]
+t.gerror <- as.matrix(t.gerror)
 rownames(t.gerror) <- c('Agriculture', 'Mining', 'Industry', 'Household services',
                         'Construction', 'Trade', 'Transport', 'Financial',
                         'Services', 'Taxes', 'Private consumption', 
@@ -61,53 +63,48 @@ rownames(t.gerror) <- c('Agriculture', 'Mining', 'Industry', 'Household services
                         'Exports', 'Imports', 'TOTAL')
 
 # GDP: annual supply
-s.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
-                       "cuadro2")
-s.annual.table <- s.annual.table[,2:6]
+s.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos2.xls", "cuadro2")
+s.annual.table <- as.matrix(s.annual.table)
 rownames(s.annual.table) <- c('Agriculture', 'Mining', 'Industry', 
                               'Household services', 'Construction', 'Trade',
                               'Transport', 'Financial', 'Services', 'Taxes',
                               'TOTAL')
 
 # GDP: demand
-d.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
-                       "cuadro4")
-d.annual.table <- d.annual.table[,2:6]
+d.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos4.xls", "cuadro4")
+d.annual.table <- as.matrix(d.annual.table)
 rownames(d.annual.table) <- c('Private consumption', 'Public consumption',
                               'Gross capital formation', 'Exports', 'Imports',
                               'TOTAL')
 
 # GDP: Figure
-crecimiento <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
-                       "figura2")
-crecactual <- ts(crecimiento[,2], start=c(2010,1), frequency=4)
-crecprevio <- ts(crecimiento[,3], start=c(2010,1), frequency=4)
+crecimiento <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
+crecactual <- ts(crecimiento[,1], start=c(2010,1), frequency=4)
+crecprevio <- ts(crecimiento[,2], start=c(2010,1), frequency=4)
 
 # Inflation: Figure
-inflacion <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
-                       "figura3")
-inflactual <- ts(inflacion[,2], start=c(2010,1), frequency=12)
-inflprevio <- ts(inflacion[,3], start=c(2010,1), frequency=12)
+inflacion <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
+inflactual <- ts(inflacion[,1], start=c(2010,1), frequency=12)
+inflprevio <- ts(inflacion[,2], start=c(2010,1), frequency=12)
 
 # Inflation: errors
-t.error.grupos <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
-                       "cuadro6")
-t.error.grupos <- t.error.grupos[,2:5]
+t.error.grupos <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
+t.error.grupos <- as.matrix(t.error.grupos)
 rownames(t.error.grupos) <- c('TOTAL', 'Core', 'FOOD', 'Processed food', 'Non-processed food', 'Non-energy industrial goods', 'Services', 'Energy')
 
 # Inflation: forecasts
-p.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
+p.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos9.xls",
                        "cuadro7")
-p.table <- p.table[1:5,]
+p.table <- as.matrix(p.table[1:5,])
 
 # Monetary policy
-g <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos.xls",
+g <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos12.xls",
                        "figura8")
-g <- g[,2]
 ```
 
 ## GDP GROWTH: COLOMBIA
 
+****
 ### Quarterly GDP growth: change in forecasts
 ```{r GDPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(1, 8),
@@ -129,9 +126,10 @@ legend(2014, 8, c("current quarter", "previous quarter"),
 ```
 
 ****
-### Innovations by sectors in the fourth quarter-2016
+### Innovations by sectors in the second quarter-2017
 ```{r GDPerror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(t.gerror) <- c('Weights', 'Observed', 'Forecast', 'innovation')
+colnames(t.gerror) <- c('--Weights--', '--Observed--', '--Forecast--',
+                        '--Innovation--')
 
 t.error.growth <- xtable(t.gerror,
                          caption='year-on-year rates (Innovations are considered in relation with the forecasts estimated with information available at previous month)',
@@ -149,9 +147,10 @@ print(t.error.growth,
 ****
 ### Dissagregated GDP Forecasts: Supply
 ```{r supply, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(s.annual.table) <- c('2013', '2014', '2015', '2016', '2017')
+colnames(s.annual.table) <- c('--2014--', '--2015--', '--2016--', '--2017--',
+                              '--2018--')
 
-s.annual.table <- xtable(s.annual.table, caption='year-on-year rates',
+s.annual.table <- xtable(s.annual.table, caption='year-on-year rates. 2017 and 2018 are forecasts',
                   label='s.annual.table', 
                   align=c('l','|','c','c','c','|','c','c'),
                   digits=1)
@@ -166,10 +165,11 @@ print(s.annual.table,
 ****
 ### Dissagregated GDP Forecasts: Demand
 ```{r demand, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(d.annual.table) <- c('2013', '2014', '2015', '2016', '2017')
+colnames(d.annual.table) <- c('--2014--', '--2015--', '--2016--',
+                              '--2017--', '--2018--')
 
 d.annual.table <- xtable(d.annual.table, 
-                         caption='year-on-year rates',
+                         caption='year-on-year rates. 2017 and 2018 are forecasts',
                          label='d.annual.table', 
                          align=c('l','|','c','c','c','|','c','c'),
                          digits=1)
@@ -178,16 +178,18 @@ print(d.annual.table,
       size='scriptsize',
       hline.after=c(-1, 0, 5, 6),
       caption.placement = "top",
-      type="html")
+      type="html",
+      sanitize.text.function = function(x){x})
 ```
 
 ****
 ## INFLATION: COLOMBIA
 
+****
 ### Monthly inflation: change in forecasts
 ```{r Ifigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 plot(inflactual, type='l', col = "slateblue4", lwd = 3, ylim=c(1.5, 9.5),
-     yaxt='n', ylab='', xlab='', bty='n')
+     yaxt='n', ylab='', xlab='', bty='n', main='year-on-year rates')
 rect(time(inflactual)[(200-113):(200-113)],
      1.5,
      time(inflactual)[108:108],
@@ -208,12 +210,13 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in June-2017
+### Innovations by sectors in the inflation of July-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(t.error.grupos) <- c('Weights', 'Observed', 'Forecast', 'Error')
+colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
+                              '--Error--')
 
 t.error.grupos <- xtable(t.error.grupos,
-                         caption='year-on-year rates (Innovations are considered in relation with the forecasts estimated with information available at previous month)',
+                         caption='Year-on-year rates (Innovations are considered in relation with the forecasts estimated with information available at previous month)',
                          label='table.error', align=c('lc|cc|c'), digits=1)
 
 print(t.error.grupos,
@@ -227,9 +230,9 @@ print(t.error.grupos,
 ****
 ### Disaggregated Inflation Forecasts
 ```{r inflation, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(p.table) <- c(' ', 'TOTAL', 'CORE', 'Food',
-                       'Manufactures', 'Services', 'Energy')
-rownames(p.table) <- c('2013', '2014', '2015', '2016', '2017')
+colnames(p.table) <- c('--TOTAL--', '--CORE--', '--Food--',
+                       '--Manufactures--', '--Services--', '--Energy--')
+rownames(p.table) <- c('2014--', '2015--', '2016--', '2017--', '2018--')
 
                        # '2016:1','2016:2','2016:3','2016:4',
                        # '2016:5','2016:6','2016:7','2016:8',
@@ -238,20 +241,21 @@ rownames(p.table) <- c('2013', '2014', '2015', '2016', '2017')
                        # '2017:5','2017:6','2017:7','2017:8',
                        # '2017:9','2017:10','2017:11','2017:12')
 
-p.table <- xtable(p.table, caption='Year-on-year rates',
-                  label='i.table', align=c('rr|cc|cccc'), digits=1)
+p.table <- xtable(p.table, caption='Year-on-year rates. 2017 and 2018 are forecasts', label='i.table', align=c('r|cc|cccc'), digits=1)
 
 print(p.table,
       booktabs=TRUE,
       size='scriptsize',
       # hline.after=c(-1, 5, 17, 29),
       caption.placement = "top",
-      sanitize.colnames.function = identity, type="html", include.rownames=F
+      sanitize.colnames.function = identity, type="html", include.rownames=T
 )
 ```
 
 ****
 ## SYSTEMATIC MONETARY POLICY: COLOMBIA
+
+****
 
 ```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 g <- ts(g, start=c(2002,1), frequency=12)
@@ -259,7 +263,7 @@ g <- window(g, start=c(2010,1))
 
 plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
      lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
-rect(time(inflactual)[(200-113):(200-113)],
+rect(time(inflactual)[(92):(92)],
      1.5,
      time(inflactual)[108:108],
      9.5, density=50, col = "lightpink")

@@ -7,12 +7,15 @@
 \today{}
 \\
 \\
-\textbf{University of Neuchâtel\\
-Faculty of Business and Economics\\
-Institute of Economic Research}\\
+\textbf{P\"{O}YRY\\
+Analyst - General electricity\\
+Madrid}\\
 \\
 \textsc\textbf{
-I am writing to apply for the post-doctoral position in Applied Economics at the Institute of Economic Research of the Faculty of Business and Economics of the University of Neuchâtel.
+
+I am writing to apply for the position of analyst in P\"{O}YRY.
+
+% I am writing to apply for the post-doctoral position in Applied Economics at the Institute of Economic Research of the Faculty of Business and Economics of the University of Neuchâtel.
 
 % I am writing to apply for the position of economist in the Strategic Planning and Research Department. I am especially interested in macroeconomics markets.
 % I am writing to apply for 3-year Visiting positions at the assistant and associate professor level in the UFAE, Department of Economics and Economic History.
@@ -29,7 +32,7 @@ Based on my previous research, I am currently working in two issues: (i) investi
 
 In short, I enjoy to investigate with data, in particular, describe data through models, using two main tools: econometric techniques (ARIMA, transfer function, VAR, Smoothing, Bayesian analysis, etc.) and \textbf{\textsf{R}} programming language (reproducible research). I consider that the final step should be twofold: (i) prepare clear and affordable presentations of the results and (ii) submit the results to peer-reviewed journals.
 
-I have attached for your review my resume, one published paper (chapter 3 of my thesis work) and two references. I look forward to hearing from you at your earliest convenience.\\
+I have attached for your review my resume and one published paper (chapter 3 of my thesis work). I look forward to hearing from you at your earliest convenience.\\
 \\
 Sincerely,\\
 \\
@@ -40,6 +43,7 @@ ccastrorozo@gmail.com\\
 % +34 679 54 82 37}
 % \vspace{10pt}
 
+% and two references
 % I am applying for the postdoctoral position available in the Centre for Energy Policy and Economics. I am about to finish my Ph.D. thesis in Energy economy at the University of Salamanca, Spain.
 % 
 % I am an economist with a strong interest in data analysis and energy issues, including Environmental Economics. My research topics have been focused on issues related with i) Techniques for analysis and forecast of economic variables; ii) Effects of oil price shocks on economic variables; iii) Multivariate time series analysis at disaggregate level and iv) R programming and data visualization.

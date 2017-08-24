@@ -30,6 +30,21 @@
 \setlength{\itemsep}{0.4cm} 
 \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
 
+%==================================HEADERS AND FOOTERS=============================
+\usepackage{fancyhdr}							          % Custom headers\pagestyle{fancy}		  					            
+\pagestyle{fancy}
+\usepackage{lastpage}	                      % page number
+\lhead{}                                    % Header: left side empty
+\chead{}                                    % Header: center side empty
+\rhead{}                                    % Header: rigth side empty
+\lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
+\cfoot{\sffamily\footnotesize August, 2017}                                    % Footer: center side empty
+\rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
+
+% \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
+\fancypagestyle{firststyle}{\fancyhf{} \fancyfoot[R]{\footnotesize Page \thepage\ de \pageref{LastPage}} }
+%============================================================================
+
 \setlength{\parskip}{1em}            % paragraph separation
 \onehalfspacing
 \begin{document}

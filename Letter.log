@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  29 APR 2017 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  31 JUL 2017 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,29 +369,34 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 64.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--65
 
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 82--92
+Underfull \hbox (badness 10000) in paragraph at lines 85--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--92
+Underfull \hbox (badness 10000) in paragraph at lines 85--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--92
+Underfull \hbox (badness 10000) in paragraph at lines 85--95
 
  []
 
@@ -416,7 +421,7 @@ Here is how much of TeX's memory you used:
 /cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb>
-Output written on Letter.pdf (2 pages, 45821 bytes).
+Output written on Letter.pdf (2 pages, 45752 bytes).
 PDF statistics:
  23 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
