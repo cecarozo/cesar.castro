@@ -213,7 +213,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in the inflation of July-2017
+### Innovations by sectors in the inflation of August-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
                               '--Error--')
