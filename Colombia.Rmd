@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: August 23, 2017"
+date: "Updated: September 10, 2017"
 output: html_document
 ---
 
@@ -18,21 +18,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 See monthly reports in PDF (Spanish):\
  \
-> [August 2017](8Agosto17.pdf)\
-> [July 2017](7Julio17.pdf)\
-> [June 2017](6Junio17.pdf)\
-> [May 2017](5Mayo17.pdf)\
-> [April 2017](4Abril17.pdf)\
-> [March 2017](3Marzo17.pdf)\
-> [February 2017](2Febrero17.pdf)\
-> [January 2017](1Enero17.pdf)\
+ 2017\
+> [September](9Septiembre17.pdf)\
+> [August](8Agosto17.pdf)\
+> [July](7Julio17.pdf)\
+> [June](6Junio17.pdf)\
+> [May](5Mayo17.pdf)\
+> [April](4Abril17.pdf)\
+> [March](3Marzo17.pdf)\
+> [February](2Febrero17.pdf)\
+> [January](1Enero17.pdf)\
  \
-> [December 2016](12Diciembre16.pdf)\
-> [November 2016](11Noviembre16.pdf)\
-> [October 2016](10Octubre16.pdf)\
-> [September 2016](9Septiembre16.pdf)\
-> [August 2016](8Agosto16.pdf)\
-> [July 2016](7Julio16.pdf)
+ 2016\
+> [December](12Diciembre16.pdf)\
+> [November](11Noviembre16.pdf)\
+> [October](10Octubre16.pdf)\
+> [September](9Septiembre16.pdf)\
+> [August](8Agosto16.pdf)\
+> [July](7Julio16.pdf)
 
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
