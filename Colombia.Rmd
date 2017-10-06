@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: September 10, 2017"
+date: "Updated: October 6, 2017"
 output: html_document
 ---
 
@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2017\
+> [October](10Octubre17.pdf)\
 > [September](9Septiembre17.pdf)\
 > [August](8Agosto17.pdf)\
 > [July](7Julio17.pdf)\
@@ -213,7 +214,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in the inflation of August-2017
+### Innovations by sectors in the inflation of September-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
                               '--Error--')

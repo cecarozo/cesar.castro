@@ -2,18 +2,19 @@
 
 \pagenumbering{gobble}
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
 
 \begin{document}
 \today{}
 \\
 \\
-\textbf{P\"{O}YRY\\
-Analyst - General electricity\\
+\textbf{Autonomous University of Madrid\\
+Dpto. de Análisis Económico\\
 Madrid}\\
 \\
 \textsc\textbf{
 
-I am writing to apply for the position of analyst in P\"{O}YRY.
+% I am writing to apply for the position of analyst in P\"{O}YRY.
 
 % I am writing to apply for the post-doctoral position in Applied Economics at the Institute of Economic Research of the Faculty of Business and Economics of the University of Neuchâtel.
 
@@ -22,9 +23,11 @@ I am writing to apply for the position of analyst in P\"{O}YRY.
 % I am writing to apply for the position of economic analyst at NERA Economic Consulting.
 % I am very interested in this position and believe that my education and experience would offer a great fit in the position described in EconJobMarket website.
 
+I am writing to apply for the position of Assistant Professor at the Autonomous University of Madrid.
+
 I am an economist with a strong interest in macroeconometric issues, especially in Energy Economics. The research topics that I have recently worked on include i) Applied time series econometrics; ii) Analysis and forecasts of macroeconomic variables (especially in the euro area and Spain); iii) Effects of oil price shocks on macroeconomic variables and iv) \textbf{\textsf{R}} programming language. The findings of these research have served as a basis for papers that have been accepted for publication in peer-reviewed journals.
 
-I have worked for twelve years as a Research Analyst at University Carlos III de Madrid, applying different time series techniques in the analysis and forecasts of macroeconomic variables, including Bottom-Up procedures in hierarchical structures. In such capacity, I was in charge of designing and implementing econometric models, as well as of writing periodical reports in Spanish and English.
+I have worked for twelve years as a Research Analyst at University Carlos III de Madrid, applying different time series techniques in the analysis and forecasts of macroeconomic variables, including Bottom-Up procedures in hierarchical structures. In such capacity, I was in charge of designing and implementing econometric models, as well as of writing periodical reports in Spanish and English. I used to be a lecturer at National University of Colombia. I was charged with teaching B.A. and M.A. courses of macroeconomics, as adjunct position to the senior lecturer.
 
 As you can see on my resume, I have received a bachelor's and master degrees in economics from the Universidad Nacional de Colombia, and doctorate degree in economics from the Universidad de Salamanca. My thesis work contributes to better understand the effects of oil price changes on consumer and industrial prices in the euro area and its main economies. It shows the relevance of assuming oil prices as an exogenous variable, supporting the use of ARIMA models, transfer functions and restricted vector autoregressive models. This methodology allows us to forecast oil price under different scenarios and to assess the risk of deflation. Furthermore, the resulting analysis shows that the effect of oil price changes on inflation does not come from higher industrial costs but rather depend on the reaction of consumers.
 
@@ -32,15 +35,21 @@ Based on my previous research, I am currently working in two issues: (i) investi
 
 In short, I enjoy to investigate with data, in particular, describe data through models, using two main tools: econometric techniques (ARIMA, transfer function, VAR, Smoothing, Bayesian analysis, etc.) and \textbf{\textsf{R}} programming language (reproducible research). I consider that the final step should be twofold: (i) prepare clear and affordable presentations of the results and (ii) submit the results to peer-reviewed journals.
 
-I have attached for your review my resume and one published paper (chapter 3 of my thesis work). I look forward to hearing from you at your earliest convenience.\\
+I have attached for your review my resume and three published papers (chapters of my thesis work). I look forward to hearing from you at your earliest convenience.\\
 \\
 Sincerely,\\
 \\
 \textbf{César Castro Rozo}\\
+Ph.D. in Economics\\
+University of Salamanca\\
+Tel: +34 679 54 82 37\\
+Email: ccastrorozo@gmail.com\\
+Web: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}
+
+
+
 % C/ Cipriano Sancho, 36, 4A\\
 % Madrid, 28017\\
-ccastrorozo@gmail.com\\
-% +34 679 54 82 37}
 % \vspace{10pt}
 
 % and two references
