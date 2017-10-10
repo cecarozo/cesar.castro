@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize Septiembre, 2017}                                    % Footer: center side empty
+\cfoot{\footnotesize Octubre, 2017}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -51,7 +51,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{Septiembre de 2017}}\\
+{\color{headings} \scshape{Octubre de 2017}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
