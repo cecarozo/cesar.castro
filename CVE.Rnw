@@ -148,6 +148,8 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 \item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Joint with R. Jiménez-Rodríguez (Universidad de Salamanca).
 
 \item \textbf{``Oil price shocks and inflation across euro area countries.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+
+\item \textbf{``Oil price pass-through into inflation in Spain at national and regional level.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 \\
 \end{enumerate}
 
