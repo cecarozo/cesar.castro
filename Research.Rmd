@@ -35,6 +35,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 11. **``Oil price pass-through into inflation in Spain at national and regional level.** Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
+****
+
 ### Research Projects {#rp} 
 
 1. **Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.** Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
