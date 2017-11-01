@@ -48,12 +48,18 @@ Department of Economics, Universidad Nacional de Colombia.\
 * 1995--1998 **Research Assistant**, Bogotá, Colombia\
 Department of Economics, Universidad Nacional de Colombia.\
 
-* 1995--1999 **Lecturer**, Bogotá, Colombia\
-Department of Economics (B.A. and M.A.), Universidad Nacional de Colombia.\
+****
+
+### Teaching Experience
+
+1995--1999 **Teaching Assistant**, Bogotá, Colombia\
+Department of Economics, Universidad Nacional de Colombia\
+Macroeconomics (Graduate course)\
+Advanced Macroeconomics (Master course)
 
 ****
 
-### Conference presentations
+### Conference Presentations
 
 1. **``Oil price pass-through along the price chain in the euro area.''.** 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
 
@@ -90,7 +96,7 @@ Invited to the Youth and Growth Forum, Jerusalem, Israel.
 
 ****
 
-### Computer skills
+### Computer Skills
 
 **R** programming language\
 LaTeX\

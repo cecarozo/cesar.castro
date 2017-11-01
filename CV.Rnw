@@ -76,17 +76,17 @@
 
 \begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
 
-2016 & \textbf{Ph.D.} en Economía (Summa cum laude), Universidad de Salamanca.\\
-& Premio extraordinario de doctorado, 2016.\\
-& Tesis: Three Essays on Applied Time Series econometrics.\\
-& Director: Rebeca Jiménez-Rodríguez.\\
+2016 & \textbf{Ph.D.} en Economía (Summa cum laude), Universidad de Salamanca\\
+& Premio extraordinario de doctorado, 2016\\
+& Tesis: Three Essays on Applied Time Series econometrics\\
+& Director: Rebeca Jiménez-Rodríguez\\
 & Comité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós\\
 
-2002 & \textbf{D.E.A.}, Diploma de Estudios Avanzados en Economía, Universidad de Alcalá.\\
+2002 & \textbf{D.E.A.}, Diploma de Estudios Avanzados en Economía, Universidad de Alcalá\\
 	 
-2000 & \textbf{Máster} en Economía, Universidad Nacional de Colombia.\\
+2000 & \textbf{Máster} en Economía, Universidad Nacional de Colombia\\
 
-1995 & \textbf{Licenciatura} en Economía, Universidad Nacional de Colombia.\\
+1995 & \textbf{Licenciatura} en Economía, Universidad Nacional de Colombia\\
 & (Homologado a título equivalente español)\\
 
 1993 & \textbf{Licenciatura} en Ingeniería Forestal, Universidad Distrital (Bogotá, Colombia)\\
@@ -105,24 +105,32 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 \begin{tabular}{rl{-2cm}}
 
 2002--2014 &  \textbf{Investigador contratado}, Madrid, España\\
-& Universidad Carlos III de Madrid, Departamento de Estadística.\\
+& Universidad Carlos III de Madrid, Departamento de Estadística\\
 
 2000 & \textbf{Investigador contratado}, Bogotá, Colombia\\
-& C.G.R., Dirección de Estudios Macroeconómicos.\\
+& C.G.R., Dirección de Estudios Macroeconómicos\\
 
 1996--1999 & \textbf{Director de Proyecto}, Bogotá, Colombia\\
-& Universidad Nacional de Colombia, Departamento de Economía.\\
+& Universidad Nacional de Colombia, Departamento de Economía\\
 
 1995--1999 & \textbf{Investigador contratado}, Bogotá, Colombia\\
-& Universidad Nacional de Colombia, Departamento de Economía.}\\
-
-1995--1999 & \textbf{Profesor asistente}, Bogotá, Colombia\\
-& Economía (Licenciatura y máster), Universidad Nacional de Colombia.\\
+& Universidad Nacional de Colombia, Departamento de Economía}\\
 
 \end{tabular}
 \vspace{10pt}
 
 \clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiencia Docente} 
+
+\begin{tabular}{rl{-2cm}}
+1995--1999 & \textbf{Profesor asistente}, Bogotá, Colombia\\
+& Escuela de Economía, Universidad Nacional de Colombia\\
+& Macroeconomía (Licenciatura)\\
+& Macroeconomía Avanzada (Máster)\\
+\end{tabular}
+\vspace{10pt}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Publicaciones}
 
