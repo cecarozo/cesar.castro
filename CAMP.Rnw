@@ -1,0 +1,29 @@
+\documentclass{letter}
+
+\pagenumbering{gobble}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\begin{document}
+\today{}
+\\
+\\
+\textbf{BI Norwegian Business School (Department of Economics)}\\
+\\
+\textsc\textbf{
+
+I am writing to apply for 3-year Post-Doctoral position within the area of Applied Macro and Energy Economics the Department of Economics at BI Norwegian Business School joint with the Centre for Applied Macro - and Petroleum economics (CAMP).
+
+I am an economist with a strong interest in macroeconometric issues, especially in Energy Economics. The research topics that I have recently worked on include i) Applied time series econometrics; ii) Effects of oil price shocks on macroeconomic variables in the euro area and its main countries and iii) Analysis and forecasts of macroeconomic variables (especially in the euro area and Spain). The findings of these research have served as a basis for papers that have been accepted for publication in peer-reviewed journals.
+
+I have worked for twelve years as a Research Analyst at University Carlos III de Madrid, applying different time series techniques in the analysis and forecasts of macroeconomic variables, including Bottom-Up procedures in hierarchical structures.
+
+I have received a bachelor's and master degrees in economics from the Universidad Nacional de Colombia, and doctorate degree in economics from the Universidad de Salamanca. My thesis work contributes to better understand the effects of oil price changes on consumer and industrial prices in the euro area and its main economies. It shows the relevance of assuming oil prices as an exogenous variable, supporting the use of ARIMA models, transfer functions and restricted vector autoregressive models. This methodology allows us to forecast oil price under different scenarios and to assess the risk of deflation. Furthermore, the resulting analysis shows that the effect of oil price changes on inflation does not come from higher industrial costs but rather depend on the reaction of consumers.
+
+Based on my previous research, I am currently working in issues related with the macroeconomic effects of oil price movements. : (i) investigating the (negative) time-varying relationship between oil price changes and exchange rates in the euro area, and (ii) evaluating the sensitivity of inflation in the 19 euro area members to alternative scenarios about future oil price and the consequences of the common monetary policy on inflation convergence and price competitiveness.
+
+
+
+
+
+\end{document}

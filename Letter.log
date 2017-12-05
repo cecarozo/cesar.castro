@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  23 NOV 2017 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  1 DEC 2017 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,69 +474,65 @@ LaTeX Info: Redefining \nameref on input line 57.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 63.
+(Font)              using `OT1/cmr/bx/n' instead on input line 65.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--64
+Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
  []
 
 
-Overfull \hbox (2.13951pt too wide) in paragraph at lines 88--89
+Overfull \hbox (2.13951pt too wide) in paragraph at lines 90--91
 \OT1/cmr/m/n/10 mod-els, us-ing econo-met-ric tech-niques (ARIMA, trans-fer fun
 c-tion, VAR, Smooth-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--102
+
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 \end{document}
+l.152 \end{document}
                      [2]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 150.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 152.
  (./Letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `Letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 152.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 63 ({)
+### simple group (level 1) entered at line 65 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5318 strings out of 493089
- 78628 string characters out of 6134842
- 164794 words of memory out of 5000000
- 8765 multiletter control sequences out of 15000+600000
+ 5319 strings out of 493089
+ 78636 string characters out of 6134842
+ 165794 words of memory out of 5000000
+ 8766 multiletter control sequences out of 15000+600000
  4543 words of font info for 17 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,5n,23p,837b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -544,7 +540,7 @@ Here is how much of TeX's memory you used:
 /cm/cmbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb>
-Output written on Letter.pdf (2 pages, 48292 bytes).
+Output written on Letter.pdf (2 pages, 47740 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
