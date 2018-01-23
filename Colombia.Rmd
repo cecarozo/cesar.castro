@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: December 19, 2017"
+date: "Updated: January 23, 2018" # !!!! cambiar sombras (sumar 1 observación)
 output: html_document
 ---
 
@@ -17,6 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 See monthly reports in PDF (Spanish):\
+ \
+ 2018\
+> [January](1Enero18.pdf)\
  \
  2017\
 > [December](12Diciembre17.pdf)\
@@ -196,7 +199,7 @@ print(d.annual.table,
 ```{r Ifigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 plot(inflactual, type='l', col = "slateblue4", lwd = 3, ylim=c(1.5, 9.5),
      yaxt='n', ylab='', xlab='', bty='n', main='year-on-year rates')
-rect(time(inflactual)[(200-113):(200-113)],
+rect(time(inflactual)[(216-120):(216-120)],
      1.5,
      time(inflactual)[108:108],
      9.5, density=50, col = "lightsteelblue1")
@@ -216,7 +219,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in the inflation of November-2017
+### Innovations by sectors in the inflation of December-2017
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
                               '--Error--')
@@ -269,7 +272,7 @@ g <- window(g, start=c(2010,1))
 
 plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
      lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
-rect(time(inflactual)[(92):(92)],
+rect(time(inflactual)[(97):(97)],
      1.5,
      time(inflactual)[108:108],
      9.5, density=50, col = "lightpink")
