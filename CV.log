@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  23 JAN 2018 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  27 JAN 2018 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,17 +849,17 @@ Overfull \hbox (14.09354pt too wide) in paragraph at lines 223--224
 [3] 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./CV.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 309.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 69E63F7D4E8B170CFC054DD0E13CC79C;672.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
  9543 strings out of 493089
@@ -880,7 +880,7 @@ nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/mar
 vosym.pfb>
-Output written on CV.pdf (4 pages, 142369 bytes).
+Output written on CV.pdf (4 pages, 142414 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams

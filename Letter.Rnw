@@ -4,11 +4,16 @@
 \pagenumbering{gobble}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+
+\textbf{César Castro Rozo}\\
+{Email}: ccastrorozo@gmail.com\\
+{Web}: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+\\
+\today
+
 \begin{document}
-\today{}
-\\
-\\
-\textbf{Banco de la República}\\
+\vspace{40}
+\textbf{Central Bank of Chile}\\
 % \textbf{Department of Economics}\\
 
 % I am writing to apply for the position of analyst in P\"{O}YRY.
@@ -26,7 +31,7 @@
 
 % I am writing to apply for 3-year Post-Doctoral position within the area of Applied Macro and Energy Economics at the Department of Economics at BI Norwegian Business School joint with the Centre for Applied Macro - and Petroleum economics (CAMP).
 
-I am writing to apply for the researcher position at Banco de la República.
+I am writing to apply for Senior Economist position at Central Bank of Chile.
 
 I am an economist with a strong interest in macroeconometric issues. The research topics that I have recently worked on include (i) applied time series econometrics; (ii) effects of oil price shocks on macroeconomic variables in the euro area and its main countries; and (iii) analysis and forecasts of macroeconomic variables (especially in the euro area and Spain). The findings of these research have served as a basis for papers that have been accepted for publication in peer-reviewed journals.
 
@@ -38,7 +43,7 @@ I have received a bachelor's and master degrees in economics from the National U
 
 Based on my previous research, I am currently working on four issues: (i) investigating the (negative) time-varying relationship between oil price changes and exchange rates in the euro area; (ii) evaluating the sensitivity of inflation to alternative scenarios about future oil price and the consequences of the common monetary policy on inflation convergence and price competitiveness among the 19 euro area members; (iii) studying the effects of oil price movements by regions in Spain; and (iv) analyzing and forecasting GDP, inflation and monetary policy in the Colombian economy.\footnote{For example, I am using the methodology in Castro, et.al. (2016) to introduce paths for future prices of oil in the analysis and forecasts of macroeconomic variables in Colombia. Currently, I am writing monthly reports, available in \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}.} 
 
-In short, my interests include analysis and forecast of macroeconomic variables through econometric models, (especially time series techniques like ARIMA, transfer function, VAR, Smoothing, Bayesian analysis, etc.), and the effects of global oil price movements on the macroeconomic variables of developing countries for which, as in Colombia's case, oil is major export.\footnote{A key issue in these research is the use of programming languages like \textbf{\textsf{R}} (which allows reproducible research), {\LaTeX} and Matlab.} I think that my interests and experiences could be interesting for the team at the new \emph{Area de Estudios Económicos} at the Bank. 
+In short, my interests include analysis and forecast of macroeconomic variables through econometric models, (especially time series techniques like ARIMA, transfer function, VAR, Smoothing, Bayesian analysis, etc.), and the effects of global commodities (especially oil) price movements on the macroeconomic variables of developing countries for which, as in Chile's case, commodities are important exports.\footnote{A key issue in these research is the use of programming languages like \textbf{\textsf{R}} (which allows reproducible research), {\LaTeX} and Matlab.} I think that my interests and experiences could be interesting for the team at the Bank. 
 
 I attach for your review my resume, three published papers and three letters of reference. 
 

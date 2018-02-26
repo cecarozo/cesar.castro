@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  2 JAN 2018 18:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  31 JAN 2018 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,6 +402,40 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \textbf{César Castro Rozo}
+                                \\
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\hyper@linkurl ...tionraw >>}\relax \Hy@colorlink 
+                                                  \@urlcolor #1\Hy@xspace@en...
+l.60 ...}{https://cecarozo.github.io/cesar.castro}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\close@pdflink ->\Hy@endcolorlink 
+                                  \Hy@VerboseLinkStop \pdfendlink 
+l.60 ...}{https://cecarozo.github.io/cesar.castro}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 (/usr/local/texlive/2015/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -409,22 +443,26 @@ tim
 (./Letter.aux)
 \openout1 = `Letter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+Underfull \hbox (badness 10000) in paragraph at lines 58--13
+
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count91
 \scratchdimen=\dimen114
@@ -453,7 +491,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 64.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -463,75 +501,83 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count97
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
 (./Letter.out) (./Letter.out)
 \@outlinefile=\write3
 \openout3 = `Letter.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.65 \vspace{40}
+                
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 88.
+(Font)              <7> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 88.
+(Font)              <5> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 92.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 88.
+(Font)              <6> on input line 92.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 98--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--113
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.158 \end{document}
+l.162 \end{document}
                      [2]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 162.
  (./Letter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `Letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 5343 strings out of 493089
- 78870 string characters out of 6134842
- 165773 words of memory out of 5000000
- 8778 multiletter control sequences out of 15000+600000
- 7072 words of font info for 25 fonts, out of 8000000 for 9000
+ 5339 strings out of 493089
+ 78833 string characters out of 6134842
+ 165035 words of memory out of 5000000
+ 8775 multiletter control sequences out of 15000+600000
+ 6726 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,23p,1574b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -540,12 +586,11 @@ Here is how much of TeX's memory you used:
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Letter.pdf (2 pages, 104177 bytes).
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Letter.pdf (2 pages, 93330 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
