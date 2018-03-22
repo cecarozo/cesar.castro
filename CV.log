@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  27 JAN 2018 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  22 MAR 2018 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,15 +833,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
-
- []
-
 [2
 
 ]
-Overfull \hbox (14.09354pt too wide) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+
+Overfull \hbox (14.09354pt too wide) in paragraph at lines 225--226
 []\OT1/cmr/bx/n/10.95 Modelos eco-nom^^Setri-cos din^^Sami-cos, pre-dic-ci^^Son
 , an^^Sali-sis de la co-yun-tu-ra econ^^Somi-
  []
@@ -849,21 +849,21 @@ Overfull \hbox (14.09354pt too wide) in paragraph at lines 223--224
 [3] 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./CV.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 69E63F7D4E8B170CFC054DD0E13CC79C;672.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 9543 strings out of 493089
- 134546 string characters out of 6134842
+ 9544 strings out of 493089
+ 134553 string characters out of 6134842
  262996 words of memory out of 5000000
  12832 multiletter control sequences out of 15000+600000
  9423 words of font info for 33 fonts, out of 8000000 for 9000
@@ -880,10 +880,10 @@ nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/mar
 vosym.pfb>
-Output written on CV.pdf (4 pages, 142414 bytes).
+Output written on CV.pdf (4 pages, 142564 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

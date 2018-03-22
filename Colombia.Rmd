@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: February 26, 2018" # !!!! cambiar sombras (sumar 1 observación)
+date: "Updated: March 22, 2018" # !!!! cambiar sombras (sumar 1 observación)
 output: html_document
 ---
 
@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2018\
+> [March](3Marzo18.pdf)\
 > [February](2Febrero18.pdf)\
 > [January](1Enero18.pdf)\
  \
@@ -221,7 +222,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in the inflation of January-2018
+### Innovations by sectors in the inflation of February-2018
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
                               '--Error--')
@@ -274,7 +275,7 @@ g <- window(g, start=c(2010,1))
 
 plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
      lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
-rect(time(inflactual)[(97):(97)],
+rect(time(inflactual)[(99):(99)],
      1.5,
      time(inflactual)[120:120],
      9.5, density=50, col = "lightpink")

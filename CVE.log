@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  12 FEB 2018 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  22 MAR 2018 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -828,22 +828,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+]
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-[2
+[3]
 
-] [3]
-
-! LaTeX Error: \begin{enumerate} on input line 247 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 249 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.263 \end{itemize}
+l.265 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -852,22 +852,22 @@ or  <return>  to continue without it.
 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
  (./CVE.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
 Package rerunfilecheck Info: File `CVE.out' has not changed.
 (rerunfilecheck)             Checksum: 4D912DD34716E9DD4618CE427E81DC39;614.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
  ) 
 Here is how much of TeX's memory you used:
- 9542 strings out of 493089
- 134553 string characters out of 6134842
- 262010 words of memory out of 5000000
+ 9543 strings out of 493089
+ 134560 string characters out of 6134842
+ 262004 words of memory out of 5000000
  12831 multiletter control sequences out of 15000+600000
  9430 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -883,10 +883,10 @@ cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/ma
 rvosym.pfb>
-Output written on CVE.pdf (4 pages, 141493 bytes).
+Output written on CVE.pdf (4 pages, 141107 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

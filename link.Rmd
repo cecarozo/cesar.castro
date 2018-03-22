@@ -7,7 +7,7 @@ output: html_document
 ### Co-authors
 
 1. [Andrés Barge Gil](https://www.ucm.es/fundamentos-analisis-economico2/barge-gil,-andres)\
-2. [Jorge Iván González](http://www.institutodeestudiosurbanos.info/docentes-e-investigadores/item/jorge-ivan-gonzalez-borrero)\
+2. [Jorge Iván González](http://ieu.unal.edu.co/docentes-e-investigadores/item/jorge-ivan-gonzalez-borrero)\
 3. [Miguel Jerez](https://www.ucm.es/fundamentos-analisis-economico2/jerez-mendez,-miguel)\
 4. [Rebeca Jiménez-Rodríguez](http://diarium.usal.es/rebecajimenez/)\
 5. [Pilar Poncela](https://www.uam.es/ss/Satellite/Economicas/es/1234888160191/1234888367480/persona/detallePDI/Poncela_Blanco,_Pilar.htm)\
