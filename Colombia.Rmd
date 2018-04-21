@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: March 22, 2018" # !!!! cambiar sombras (sumar 1 observación)
+date: "Updated: April 20, 2018" # !!!! cambiar sombras (sumar 1 observación)
 output: html_document
 ---
 
