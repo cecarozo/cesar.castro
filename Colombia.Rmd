@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2018\
+> [April](4Abril18.pdf)\
 > [March](3Marzo18.pdf)\
 > [February](2Febrero18.pdf)\
 > [January](1Enero18.pdf)\
@@ -222,7 +223,7 @@ box(col='dimgray')
 ```
 
 ****
-### Innovations by sectors in the inflation of February-2018
+### Innovations by sectors in the inflation of March-2018
 ```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
                               '--Error--')
@@ -275,7 +276,7 @@ g <- window(g, start=c(2010,1))
 
 plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
      lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
-rect(time(inflactual)[(99):(99)],
+rect(time(inflactual)[(100):(100)],
      1.5,
      time(inflactual)[120:120],
      9.5, density=50, col = "lightpink")
