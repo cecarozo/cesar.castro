@@ -1,0 +1,176 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,spanish]{babel}
+\usepackage[authoryear]{natbib}
+\usepackage{fancyhdr}                % encabezados y pies
+\usepackage{indentfirst}             % sangrías
+\pagestyle{empty}
+\usepackage{colortbl, xcolor}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{amsmath}
+\usepackage{tablefootnote}
+\usepackage{float} 
+\usepackage{authblk}
+\usepackage{placeins}
+\usepackage{amssymb}                 % additional math symbols
+\usepackage{booktabs}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}   % for table notes
+\usepackage{appendix}
+\usepackage{setspace} 
+\setlength{\parskip}{1em}            % paragraph separation
+\setlength{\parindent}{0pt}          % no indent
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+\begin{center}
+\textbf{UNIVERSIDAD PÚBLICA DE NAVARRA}\\
+Facultad de Ciencias Económicas y Empresariales
+\vspace{10pt}
+
+Primer concurso ordinario de contratación de profesorado curso 2018/2019\\
+\begin{tabular}{l l}
+Plaza:  & Nº 4991\\
+Categoría: & Profesor Ayudante Doctor\\
+Departamento: & Economía\\
+Área de Conocimiento: & Fundamentos del Análisis Económico\\
+\end{tabular}
+
+\textcolor[RGB]{85,87,89}{\rule{\linewidth}{0.4pt}}
+
+\vspace{5pt}
+
+\textbf{Proyecto docente}\\
+César Castro Rozo\\
+Mayo de 2018\\
+\vspace{5pt}
+\textbf{Macroeconometría}
+\end{center}
+\vspace{5pt}
+
+\begin{enumerate}
+  \item Objetivo\\
+  Estudiar técnicas econométricas en series de tiempo aplicadas al análisis y predicción de variables macroeconómicas. El objetivo es que el estudiante participe en todo el proceso de análisis de un problema macroeconómico, desde la obtención y tratamiento previo de los datos, el análisis y pruebas finales necesarias para obtener resultados sólidos y la presentación de resultados (informes, cuadros, gráficos). Éstas técnicas son útiles para el análisis económico, desarrollo y cooperación y economía pública. El curso incluirá la instrucción y la práctica con el lenguaje de programación \textbf{\textsf{R}}.
+
+  \item Temario
+    \begin{enumerate}
+      \item Introducción al lenguaje de programación \textbf{\textsf{R}}
+      \item Repaso modelos univariantes
+        \begin{itemize}
+          \item Procesos estocásticos, estacionariedad. ruido blanco, paseo aleatorio
+          \item Funciones de Autocovarianzas y Autocorrelación total (ACF) y parcial (PACF), procesos lineales, MA, AR, ARMA, ARIMA
+        \end{itemize}
+      \item Modelos Dinámicos
+        \begin{itemize}
+          \item Modelos de retardos distribuidos, ARMAX
+          \item Estimación de modelos dinámicos, Teorema de Mann-Wald
+        \end{itemize}
+      \item Contrastes de raíces unitarias y estacionariedad
+      \item Simulación Montecarlo, bootstrapping
+      \item Modelos multivariantes
+        \begin{itemize}
+          \item Modelos VAR, VECM, SVAR: Estimación y determinación del orden, funciones de impulso respuesta
+          \item Relación con modelos de ecuaciones simultáneas y DSGE
+          \item Causalidad en el sentido de Granger
+          \item Identificación de las restricciones de corto y largo plazo
+        \end{itemize}
+  \end{enumerate}
+  
+  \item Metodología docente\\
+  Clases magistrales, presentación de artículos por parte de los estudiantes y ejercicios aplicados. Las clases introducirán los aspectos más relevantes de cada tema. El estudiante preparará, replicará y presentará los resultados de un artículo relevante de alguno de los temas (similar a la metodología de la asignatura Economía Laboral) . Toda la práctica del curso se llevará a cabo con \textbf{\textsf{R}}. Uno de los objetivos del curso es lograr un manejo suficiente de \textbf{\textsf{R}} para el análisis y predicción de series temporales de variables macroeconómicas. Aunque existen programas estadísticos alternativos, \textbf{\textsf{R}} presenta ventajas relevantes, p.e. gratuidad, comunidad en continuo desarrollo, énfasis en el análisis estadístico de datos, multitud de paquetes especializados, programación intuitiva, investigación reproducible, etc. En especial, resulta interesante integrar dentro de una única plataforma el análisis estadístico de los datos (\textbf{\textsf{R}}), la interpretación de los resultados y la elaboración de informes incluídos cuadros y gráficos (\textbf{\textsf{R}}/{\LaTeX}).
+  
+  \item Bibliografía
+  \begin{itemize}
+    \item Enders, W. (2014). Applied Econometric Time Series. John, Wiley \& Sons.
+    \item Hamilton, J.D. (1994), Time Series Analysis, Princeton, NJ: Princeton University Press.
+    \item Kilian, L. Lütkepohl H. (2017). Structural Vector Autoregressive Analysis. Cambridge University Press.
+    \item Lütkepohl, H. (2005, 2010), New Introduction to Multiple Time Series Analysis, 1st ed., New York: Springer-Verlag (Paperback).
+    \item Shumway, R. H., Stoffer, D. S. (2016). Time Series Analysis and its Applications. Springer-Verlag
+    \item Stock J, Watson MW. (2003). Introduction to Econometrics. New York: Prentice Hall. 
+  \end{itemize}
+\end{enumerate}
+
+Algunos asignaturas optativas en las que también tengo interés son:
+
+\begin{itemize}
+  \item \textbf{Economía del petróleo}\\
+El objetivo es estudiar la dinámica de los mercados internacionales de materias primas, especialmente del petróleo y su importancia para la economía de la euro área y sus miembros. Es un seminario de economía aplicada, utilizando técnicas macroeconométricas, basadas en modelos VAR. El contenido incluye el análisis de la estructura mundial del mercado, origen de los shocks, estudio de los efectos sobre las principales variables macroeconómicas (PIB e inflación), técnicas de predicción para los precios del petróleo. La metodología consiste en clases magistrales, presentación de artículos por parte de los estudiantes y ejercicios aplicados con lenguaje de programación \textbf{\textsf{R}}.
+
+  \item \textbf{Economía Europea}\\
+El objetivo es estudiar el proceso histórico que ha llevado a la formación de la Comunidad Europea, la implementación de la moneda común, los problemas de coordinación de la política económica (causas y consecuencias en el contexto de la ``Gran Crisis'') y la discusión actual de los retos de futuro (teóricos y aplicados). El contenido incluiría el estudio del mercado común, la unión monetaria y el análisis comparativo de la economía del bienestar. La metodología consiste en clases magistrales y presentación de artículos relevantes por parte de los estudiantes.
+\end{itemize}
+
+\end{document}
+
+% Resumen de las asignaturas del programa de economía (no hay master ni doctorado) para ver los antecedentes, pero ésto lo quitaría para el documento final\\
+% \begin{enumerate}
+%   \item Línea Macroeconomía
+%   \begin{itemize}
+%     \item Macro I: IS-LM
+%     \item Macro II: Política Macro (monetaria)
+%     \item Macro III: Crecimiento
+%     \item \textbf{Macro IV: Internacional*}
+%     \item \textbf{Política Económica Comparada*}
+%     \item \textbf{Economía Laboral*}
+%   \end{itemize}
+%   \item Línea Econometría
+%   \begin{itemize}
+%     \item Econometría I: Regresión lineal, variables instrumentales
+%     \item Econometría II: ARIMA
+%     \item \textbf{Econometría III: Modelos (panel, series de tiempo)*}
+%   \end{itemize}
+% \textbf{* Optativa}
+% \end{enumerate}
+% Basado en mi formación académica, estaría en capacidad de impartir asignaturas del área de Fundamentos del Análisis Económico en las líneas de Macroeconomía, Microeeconomía y Econometría. Como ejemplo, presento el contenido de la asignatura de 

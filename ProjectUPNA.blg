@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ProjectUPNA.aux
+The style file: apa.bst
+Database file #1: ThesisBib.bib
+I was expecting a `,' or a `}'---line 88 of file ThesisBib.bib
+ : author  = "Elizaveta Archanska\"
+ :                                 {i}a and Jer\^{o}me Creel and Paul Hubert",
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1098 of file ThesisBib.bib
+ : 
+ : @article{Kilian2009,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1304 of file ThesisBib.bib
+ : 
+ : pages   = "740--744"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Castro2016a"
+Warning--I didn't find a database entry for "Castro2016b"
+You've used 10 entries,
+            1940 wiz_defined-function locations,
+            556 strings with 5661 characters,
+and the built_in function-call counts, 4474 in all, are:
+= -- 450
+> -- 177
+< -- 6
++ -- 64
+- -- 58
+* -- 409
+:= -- 758
+add.period$ -- 31
+call.type$ -- 10
+change.case$ -- 78
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 153
+empty$ -- 312
+format.name$ -- 76
+if$ -- 867
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 32
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 118
+stack$ -- 0
+substring$ -- 389
+swap$ -- 29
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 0
+while$ -- 42
+width$ -- 0
+write$ -- 134
+(There were 3 error messages)
