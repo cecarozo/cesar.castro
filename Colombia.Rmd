@@ -151,7 +151,7 @@ dygraph(data, width = 900, height = 450) %>%
               highlightSeriesBackgroundAlpha = 0.2,
               hideOnMouseOut = FALSE) %>%
   dyRangeSelector() %>%
-  dyShading(from = "2018-1-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-5-1", to = "2019-12-1", color = '#F7E7CE')
 ```
 
 ****
@@ -192,11 +192,10 @@ datatable(data,
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos12.xls",
                        "figura8")
-library(dygraphs)
 
-data <- ts(data, start=c(2006,1), frequency = 12)
+data <- ts(data[-1:-12,], start=c(2007,1), frequency = 12)
 
 dygraph(data, width = 900, height = 450) %>% 
   dyRangeSelector() %>%
-  dyShading(from = "2018-1-4", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-5-1", to = "2019-12-1", color = '#F7E7CE')
 ```
