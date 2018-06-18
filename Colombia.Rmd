@@ -50,18 +50,9 @@ See monthly reports in PDF (Spanish):\
 ****
 ```{r datac, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 libs <- c('readxl',            # leer excel
-          'WriteXLS',
-          'forecast',          # arimas y predicciones
-          'fanplot',           # hacer fanchart
-          'matrixStats',       # agregación
-          'xtable',            # hacer tablas
-          'png',
-          'dplyr',
-          'dlm',
-          'rJava',
-          'TSA',
-          'knitr',
-          'tsoutliers'         # outliers and intervention analysis
+          'DT',
+          'dygraphs',
+          'xtable'
 )
 lapply(libs, require, character.only=T)
 
@@ -74,67 +65,25 @@ rownames(t.gerror) <- c('Agriculture', 'Mining', 'Industry', 'Household services
                         'Services', 'Taxes', 'Private consumption', 
                         'Public consumption', 'Gross capital formation',
                         'Exports', 'Imports', 'TOTAL')
-
-# GDP: annual supply
-s.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos2.xls", "cuadro2")
-s.annual.table <- as.matrix(s.annual.table)
-rownames(s.annual.table) <- c('Agriculture', 'Mining', 'Industry', 
-                              'Household services', 'Construction', 'Trade',
-                              'Comunication', 'Financial', 'Real estate',
-                              'Professional', 'Public', 'Arts', 'Taxes', 'TOTAL')
-
-# GDP: demand
-d.annual.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos4.xls", "cuadro4")
-d.annual.table <- as.matrix(d.annual.table)
-rownames(d.annual.table) <- c('Private consumption', 'Public consumption',
-                              'Gross capital formation', 'Exports', 'Imports',
-                              'TOTAL')
-
-# GDP: Figure
-crecimiento <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
-crecactual <- ts(crecimiento[,1], start=c(2010,1), frequency=4)
-crecprevio <- ts(crecimiento[,2], start=c(2010,1), frequency=4)
-
-# Inflation: Figure
-inflacion <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
-inflactual <- ts(inflacion[,1], start=c(2010,1), frequency=12)
-inflprevio <- ts(inflacion[,2], start=c(2010,1), frequency=12)
-
-# Inflation: errors
-t.error.grupos <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
-t.error.grupos <- as.matrix(t.error.grupos)
-rownames(t.error.grupos) <- c('TOTAL', 'Core', 'FOOD', 'Processed food', 'Non-processed food', 'Non-energy industrial goods', 'Services', 'Energy')
-
-# Inflation: forecasts
-p.table <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos9.xls",
-                       "cuadro7")
-p.table <- as.matrix(p.table[1:5,])
-
-# Monetary policy
-g <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos12.xls",
-                       "figura8")
 ```
 
 ## GDP GROWTH: COLOMBIA
 
 ****
 ### Quarterly GDP growth: change in forecasts
-```{r GDPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-plot(crecactual, type='l', col = 'firebrick', lwd = 4, ylim=c(1, 9),
-     yaxt='n', ylab='', xlab='', main='year-on-year rates')
-rect(time(crecactual)[(66-32):(66-32)],
-     10,
-     time(crecactual)[40:40],
-     1, density=50, col = "pink")
-abline(h=c(2, 3, 4, 5, 6, 7, 8), col='gray90')
-abline(v = c(2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019), col='gray90')  # year line
-lines(crecprevio, type='l', col="brown")    # -1: predicción de t-1
-lines(crecactual, type='l', col = 'firebrick', lwd = 4)
-axis(2, at = 1:9, las = 2, tcl = 0.5, labels = FALSE)
-axis(4, at = 1:9, las = 2, tcl = 0.5)
-legend(2014, 9, c("current month", "previous month"),
-       lty = 1, cex=.9, bg='white', col = c('firebrick','brown'),
-       lwd=c(4, 2), bty='n', text.col=c('firebrick','brown'))
+```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
+
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
+
+colnames(data) <- c('actual', 'previo')
+data <- ts(data, start=c(2010,1), frequency = 4)
+
+dygraph(data, width = 900, height = 450) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE) %>%
+  dyRangeSelector() %>%
+  dyShading(from = "2018-1-1", to = "2019-12-1", color = '#F7E7CE')
 ```
 
 ****
@@ -158,38 +107,30 @@ t.error.growth <- xtable(t.gerror,
 
 ****
 ### Dissagregated GDP Forecasts: Supply
-```{r supply, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(s.annual.table) <- c('--2015--', '--2016--', '--2017--', '--2018--', '--2019--')
-
-s.annual.table <- xtable(s.annual.table, caption='year-on-year rates. 2018 and 2019 are forecasts',
-                  label='s.annual.table', 
-                  align=c('l','|','c','c','c','|','c','c'),
-                  digits=1)
-print(s.annual.table,
-      booktabs=TRUE,
-      size='scriptsize',
-      hline.after=c(-1, 0, 10, 11),
-      sanitize.text.function = function(x){x},
-      caption.placement = "top", type="html")
+```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos3.xls", "cuadro3")
+rownames(data) <- c('Agriculture', 'Mining', 'Industry', 'Household services',
+                    'Construction', 'Trade', 'Comunication', 'Financial', 
+                    'Real estate', 'Professional services', 'Public services',
+                    'Arts', 'Taxes', 'TOTAL')
+datatable(data,
+          options = list(dom = 't', pageLength = 14)) %>%
+          formatStyle(rows = c(T), columns = c(T,T,T,T,T,T,T), fontSize = '100%') %>%
+          formatStyle(c('18-2', '18-3', '18-4', '19-1'), backgroundColor = '#F7E7CE')
 ```
 
 ****
 ### Dissagregated GDP Forecasts: Demand
-```{r demand, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(d.annual.table) <- c('--2015--', '--2016--', '--2017--', '--2018--', '--2019--')
 
-d.annual.table <- xtable(d.annual.table, 
-                         caption='year-on-year rates. 2018 and 2019 are forecasts',
-                         label='d.annual.table', 
-                         align=c('l','|','c','c','c','|','c','c'),
-                         digits=1)
-print(d.annual.table,
-      booktabs=TRUE,
-      size='scriptsize',
-      hline.after=c(-1, 0, 5, 6),
-      caption.placement = "top",
-      type="html",
-      sanitize.text.function = function(x){x})
+```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos7.xls", "cuadro5")
+rownames(data) <- c('Private consumption', 'Public consumption',
+                              'Gross capital formation', 'Exports', 'Imports',
+                              'TOTAL')
+datatable(data,
+          options = list(dom = 't', pageLength = 14)) %>%
+          formatStyle(rows = c(T), columns = c(T,T,T,T,T,T,T), fontSize = '100%') %>%
+          formatStyle(c('18-2', '18-3', '18-4', '19-1'), backgroundColor = '#F7E7CE')
 ```
 
 ****
@@ -197,93 +138,65 @@ print(d.annual.table,
 
 ****
 ### Monthly inflation: change in forecasts
-```{r Ifigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-plot(inflactual, type='l', col = "slateblue4", lwd = 3, ylim=c(1.5, 9.5),
-     yaxt='n', ylab='', xlab='', bty='n', main='year-on-year rates')
-rect(time(inflactual)[(218-118):(218-118)],
-     1.5,
-     time(inflactual)[120:120],
-     9.5, density=50, col = "lightsteelblue1")
-abline(h=c(2, 4), col='firebrick')
-abline(h=c(3, 5, 6, 7, 8, 9), col='gray90')
-abline(v = c(2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
-             2018, 2019),
-       col='gray90')  # year line
-lines(inflprevio, type='l', col='slateblue', lwd=2)        # predicción de t-1
-lines(inflactual, type='l', col = "slateblue4", lwd = 4)
-axis(2, at = 1:9, las = 2, tcl = 0.5, labels = FALSE)
-axis(4, at = 1:9, las = 2, tcl = 0.5)
-legend(2010.5, 7.5, c("current month", "previous month"),
-       lty = 1, cex=1.1, bg='white', col = c('slateblue4', 'slateblue'),
-       lwd=c(4, 2), bty='n', text.col=c('slateblue4', 'slateblue'))
-text(2016.5, 3, "monetary policy", cex = 1.1, col='firebrick')
-box(col='dimgray')
+```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
+
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
+library(dygraphs)
+
+colnames(data) <- c('actual', 'previo')
+data <- ts(data, start=c(2010,1), frequency = 12)
+
+dygraph(data, width = 900, height = 450) %>% 
+  dyHighlight(highlightCircleSize = 5,
+              highlightSeriesBackgroundAlpha = 0.2,
+              hideOnMouseOut = FALSE) %>%
+  dyRangeSelector() %>%
+  dyShading(from = "2018-1-1", to = "2019-12-1", color = '#F7E7CE')
 ```
 
 ****
 ### Innovations by sectors in the inflation of April-2018
-```{r Ierror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(t.error.grupos) <- c('--Weights--', '--Observed--', '--Forecast--',
-                              '--Error--')
+```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
+rownames(data) <- c('TOTAL', 'CORE', 'FOOD', 'Processed food', 'Non-processed food',
+                    'Non-energy industrial goods', 'Services', 'Energy')
 
-t.error.grupos <- xtable(t.error.grupos,
-                         caption='Year-on-year rates (Innovations are considered in relation with the forecasts estimated with information available at previous month)',
-                         label='table.error', align=c('lc|cc|c'), digits=1)
-
-print(t.error.grupos,
-      booktabs=TRUE,
-      size='scriptsize',
-      caption.placement = "top",
-      hline.after=c(-1, 2, 8),
-      sanitize.text.function = function(x){x}, type="html")
+datatable(data,
+          options = list(dom = 't', pageLength = 14)) %>%
+          formatStyle(rows = c(T), columns = c(T,T,T,T), fontSize = '100%') %>%
+          formatStyle(c('Innovación'), backgroundColor = '#F7E7CE')
 ```
 
 ****
 ### Disaggregated Inflation Forecasts
-```{r inflation, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-colnames(p.table) <- c('--TOTAL--', '--CORE--', '--Food--',
-                       '--Manufactures--', '--Services--', '--Energy--')
-rownames(p.table) <- c('2015--', '2016--', '2017--', '2018--', '--2019--')
+```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos9.xls",
+                       "cuadro7")
+data <- as.matrix(data[1:5,])
+data <- cbind(c('2015', '2016', '2017', '2018', '2019'), data)
+colnames(data) <- c('Año', 'TOTAL', 'BÁSICA', 'Alimentos', 'Manufacturas',
+                    'Servicios', 'Energía')
 
-                       # '2016:1','2016:2','2016:3','2016:4',
-                       # '2016:5','2016:6','2016:7','2016:8',
-                       # '2016:9','2016:10','2016:11','2016:12',
-                       # '2017:1','2017:2','2017:3','2017:4',
-                       # '2017:5','2017:6','2017:7','2017:8',
-                       # '2017:9','2017:10','2017:11','2017:12')
-
-p.table <- xtable(p.table, caption='Year-on-year rates. 2018 and 2019 are forecasts', label='i.table', align=c('r|cc|cccc'), digits=1)
-
-print(p.table,
-      booktabs=TRUE,
-      size='scriptsize',
-      # hline.after=c(-1, 5, 17, 29),
-      caption.placement = "top",
-      sanitize.colnames.function = identity, type="html", include.rownames=T
-)
+datatable(data,
+          options = list(dom = 't', pageLength = 14)) %>%
+          formatStyle('Año', target = 'row',
+                      backgroundColor = styleEqual(c(2018, 2019), c('#F7E7CE',
+                                                                    '#F7E7CE')))
 ```
 
 ****
 ## SYSTEMATIC MONETARY POLICY: COLOMBIA
 
 ****
+```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
-```{r MPfigure, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
-g <- ts(g, start=c(2006,1), frequency=12)
-g <- window(g, start=c(2010,1))
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos12.xls",
+                       "figura8")
+library(dygraphs)
 
-plot(g, type='s', ylim=c(2, 9), yaxt='n', xaxt='n', ylab='', xlab='',
-     lwd = 2, lty=1, bty='n', main='Key interest rate, Colombian Central Bank')  
-rect(time(inflactual)[(100):(100)],
-     1.5,
-     time(inflactual)[120:120],
-     9.5, density=50, col = "lightpink")
-abline(h=c(3, 4, 5, 6, 7, 8), col='gray90')
-abline(v = c(2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019), col='gray90')
-axis(1, at = seq(2010, 2019, 1), tcl = 0.2)
-axis(2, at = 1:10, las = 2, tcl = 0.5, labels = FALSE)
-axis(4, at = 1:10, las = 2, tcl = 0.5)
-lines(g, type='s')                          # línea tasa de intervención
-# lines(ftaylor, type='s', lwd=5, col='black')      # predicción regla de taylor
-box(col='dimgray')
+data <- ts(data, start=c(2006,1), frequency = 12)
+
+dygraph(data, width = 900, height = 450) %>% 
+  dyRangeSelector() %>%
+  dyShading(from = "2018-1-4", to = "2019-12-1", color = '#F7E7CE')
 ```
