@@ -79,11 +79,38 @@ colnames(data) <- c('actual', 'previo')
 data <- ts(data, start=c(2010,1), frequency = 4)
 
 dygraph(data, width = 900, height = 450) %>% 
-  dyHighlight(highlightCircleSize = 5,
-              highlightSeriesBackgroundAlpha = 0.2,
-              hideOnMouseOut = FALSE) %>%
   dyRangeSelector() %>%
   dyShading(from = "2018-1-1", to = "2019-12-1", color = '#F7E7CE')
+
+  # dyHighlight(highlightCircleSize = 5,
+  #             highlightSeriesBackgroundAlpha = 0.2,
+  #             hideOnMouseOut = FALSE) %>%
+```
+
+****
+### Quarterly GDP growth: fan-chart
+```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
+
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
+data <- data[1:33,1]
+data <- ts(data, start = c(2010, 1), frequency = 4)
+
+data.fan <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos5.xls", "figura1")
+data.fan <- t(data.fan)
+data.fan <- ts(data.fan, start = c(2018, 2), frequency = 4)
+
+prueba <- cbind(data, data, data, data, data, data, data, data, data)
+prueba <- rbind(prueba, data.fan)
+prueba <- ts(prueba, start = c(2010, 1), frequency = 4)
+colnames(prueba) <- c('U80', 'U60', 'U40', 'U20', 'point', 'L20', 'L40', 'L60', 'L80')
+
+dygraph(prueba, width = 900, height = 450) %>%
+  dySeries(c('L80', 'point', 'U80'), label = '80%', color = '#FF8040') %>%
+  dySeries(c('L60', 'point', 'U60'), label = '60%') %>%
+  dySeries(c('L40', 'point', 'U40'), label = '40%') %>%
+  dySeries(c('L20', 'point', 'U20'), label = '20%') %>%
+  dyAxis("y", valueRange = c(-1, 10)) %>%
+  dyLimit(0, color = "black")
 ```
 
 ****
