@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 10. **``Oil price shocks and inflation across euro area countries.''** Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
-11. **``Oil price pass-through into inflation in Spain at national and regional level.** Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+11. **``Oil price pass-through into inflation in Spain at national and regional level.** Joint with Ligia Topan (Universidad Complutense de Madrid),  A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
 12. **``Systematic monetary policy in Colombia.** Joint with J.I. González (Universidad Nacional de Colombia).
 
