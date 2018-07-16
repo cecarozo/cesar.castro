@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: May 30, 2018" # !!!! cambiar sombras (sumar 1 observación)
+date: "Updated: June 30, 2018" # !!!! cambiar sombras (sumar 1 observación)
 output: html_document
 ---
 
@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2018\
+· [June](6Junio18.pdf)\
 · [May](5Mayo18.pdf)\
 · [April](4Abril18.pdf)\
 · [March](3Marzo18.pdf)\
@@ -106,10 +107,10 @@ colnames(prueba) <- c('U80', 'U60', 'U40', 'U20', 'point', 'L20', 'L40', 'L60', 
 
 dygraph(prueba, width = 900, height = 450) %>%
   dySeries(c('L80', 'point', 'U80'), label = '80%', color = '#FF8040') %>%
-  dySeries(c('L60', 'point', 'U60'), label = '60%') %>%
-  dySeries(c('L40', 'point', 'U40'), label = '40%') %>%
-  dySeries(c('L20', 'point', 'U20'), label = '20%') %>%
-  dyAxis("y", valueRange = c(-1, 10)) %>%
+  dySeries(c('L60', 'point', 'U60'), label = '60%', color = '#FF8050') %>%
+  dySeries(c('L40', 'point', 'U40'), label = '40%', color = '#FF8060') %>%
+  dySeries(c('L20', 'point', 'U20'), label = '20%', color = '#FF8070') %>%
+  dyAxis("y", valueRange = c(0, 10)) %>%
   dyLimit(0, color = "black")
 ```
 
@@ -182,7 +183,7 @@ dygraph(data, width = 900, height = 450) %>%
 ```
 
 ****
-### Innovations by sectors in the inflation of April-2018
+### Innovations by sectors in the inflation of May, 2018
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
 rownames(data) <- c('TOTAL', 'CORE', 'FOOD', 'Processed food', 'Non-processed food',
@@ -224,5 +225,5 @@ data <- ts(data[-1:-12,], start=c(2007,1), frequency = 12)
 
 dygraph(data, width = 900, height = 450) %>% 
   dyRangeSelector() %>%
-  dyShading(from = "2018-5-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-6-1", to = "2019-12-1", color = '#F7E7CE')
 ```

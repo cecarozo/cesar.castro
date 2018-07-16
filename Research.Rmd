@@ -39,6 +39,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 
+### Media
+
+Articles in the Spanish blog El País, [**Fundación Alternativas**](http://blogs.elpais.com/alternativas/):
+
+1. Julio 11, 2018. [Efectos Regionales de los Shocks Petroleros en España](http://blogs.elpais.com/alternativas/2018/07/efectos-regionales-de-los-shocks-petroleros-en-espa%C3%B1a.html)
+
+2. Julio 15, 2015. [El Optimismo y Pesimismo del FMI en sus Predicciones](http://blogs.elpais.com/alternativas/2015/07/el-optimismo-y-pesimismo-del-fmi-en-sus-predicciones-econ%C3%B3micas.html)
+
+3. Marzo 11, 2015. [España y el Petróleo](http://blogs.elpais.com/alternativas/2015/03/espa%C3%B1a-y-el-petr%C3%B3leo-1.html)
+
+****
+
 ### Research Projects {#rp} 
 
 1. **Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.** Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.

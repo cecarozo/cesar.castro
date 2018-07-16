@@ -30,6 +30,12 @@ output: html_document
 <!-- end of list -->
 
 ****
+### Media
+
+1. [Blog Alternativas](http://blogs.elpais.com/alternativas/)
+2. [Nada es gratis](http://nadaesgratis.es/)
+
+****
 ### R programming language
 
 1. [CRAN R-project: time series analysis](https://cran.r-project.org/web/views/TimeSeries.html)
