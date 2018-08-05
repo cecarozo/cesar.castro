@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: June 30, 2018" # !!!! cambiar sombras (sumar 1 observación)
+date: "Updated: July 31, 2018" # !!!! cambiar sombras (sumar 1 observación)
 output: html_document
 ---
 
@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2018\
+· [July](7Julio18.pdf)\
 · [June](6Junio18.pdf)\
 · [May](5Mayo18.pdf)\
 · [April](4Abril18.pdf)\
@@ -115,7 +116,7 @@ dygraph(prueba, width = 900, height = 450) %>%
 ```
 
 ****
-<!-- ### Innovations by sectors in the fourth quarter-2017 -->
+<!-- ### Innovations by sectors -->
 ```{r GDPerror, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 colnames(t.gerror) <- c('--Weights--', '--Observed--', '--Forecast--',
                         '--Innovation--')
@@ -179,11 +180,11 @@ dygraph(data, width = 900, height = 450) %>%
               highlightSeriesBackgroundAlpha = 0.2,
               hideOnMouseOut = FALSE) %>%
   dyRangeSelector() %>%
-  dyShading(from = "2018-5-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-7-1", to = "2019-12-1", color = '#F7E7CE')
 ```
 
 ****
-### Innovations by sectors in the inflation of May, 2018
+### Innovations by sectors in the inflation of June, 2018
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
 rownames(data) <- c('TOTAL', 'CORE', 'FOOD', 'Processed food', 'Non-processed food',
@@ -225,5 +226,5 @@ data <- ts(data[-1:-12,], start=c(2007,1), frequency = 12)
 
 dygraph(data, width = 900, height = 450) %>% 
   dyRangeSelector() %>%
-  dyShading(from = "2018-6-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-7-1", to = "2019-12-1", color = '#F7E7CE')
 ```

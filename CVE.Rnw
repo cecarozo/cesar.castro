@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize May, 2018}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize August, 2018}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -51,7 +51,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{May, 2018}}\\
+{\color{headings} \scshape{August, 2018}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -216,7 +216,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Referee} 
-Energy Economics
+Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
