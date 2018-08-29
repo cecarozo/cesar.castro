@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize August, 2018}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize September, 2018}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -51,7 +51,7 @@
 
 \par{\centering{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{August, 2018}}\\
+{\color{headings} \scshape{September, 2018}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -216,13 +216,15 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Referee} 
-Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy
+Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Honors} 
 
 \begin{tabular}{rl}
+
+2017   & ANECA, Assistant Professor\\
 
 2016   & \textbf{University of Salamanca}\\
 & Outstanding Doctorate Award\\
@@ -255,7 +257,7 @@ SCA Statistical System\\
 
 \begin{tabular}{ll}
 Spanish (native)\\
-English (C1)
+English
 \end{tabular}
 
 % \clearpage
