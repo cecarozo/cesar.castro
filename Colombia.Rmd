@@ -213,6 +213,35 @@ datatable(data,
 ```
 
 ****
+### Monthly inflation: fan-chart
+```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
+
+data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
+data <- data[1:103,1]  # ***** Increase one observed data!!!!!!
+data <- ts(data, start = c(2010, 1), frequency = 12)
+
+data.fan <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos11.xls", "figura5")
+data.fan <- t(data.fan)
+data.fan <- ts(data.fan, start = c(2018, 8), frequency = 12)
+
+prueba <- cbind(data, data, data, data, data, data, data, data, data)
+prueba <- rbind(prueba, data.fan)
+prueba <- ts(prueba, start = c(2010, 1), frequency = 12)
+colnames(prueba) <- c('U80', 'U60', 'U40', 'U20', 'point', 'L20', 'L40', 'L60', 'L80')
+
+dygraph(prueba, width = 900, height = 450) %>%
+  dySeries(c('L80', 'point', 'U80'), label = '80%', color = '#FF8040') %>%
+  dySeries(c('L60', 'point', 'U60'), label = '60%', color = '#FF8050') %>%
+  dySeries(c('L40', 'point', 'U40'), label = '40%', color = '#FF8060') %>%
+  dySeries(c('L20', 'point', 'U20'), label = '20%', color = '#FF8070') %>%
+  dyAxis("y", valueRange = c(0, 10)) %>%
+  dyLimit(0, color = "black")
+```
+
+****
+<!-- ### Innovations by sectors -->
+
+****
 ### Disaggregated Inflation Forecasts
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos9.xls",
