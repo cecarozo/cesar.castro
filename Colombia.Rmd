@@ -2,7 +2,7 @@
 title: "Focus Colombia"
 subtitle: "Recent Economic Developments and Forecasts"
 author: "César Castro Rozo"
-date: "Updated: August 28, 2018" # !!!! cambiar sombras (sumar 1 observación)
+date: "Updated: September 28, 2018" # !!!! cambiar sombras (sumar 1 observación en fila 221)
 output: html_document
 ---
 
@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 See monthly reports in PDF (Spanish):\
  \
  2018\
+· [September](9Septiembre18.pdf)\
 · [August](8Agosto18.pdf)\
 · [July](7Julio18.pdf)\
 · [June](6Junio18.pdf)\
@@ -86,7 +87,7 @@ dygraph(data, width = 900, height = 450) %>%
 ```{r, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 # GDP: errors
 t.gerror <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos1.xls",
-                       "cuadro1", col_names = F)
+                       "cuadro1")
 t.gerror <- as.matrix(t.gerror)
 rownames(t.gerror) <- c('Agriculture', 'Mining', 'Industry', 'Household services',
                         'Construction', 'Trade', 'Comunication', 'Financial', 
@@ -196,11 +197,11 @@ dygraph(data, width = 900, height = 450) %>%
               highlightSeriesBackgroundAlpha = 0.2,
               hideOnMouseOut = FALSE) %>%
   dyRangeSelector() %>%
-  dyShading(from = "2018-7-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-8-1", to = "2019-12-1", color = '#F7E7CE')
 ```
 
 ****
-### Innovations by sectors in the inflation of July, 2018
+### Innovations by sectors in the inflation of August, 2018
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
 rownames(data) <- c('TOTAL', 'CORE', 'FOOD', 'Processed food', 'Non-processed food',
@@ -217,12 +218,12 @@ datatable(data,
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
-data <- data[1:103,1]  # ***** Increase one observed data!!!!!!
+data <- data[1:104,1]  # ***** Increase one observed data!!!!!!
 data <- ts(data, start = c(2010, 1), frequency = 12)
 
 data.fan <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos11.xls", "figura5")
 data.fan <- t(data.fan)
-data.fan <- ts(data.fan, start = c(2018, 8), frequency = 12)
+data.fan <- ts(data.fan, start = c(2018, 10), frequency = 12)
 
 prueba <- cbind(data, data, data, data, data, data, data, data, data)
 prueba <- rbind(prueba, data.fan)
@@ -271,5 +272,5 @@ data <- ts(data[-1:-12,], start=c(2007,1), frequency = 12)
 
 dygraph(data, width = 900, height = 450) %>% 
   dyRangeSelector() %>%
-  dyShading(from = "2018-8-1", to = "2019-12-1", color = '#F7E7CE')
+  dyShading(from = "2018-9-1", to = "2019-12-1", color = '#F7E7CE')
 ```
