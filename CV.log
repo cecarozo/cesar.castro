@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  2 OCT 2018 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  10 OCT 2018 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,7 +846,16 @@ Overfull \hbox (14.09354pt too wide) in paragraph at lines 225--226
 , an^^Sali-sis de la co-yun-tu-ra econ^^Somi-
  []
 
-[3] 
+[3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 268.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 268.
+
+
 AED: lastpage setting LastPage
 [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
@@ -862,10 +871,10 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 9544 strings out of 493089
- 134553 string characters out of 6134842
+ 9561 strings out of 493089
+ 134866 string characters out of 6134842
  263000 words of memory out of 5000000
- 12832 multiletter control sequences out of 15000+600000
+ 12846 multiletter control sequences out of 15000+600000
  9423 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,11n,43p,1051b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -878,12 +887,13 @@ nts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/mar
-vosym.pfb>
-Output written on CV.pdf (4 pages, 143046 bytes).
+/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/marv
+osym.pfb>
+Output written on CV.pdf (4 pages, 150230 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 159 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  44 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
