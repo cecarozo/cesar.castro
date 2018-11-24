@@ -15,65 +15,58 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ### Education
 
-* **Ph.D.** in Economics (Summa cum laude), Universidad de Salamanca, Spain, 2016.\
+* Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain, 2016.\
 Outstanding Doctorate Award, 2016.\
 Dissertation: Three Essays on Applied Time Series Econometrics.\
 Advisor: Rebeca Jiménez-Rodríguez.\
 Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.\
 
-* **D.E.A.** (Doctoral Studies) in Economics, Universidad de Alcalá, Spain, 2002.\
-* **M.A.** in Economics, Universidad Nacional de Colombia, 2000.\
-* **B.A.** in Economics, Universidad Nacional de Colombia, 1995. (Approved Spanish equivalent B.A.)\
-* **B.Sc.** in Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.
+* D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain, 2002.\
+* M.A. in Economics, Universidad Nacional de Colombia, 2000.\
+* B.A. in Economics, Universidad Nacional de Colombia, 1995. (Approved Spanish equivalent B.A.)\
+* B.Sc. in Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.
 
 ****
 
-### Research Areas
+### Research Interests
 
 Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 ****
 
-### Professional Activities
+### Professional Appointments
 
-* 2002--2014 **Research Assistant**, Madrid, Spain\
-Department of Economics--Statistics, Universidad Carlos III de Madrid.\
+* Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain. (2018--present)\
 
-* 2000 **Research Assistant**, Bogotá, Colombia\
-Macroeconomics Division, General Controller of Colombia.\
+* Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain. (2002--2014)\
 
-* 1998--1999 **Project Manager**, Bogotá, Colombia\
-Department of Economics, Universidad Nacional de Colombia.\
+* Economist, Macroeconomics Division, General Controller of Colombia. (2000)\
 
-* 1995--1998 **Research Assistant**, Bogotá, Colombia\
-Department of Economics, Universidad Nacional de Colombia.\
+* Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia. (1995--1999)\
 
-****
-
-### Teaching Experience
-
-1995--1999 **Teaching Assistant**, Bogotá, Colombia\
-Department of Economics, Universidad Nacional de Colombia\
-Macroeconomics (Graduate course)\
-Advanced Macroeconomics (Master course)
+* Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995--1999)
 
 ****
 
 ### Conference Presentations
 
-1. **``Oil price pass-through along the price chain in the euro area.''.** 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
+1. **``Time-varying relationship between oil price changes and exchange rates''.** Universidad de Malaga, Spain, 2018.
 
-2. **``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''.** 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.
+2. **``Time-varying relationship between oil price changes and exchange rates''.** Universidad Autónoma de Madrid, Spain, 2017.
 
-3. **``The deflationary effect of oil prices in the euro area''.** Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+3. **``Oil price pass-through along the price chain in the euro area.''.** 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
 
-4. **``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** 32nd International Symposium on Forecasting, Boston, U.S.A., 2012. [https://isf.forecasters.org/](https://isf.forecasters.org/overview/about/locations/)
+4. **``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''.** 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.
 
-5. **``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías''.** XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
+5. **``The deflationary effect of oil prices in the euro area''.** Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
 
-6. **``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+6. **``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** 32nd International Symposium on Forecasting, Boston, U.S.A., 2012. [https://isf.forecasters.org/](https://isf.forecasters.org/overview/about/locations/)
 
-7. **``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany''.** Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
+7. **``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías''.** XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
+
+8. **``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain''.** Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+
+9. **``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany''.** Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
 
 ****
 
@@ -85,16 +78,13 @@ Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · T
 
 ### Honors
 
-2017 ANECA, Assistant professor\
+ANECA, Assistant professor. (2017)\
 
-2016 **University of Salamanca**\
-Outstanding Doctorate Award\
+Universidad de Salamanca, Outstanding Doctorate Award. (2016)\
 
-2000 **Santander Bank - University of Alcalá**\
-Scholarship\
+Santander Bank - Universidad de Alcalá, Scholarship. (2000)\
 
-1995 **Inter-American Development Bank (IDB).**\
-Invited to the Youth and Growth Forum, Jerusalem, Israel.
+Inter-American Development Bank (IDB). Invited to the Youth and Growth Forum, Jerusalem, Israel. (1995)
 
 ****
 
@@ -106,10 +96,3 @@ Microsoft Office\
 *MATLAB*\
 *Eviews*\
 SCA Statistical System
-
-****
-
-### Languages
-
-Spanish (native)\
-English

@@ -109,4 +109,7 @@ University of Salamanca\\
 % Fax: +34 923 29 46 76\\
 % e-mail: rebeca.jimenez@usal.es
 
+Profesor ayudante doctor del área de Fundamentos del Análisis Económico del Departamento de Economía de la Universidad Pública de Navarra. Es Licenciado y Master en economía por la Universidad Nacional de Colombia y Doctor en economía por la Universidad de Salamanca (con premio extraordinario). Trabajó por mas de 12 años en el Instituto Flores de Lemus de la Universidad Carlos III de Madrid con el equipo encargado del análisis y predicción de variables macroeconómicas de Estados Unidos, la Euro área y sus principales economías, utilizándo técnicas de series de tiempo en estructuras jerárquicas desagregadas. También ha trabajado en Economía de la Energía, en concreto analizando los efectos de los shocks en el precio del petróleo sobre variables macroeconómicas de la Euro área y España. Esta investigación ha sido publicada en revistas internacionales como Energy Economics y Economia Politica (Journal of Analytical and Institutional Economics).
+
+
 \end{document}

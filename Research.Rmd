@@ -27,6 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 8. **``La demanda de lotería y juegos de azar''** Joint with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, (2000), **16**, 27--48. [https://www.unal.edu.co](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304)
 
+***
 ### Work in progress or submitted {#wps}
 
 9. **``Time-varying relationship between oil price changes and exchange rates.''** Joint with R. Jiménez-Rodríguez (Universidad de Salamanca). [Slides](https://rpubs.com/cecarozo/410063), [Working Paper](PaperOper.pdf)\

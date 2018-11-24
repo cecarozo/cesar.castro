@@ -1,5 +1,5 @@
 \documentclass[11pt]{article} % Font size - 10pt, 11pt or 12pt
-\usepackage[hmargin=3cm, vmargin=2.5cm]{geometry} % Document margins
+\usepackage[top=1in, bottom=1.25in, left=1.25in, right=1.25in]{geometry} % Document margins
 \usepackage{marvosym} % Required for symbols in the colored box
 \usepackage{ifsym} % Required for symbols in the colored box
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize October, 2018}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize November, 2018}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -49,42 +49,45 @@
 \onehalfspacing
 \begin{document}
 
-\par{\centering{\sffamily\Huge César Castro Rozo}\\
+\par{
+\centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{October, 2018}}\\
-\vspace{10pt}}
+{\color{headings} \scshape{November, 2018}}\\
+\vspace{10pt}
+}
 
+\centering
 \colorbox{shade}{{
-\begin{tabular}{c|p{13cm}}
-\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017, Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Mobilefone} & +34 679 54 82 37\\
-\vspace{5pt}\raisebox{-4pt}{\Letter} & email: \href{mailto:ccastrorozo@gmail.com}{ccastrorozo@gmail.com} \\
-\vspace{5pt}\raisebox{-4pt}{\Aquarius} & Nationality: Colombia - Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Mundus} & www: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+\begin{tabular}{c|p{8cm}}
+{\textifsymbol{18}} & Universidad Pública de Navarra\\
+& \href{https://www.unavarra.es/departamento-economia}{Department of Economics}\\
+& Campus Arrosadia, Los Madroños Building\\
+\vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
+\vspace{5pt}\raisebox{-4pt}{\Telefon} & Phone: (+34) 948 16 93 60\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & Website: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
 }\\[10pt]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Education} 
 
 \begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
 
-2016 & \textbf{Ph.D.} in Economics (Summa cum laude), Universidad de Salamanca, Spain\\
+2016 & Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain\\
 \vspace{1pt}& Outstanding Doctorate Award, 2016\\
 \vspace{1pt}& Dissertation title: Three Essays on Applied Time Series Econometrics\\
 \vspace{1pt}& Advisor: Rebeca Jiménez-Rodríguez\\
 \vspace{5pt}& Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós\\
 
-\vspace{5pt}2002 & \textbf{D.E.A.} (Doctoral Studies) in Economics, Universidad de Alcalá, Spain\\
+\vspace{5pt}2002 & D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain\\
 
-\vspace{5pt}2000 & \textbf{M.A.} in Economics, Universidad Nacional de Colombia\\
+\vspace{5pt}2000 & M.A. in Economics, Universidad Nacional de Colombia\\
 
-1995 & \textbf{B.A.} in Economics, Universidad Nacional de Colombia\\
-\vspace{5pt}& (Approved Spanish equivalent B.A.)\\
+\vspace{5pt}1995 & B.A. in Economics, Universidad Nacional de Colombia\\
 
-1993 & \textbf{B.Sc.} in Forestry Engineering, Universidad Distrital, Bogotá, Colombia\\
+1993 & B.Sc. in Forestry Engineering, Universidad Distrital, Bogotá, Colombia\\
 
 \end{tabular}
 \vspace{10pt}
@@ -97,21 +100,19 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Professional Activities} 
+\section{Professional Appointments} 
 
-\begin{tabular}{rl{-2cm}}
+\begin{tabular}{lp{0.8\textwidth}}
 
-2002--2014 &  \textbf{Research Assistant}, Madrid, Spain\\
-\vspace{5pt}& Department of Economics--Statistics, Universidad Carlos III de Madrid\\
+\vspace{5pt} 2018 -- & Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain\\
 
-2000 & \textbf{Research Assistant}, Bogotá, Colombia\\
-\vspace{5pt}& Macroeconomics Division, General Controller of Colombia\\
+\vspace{5pt} 2002 -- 2014 &  Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain\\
 
-1998--1999 & \textbf{Project Manager}, Bogotá, Colombia\\
-\vspace{5pt}& Department of Economics, Universidad Nacional de Colombia\\
+\vspace{5pt} 2000 & Economist, Macroeconomics Division, General Controller of Colombia\\
 
-1995--1998 & \textbf{Research Assistant}, Bogotá, Colombia\\
-\vspace{5pt}& Department of Economics, Universidad Nacional de Colombia}\\
+\vspace{5pt} 1995--1999 & Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia\\
+
+\vspace{5pt} 1995--1999 & Lecturer, Department of Economics, Universidad Nacional de Colombia\\
 
 \end{tabular}
 \vspace{10pt}
@@ -119,19 +120,6 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 \clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Teaching Experience} 
-
-\begin{tabular}{rl{-2cm}}
-
-1995--1999 & \textbf{Teaching Assistant}, Bogotá, Colombia\\
-& Department of Economics, Universidad Nacional de Colombia\\
-& Macroeconomics (Graduate course)\\
-& Advanced Macroeconomics (Master course)\\
-
-\end{tabular}
-\vspace{10pt}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Publications}
 
@@ -155,6 +143,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 \\
 
 \noindent
+\vspace{10pt}
 \section{Work in progress or submitted}
 
 \item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Joint with R. Jiménez-Rodríguez (Universidad de Salamanca).
@@ -163,7 +152,6 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
-\item \textbf{``Systematic monetary policy in Colombia.''} Joint with J.I. González (Universidad Nacional de Colombia).
 \\
 \end{enumerate}
 
@@ -193,13 +181,19 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Conference presentations} 
+\section{Conference and Seminar Presentations} 
 
 \begin{enumerate}
 
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad de Malaga, Spain, 2018.
+
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad Autónoma de Madrid, Spain, 2017.
+
 \item \textbf{``Oil price pass-through along the price chain in the euro area.''} 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
 
-\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.
+\item \textbf{``Oil price pass-through along the price chain in the euro area.''} 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
+
+\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} 7th Research Workshop on Energy Markets, Universidad de Valencia, Spain, 2016.
 
 \item \textbf{``The deflationary effect of oil prices in the euro area.''} Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
 
@@ -207,7 +201,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 \item \textbf{``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías.''} XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
 
-\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.
+\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} Association of Southern European Economic Theorists, Évora, Portugal, 2011.
 
 \item \textbf{``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany.``} Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
 
@@ -216,24 +210,23 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Referee} 
+
+\raggedright
 Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · The Energy Journal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Honors} 
 
-\begin{tabular}{rl}
+\begin{tabular}{lp{0.9\textwidth}}
 
-2017   & ANECA, Assistant Professor\\
+\vspace{5pt} 2017 & ANECA, Assistant Professor\\
 
-2016   & \textbf{University of Salamanca}\\
-& Outstanding Doctorate Award\\
+\vspace{5pt} 2016 & Universidad de Salamanca, Outstanding Doctorate Award\\
 
-2000	 & \textbf{Santander Bank - University of Alcalá}\\
-&  Scholarship\\
+\vspace{5pt} 2000	& Santander Bank - Universidad de Alcalá, Scholarship\\
 
-1995 & \textbf{Inter-American Development Bank}\\
-& Invited to the Youth and Growth Forum, Jerusalem, Israel.
+\vspace{5pt} 1995 & Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel.\\
 
 \end{tabular}
 
@@ -252,13 +245,6 @@ SCA Statistical System\\
 \end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Languages} 
-
-\begin{tabular}{ll}
-Spanish (native)\\
-English
-\end{tabular}
 
 % \clearpage
 % 

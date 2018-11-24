@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize Octubre de 2018}                                    % Footer: center side empty
+\cfoot{\footnotesize Noviembre de 2018}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -49,18 +49,20 @@
 \onehalfspacing
 \begin{document}
 
-\par{\centering{\sffamily\Huge César Castro Rozo}\\
+\par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{Octubre de 2018}}\\
+{\color{headings} \scshape{Noviembre de 2018}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
-\begin{tabular}{c|p{13cm}}
-\vspace{5pt}\raisebox{-4pt}{\textifsymbol{18}} & Calle Cipriano Sancho, 36, 4-A, Madrid, 28017, Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Mobilefone} & +34 679 54 82 37\\
-\vspace{5pt}\raisebox{-4pt}{\Letter} & email: \href{mailto:castrorozo@gmail.com}{ccastrorozo@gmail.com} \\
-\vspace{5pt}\raisebox{-4pt}{\Aquarius} & Nacionalidad: Colombia - España\\
-\vspace{5pt}\raisebox{-4pt}{\Mundus} & www: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+\begin{tabular}{c|p{8cm}}
+{\textifsymbol{18}} & Universidad Pública de Navarra\\
+& \href{https://www.unavarra.es/departamento-economia}{Departamento de Economía}\\
+& Campus Arrosadia, Edificio Los Madroños\\
+\vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
+\vspace{5pt}\raisebox{-4pt}{\Telefon} & Teléfono: (+34) 948 16 93 60\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & Webpage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
 }\\[10pt]
@@ -76,20 +78,19 @@
 
 \begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
 
-2016 & \textbf{Ph.D.} en Economía (Summa cum laude), Universidad de Salamanca\\
-& Premio extraordinario de doctorado, 2016\\
-& Tesis: Three Essays on Applied Time Series econometrics\\
-& Director: Rebeca Jiménez-Rodríguez\\
-& Comité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós\\
+2016 & Ph.D. en Economía (Summa cum laude), Universidad de Salamanca\\
+\vspace{1pt}& Premio extraordinario de doctorado, 2016\\
+\vspace{1pt}& Tesis: Three Essays on Applied Time Series econometrics\\
+\vspace{1pt}& Director: Rebeca Jiménez-Rodríguez\\
+\vspace{5pt}& Comité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós\\
 
-2002 & \textbf{D.E.A.}, Diploma de Estudios Avanzados en Economía, Universidad de Alcalá\\
+\vspace{5pt}2002 & D.E.A., Diploma de Estudios Avanzados en Economía, Universidad de Alcalá\\
 	 
-2000 & \textbf{Máster} en Economía, Universidad Nacional de Colombia\\
+\vspace{5pt}2000 & Máster en Economía, Universidad Nacional de Colombia\\
 
-1995 & \textbf{Licenciatura} en Economía, Universidad Nacional de Colombia\\
-& (Homologado a título equivalente español)\\
+\vspace{5pt}1995 & Licenciatura en Economía, Universidad Nacional de Colombia\\
 
-1993 & \textbf{Licenciatura} en Ingeniería Forestal, Universidad Distrital (Bogotá, Colombia)\\
+\vspace{5pt}1993 & Licenciatura en Ingeniería Forestal, Universidad Distrital (Bogotá, Colombia)\\
 
 \end{tabular}
 \vspace{10pt}
@@ -102,35 +103,22 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experiencia Profesional} 
 
-\begin{tabular}{rl{-2cm}}
+\begin{tabular}{lp{0.8\textwidth}}
 
-2002--2014 &  \textbf{Investigador contratado}, Madrid, España\\
-& Universidad Carlos III de Madrid, Departamento de Estadística\\
+\vspace{5pt} 2018 -- & Profesor Ayudante Doctor, Departamento de Economía, Universidad Pública de Navarra, España\\
 
-2000 & \textbf{Investigador contratado}, Bogotá, Colombia\\
-& C.G.R., Dirección de Estudios Macroeconómicos\\
+\vspace{5pt} 2002--2014 &  Investigador contratado, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España\\
 
-1996--1999 & \textbf{Director de Proyecto}, Bogotá, Colombia\\
-& Universidad Nacional de Colombia, Departamento de Economía\\
+\vspace{5pt} 2000 & Economista, Contraloría General de la República, Dirección de Estudios Macroeconómicos, Bogotá, Colombia\\
 
-1995--1999 & \textbf{Investigador contratado}, Bogotá, Colombia\\
-& Universidad Nacional de Colombia, Departamento de Economía}\\
+\vspace{5pt} 1995--1999 & Investigador contratado, Centro de Investigaciones para el Desarrollo, Escuela de Economía, Universidad Nacional de Colombia, Bogotá}\\
+
+\vspace{5pt} 1995--1999 & Profesor asistente, Escuela de Economía, Universidad Nacional de Colombia, Bogotá\\
 
 \end{tabular}
 \vspace{10pt}
 
 \clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experiencia Docente} 
-
-\begin{tabular}{rl{-2cm}}
-1995--1999 & \textbf{Profesor asistente}, Bogotá, Colombia\\
-& Escuela de Economía, Universidad Nacional de Colombia\\
-& Macroeconomía (Licenciatura)\\
-& Macroeconomía Avanzada (Máster)\\
-\end{tabular}
-\vspace{10pt}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Publicaciones}
 
@@ -153,6 +141,7 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 \\
 
 \noindent
+\vspace{10pt}
 \section{Trabajos en progreso o enviados}
 
 \item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Coautor: R. Jiménez-Rodríguez (Universidad de Salamanca).
@@ -161,7 +150,6 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 
 \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level.''} Coautores: A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
-\item \textbf{``Systematic monetary policy in Colombia.''} Coautor: J.I. González(Universidad Nacional de Colombia).
 \\
 \end{enumerate}
 
@@ -191,9 +179,13 @@ Autónoma de Madrid, España.} Investigador principal: Antoni Espasa. Financiaci
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Presentaciones en conferencias académicas} 
+\section{Presentaciones en conferencias y seminarios} 
 
 \begin{enumerate}
+
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad de Malaga, Spain, 2018.
+
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad Autónoma de Madrid, Spain, 2017.
 
 \item \textbf{``Oil price pass-through along the price chain in the euro area.''.} 12th Conference of the Spanish Association for Energy Economics, Salamanca, España, 2017.
 
@@ -214,27 +206,24 @@ Autónoma de Madrid, España.} Investigador principal: Antoni Espasa. Financiaci
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Referee} 
+\raggedright
+
 Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · The Energy Journal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Reconocimientos} 
 
-\begin{tabular}{rl}
+\begin{tabular}{lp{0.9\textwidth}}
 
-2017  & Acreditación positiva ANECA, Profesor Ayudante Doctor\\
-\\
+\vspace{5pt} 2017 & Acreditación positiva ANECA, Profesor Ayudante Doctor\\
 
-2016   & \textbf{Universidad de Salamanca}\\
-& Premio extraordinario de doctorado\\
+\vspace{5pt} 2016 & Universidad de Salamanca, Premio extraordinario de doctorado\\
 
-2000	 & \textbf{Banco Santander - Universidad de Alcalá}\\
-&  Beca de estudios doctorado\\
+\vspace{5pt} 2000 & Banco Santander - Universidad de Alcalá, Beca de estudios doctorado\\
 
-1995 & \textbf{Banco Inter-Americano de Desarrollo}\\
-& Invitado al foro Juventud y Crecimiento, Jerusalem, Israel
+\vspace{5pt} 1995 & Banco Inter-Americano de Desarrollo, Invitado al foro Juventud y Crecimiento, Jerusalem, Israel
 
 \end{tabular}
-\vspace{10pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conocimiento Informático} 
@@ -247,16 +236,6 @@ Microsoft Office\\
 \textsc{MATLAB}\\
 \textsc{Eviews}\\
 SCA Statistical System\\
-
-\end{tabular}
-\vspace{10pt}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Idiomas} 
-
-\begin{tabular}{ll}
-Español (nativo)\\
-Inglés
 
 \end{tabular}
 
