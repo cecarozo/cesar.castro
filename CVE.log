@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  24 NOV 2018 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  25 NOV 2018 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,7 +867,7 @@ cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 m/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/mar
 vosym.pfb>
-Output written on CVE.pdf (4 pages, 134609 bytes).
+Output written on CVE.pdf (4 pages, 134459 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  135 compressed objects within 2 object streams

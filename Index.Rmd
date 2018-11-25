@@ -23,7 +23,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Department of Economics](https://www.unavarra.es/departamento-economia)\
 Universidad Pública de Navarra\
-Los Madroños Building\
 Campus Arrosadia\
 31006 Pamplona\
 Spain

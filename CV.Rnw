@@ -58,7 +58,7 @@
 \begin{tabular}{c|p{8cm}}
 {\textifsymbol{18}} & Universidad Pública de Navarra\\
 & \href{https://www.unavarra.es/departamento-economia}{Departamento de Economía}\\
-& Campus Arrosadia, Edificio Los Madroños\\
+& Campus Arrosadia\\
 \vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
 \vspace{5pt}\raisebox{-4pt}{\Telefon} & Teléfono: (+34) 948 16 93 60\\
 \vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
