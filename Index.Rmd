@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 
 #### Contact details:
-![size=0.01](upna.gif)\
+![size=5](upna.gif)\
 
 
 
