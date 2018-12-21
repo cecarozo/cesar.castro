@@ -12,18 +12,35 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 
-> I am Assistant Professor (Profesor Ayudante Doctor) at Universidad Pública de Navarra. I have previously held research position at Universidad Carlos III de Madrid. My research focuses on macroeconometric issues, particularly applied time series econometrics, analysis and forecasts of macroeconomic variables and effects of oil price shocks on macroeconomic variables.
+<font size="4">
+Assistant Professor\
+Economía, Universidad Pública de Navarra.</font>
+
+I work on macroeconometric issues, particularly:</br>
+</br>
+<ul>
+<li>Applied time series econometrics</li>
+<li>Analysis and forecasts of macroeconomic variables</li>
+<li>Effects of oil price shocks on macroeconomic variables</li>
+</ul>
+
+I hold a PhD in Economics from Universidad de Salamanca, and BA and MA in Economics from Universidad Nacional de Colombia.
+
+I have previously held research position at Universidad Carlos III de Madrid and Universidad Nacional de Colombia.
 
 ****
 
 #### Contact details:
-![size=5](upna.gif)\
-
+<figure>
+  <p><img src="upna.gif"
+    width="136" height="200"
+    alt="Eiffel tower">
+</figure>
 
 
 [Department of Economics](https://www.unavarra.es/departamento-economia)\
 Universidad Pública de Navarra\
-Campus Arrosadia\
+[Campus Arrosadia](https://www.google.com/maps/place/Parking+UPNA+-+Universidad+Publica+de+Navarra/@42.8006567,-1.6370705,405m/data=!3m1!1e3!4m12!1m6!3m5!1s0x0:0xd9a9e86617c6be7b!2sUPNA!8m2!3d42.797263!4d-1.6321518!3m4!1s0xd50924ce0daf833:0x774b0a8f81fa03a9!8m2!3d42.8005615!4d-1.6377448)\
 31006 Pamplona\
 Spain
 
