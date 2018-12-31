@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <font size="4">
 Assistant Professor\
-Economía, Universidad Pública de Navarra.</font>
+Economía, Universidad Pública de Navarra</font>
 
 I work on macroeconometric issues, particularly:</br>
 </br>

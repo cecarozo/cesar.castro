@@ -24,6 +24,7 @@ output:
     highlight: textmate
     includes:
       after_body: footer.html
+      in_header: "favicon.Rhtml" 
     css: styles.css
     toc: yes
     
