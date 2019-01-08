@@ -38,7 +38,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize November, 2018}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize January, 2019}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -52,7 +52,7 @@
 \par{
 \centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{November, 2018}}\\
+{\color{headings} \scshape{January, 2019}}\\
 \vspace{10pt}
 }
 
@@ -185,9 +185,9 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 
 \begin{enumerate}
 
-\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad de Malaga, Spain, 2018.
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Department of Economics, Universidad de Malaga, Spain, 2018.
 
-\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Universidad Autónoma de Madrid, Spain, 2017.
+\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.
 
 \item \textbf{``Oil price pass-through along the price chain in the euro area.''} 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
 
