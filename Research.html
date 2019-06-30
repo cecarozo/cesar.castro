@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <html>
 
 <head>
@@ -81,9 +80,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -108,6 +105,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -122,7 +122,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -142,6 +141,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -163,19 +199,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -241,89 +343,82 @@ $(document).ready(function () {
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#pub">Publications</a></li>
-<li><a href="#wps">Work in progress or submitted</a></li>
-<li><a href="#media">Media</a></li>
-<li><a href="#rp">Research Projects</a></li>
-</ul>
-</div>
 
 <hr />
-<div id="pub" class="section level3">
-<h3>Publications</h3>
-<ol style="list-style-type: decimal">
-<li><p><strong>``Oil price pass-through along the price chain in the euro area.’’</strong> Joint with R. Jiménez-Rodríguez (Universidad de Salamanca). <em>Energy Economics</em>, (2017), <strong>64</strong>, 24–30. <a href="http://www.sciencedirect.com/science/article/pii/S0140988317300786">http://www.sciencedirect.com</a></p></li>
-<li><p><strong>‘’A new look at oil price pass-through into inflation: Evidence from disaggregated European data.’’</strong> Joint with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). <em>Economia Politica: Journal of Analytical and Institutional Economics</em>, (2017), <strong>34(1)</strong>, 55–82. <a href="http://link.springer.com/article/10.1007/s40888-016-0048-9">http://link.springer.com</a></p></li>
-<li><p><strong>``The deflationary effect of oil prices in the euro area.’’</strong> Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). <em>Energy Economics</em>, (2016), <strong>56</strong>, 389–397. <a href="http://www.sciencedirect.com/science/article/pii/S0140988316300482">http://www.sciencedirect.com</a></p></li>
-<li><p><strong>``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.’’</strong> Joint with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). <em>FUNCAS Working papers series</em>, (2012), <strong>701</strong>. <a href="http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701">http://www.funcas.es</a></p></li>
-<li><p><strong>``Do we see the effects of oil variations in official statistics price data?’’</strong> Joint with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). <em>Boletín de Estadística e Investigación Operativa</em>, (2011), <strong>27</strong>, 29–41. <a href="http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html">http://www.seio.es/BEIO</a></p></li>
-<li><p><strong>``El diferencial de inflación en los servicios entre España y la euro área.’’</strong> Joint with E. Carluccio (Universidad Carlos III de Madrid). <em>Papeles de Economía Española</em>, (2009), <strong>120</strong>, 69–89. <a href="https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262">https://www.funcas.es</a></p></li>
-<li><p><strong>``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.’’</strong> Joint with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). <em>Gestión Fiscal</em>, (2000), <strong>8</strong>, 6–33.</p></li>
-<li><p><strong>``La demanda de lotería y juegos de azar’’</strong> Joint with J.I. González (Universidad Nacional de Colombia). <em>INNOVAR, Revista de Ciencias Administrativas y Sociales</em>, (2000), <strong>16</strong>, 27–48. <a href="https://revistas.unal.edu.co/index.php/innovar/issue/view/2304">https://www.unal.edu.co</a></p></li>
-</ol>
+<div id="pub" class="section level5">
+<h5>Publications</h5>
+<p><font size="4"> <q>Oil price pass-through along the price chain in the euro area</q> with R. Jiménez-Rodríguez (Universidad de Salamanca). <em>Energy Economics</em>, (2017), 64, 24–30. <a href="http://www.sciencedirect.com/science/article/pii/S0140988317300786">http://www.sciencedirect.com</a></p>
+<p><q>A new look at oil price pass-through into inflation: Evidence from disaggregated European data</q> with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). <em>Economia Politica: Journal of Analytical and Institutional Economics</em>, (2017), 34(1), 55–82. <a href="http://link.springer.com/article/10.1007/s40888-016-0048-9">http://link.springer.com</a></p>
+<p><q>The deflationary effect of oil prices in the euro area</q> with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). <em>Energy Economics</em>, (2016), <strong>56</strong>, 389–397. <a href="http://www.sciencedirect.com/science/article/pii/S0140988316300482">http://www.sciencedirect.com</a></p>
+<p><q>Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain</q> with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). <em>FUNCAS Working papers series</em>, (2012), 701. <a href="http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701">http://www.funcas.es</a></p>
+<p><q>Do we see the effects of oil variations in official statistics price data?</q> with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). <em>Boletín de Estadística e Investigación Operativa</em>, (2011), 27, 29–41. <a href="http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html">http://www.seio.es/BEIO</a></p>
+<p><q>El diferencial de inflación en los servicios entre España y la euro área</q> with E. Carluccio (Universidad Carlos III de Madrid). <em>Papeles de Economía Española</em>, (2009), 120, 69–89. <a href="https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262">https://www.funcas.es</a></p>
+<p><q>Mercado de crédito 1990-1999. La factura de cobro del financiamiento</q> with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). <em>Gestión Fiscal</em>, (2000), 8, 6–33.</p>
+<p><q>La demanda de lotería y juegos de azar</q> with J.I. González (Universidad Nacional de Colombia). <em>INNOVAR, Revista de Ciencias Administrativas y Sociales</em>, (2000), 16, 27–48. <a href="https://revistas.unal.edu.co/index.php/innovar/issue/view/2304">https://www.unal.edu.co</a></p>
 <hr />
 </div>
-<div id="wps" class="section level3">
-<h3>Work in progress or submitted</h3>
-<ol start="9" style="list-style-type: decimal">
-<li><strong>``Time-varying relationship between oil price changes and exchange rates.’’</strong> Joint with R. Jiménez-Rodríguez (Universidad de Salamanca). <a href="https://rpubs.com/cecarozo/456503">Slides</a>, <a href="PaperOper.pdf">Working Paper</a><br />
-</li>
-<li><p><strong>``Oil price pass-through into inflation in Spain at national and regional level.</strong> Joint with Ligia Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). <a href="PaperCCAA.pdf">Working Paper</a> </p></li>
-<li><p><strong>``Oil price shocks and inflation across euro area countries.’’</strong> Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).</p></li>
-<li><p><strong>``Systematic monetary policy in Colombia.</strong> Joint with J.I. González (Universidad Nacional de Colombia).</p></li>
-</ol>
+<div id="wps" class="section level5">
+<h5>Work in progress or submitted</h5>
+<p><q>Time-varying relationship between oil shocks and European stock market returns</q> with R. Jiménez-Rodríguez (Universidad de Salamanca) and Renatas Kizys (University of Portsmouth).</p>
+<p><q>A new approach to modelling interactions between oil price and exchange rate</q> with R. Jiménez-Rodríguez (Universidad de Salamanca). Previously circulated under the title <q><u>Time-varying relationship between oil price changes and exchange rates</u></q>.</p>
+<p><q>Oil price pass-through into inflation in Spain at national and regional level</q> with Ligia Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid) and M. Jerez (Universidad Complutense de Madrid).</p>
+<p><q>Oil price shocks and inflation across euro area countries</q> with A. Barge-Gil (Universidad Complutense de Madrid) and M. Jerez (Universidad Complutense de Madrid).</p>
 <hr />
 </div>
-<div id="media" class="section level3">
-<h3>Media</h3>
+<div id="media" class="section level5">
+<h5>Media</h5>
 <p>Articles in the Spanish blog El País, <a href="http://blogs.elpais.com/alternativas/"><strong>Fundación Alternativas</strong></a>:</p>
-<ol style="list-style-type: decimal">
-<li><p>Julio 11, 2018. <a href="http://blogs.elpais.com/alternativas/2018/07/efectos-regionales-de-los-shocks-petroleros-en-espa%C3%B1a.html">Efectos Regionales de los Shocks Petroleros en España</a></p></li>
-<li><p>Julio 15, 2015. <a href="http://blogs.elpais.com/alternativas/2015/07/el-optimismo-y-pesimismo-del-fmi-en-sus-predicciones-econ%C3%B3micas.html">El Optimismo y Pesimismo del FMI en sus Predicciones</a></p></li>
-<li><p>Marzo 11, 2015. <a href="http://blogs.elpais.com/alternativas/2015/03/espa%C3%B1a-y-el-petr%C3%B3leo-1.html">España y el Petróleo</a></p></li>
-</ol>
+<p>Julio 11, 2018. <a href="http://blogs.elpais.com/alternativas/2018/07/efectos-regionales-de-los-shocks-petroleros-en-espa%C3%B1a.html">Efectos Regionales de los Shocks Petroleros en España</a></p>
+<p>Julio 15, 2015. <a href="http://blogs.elpais.com/alternativas/2015/07/el-optimismo-y-pesimismo-del-fmi-en-sus-predicciones-econ%C3%B3micas.html">El Optimismo y Pesimismo del FMI en sus Predicciones</a></p>
+<p>Marzo 11, 2015. <a href="http://blogs.elpais.com/alternativas/2015/03/espa%C3%B1a-y-el-petr%C3%B3leo-1.html">España y el Petróleo</a></p>
 <hr />
 </div>
-<div id="rp" class="section level3">
-<h3>Research Projects</h3>
-<ol style="list-style-type: decimal">
-<li><p><strong>Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.</strong> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010–2014.</p></li>
-<li><p><strong>Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.</strong> Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007–2009.</p></li>
-<li><p><strong>Analysis and forecasts of inflation.</strong> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006–2007.</p></li>
-<li><p><strong>Analysis and forecasts of inflation in the region of Madrid, Spain</strong> Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002–2006.</p></li>
-<li><p><strong>Lottery demand.</strong> Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999–2000.</p></li>
-<li><p><strong>Development plan in the region of Guavio, Colombia.</strong> Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999–2000.</p></li>
-<li><p><strong>Environmental management in Colombian environmental ministry.</strong> Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.</p></li>
-<li><p><strong>Economic impact of logging in indigenous area.</strong> Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997–1999.</p></li>
-</ol>
+<div id="rp" class="section level5">
+<h5>Research Projects</h5>
+<p><q>Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010–2014.</p>
+<p><q>Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.</q> Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007–2009.</p>
+<p><q>Analysis and forecasts of inflation.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006–2007.</p>
+<p><q>Analysis and forecasts of inflation in the region of Madrid, Spain</q> Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002–2006.</p>
+<p><q>Lottery demand.</q> Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999–2000.</p>
+<p><q>Development plan in the region of Guavio, Colombia.</q> Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999–2000.</p>
+<p><q>Environmental management in Colombian environmental ministry.</q> Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.</p>
+<p><q>Economic impact of logging in indigenous area.</q> Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997–1999.</p>
+<p><br></p>
 </div>
 
 <html>
 
 <head>
-<title>Title</title>
-<link rel="icon" href="upna.png">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+<style>
+  body {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.page-footer {
+  padding-top: 20px;
+  color: #D70000;
+  background-color: #D70000;
+}
+</style>
 </head>
 
-<body>
-
-<!--<p>This is an R HTML document. When you click the <b>Knit HTML</b> button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-
-<!--begin.rcode 
-summary(cars)
-end.rcode-->
-
-<!--<p>Copyright &copy; 2016 Skynet, Inc. All rights reserved.</p>-->
-
-<p>César Castro Rozo &copy; February, 2019 </p>
-
-<!--begin.rcode fig.width=7, fig.height=6
-plot(cars)
-end.rcode-->
-
-</body>
+<body> 
+<main>
+</main>  
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+    <a class="social" href="#"><img src="company_logo.png" height="50" width="90"></a> 
+    </div>
+  </div>
+</footer>
+</body>   
 </html>
 
 

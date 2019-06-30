@@ -215,7 +215,7 @@ Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · T
 
 \begin{tabular}{lp{0.9\textwidth}}
 
-\vspace{5pt} 2017 & Acreditación positiva ANECA, Profesor Ayudante Doctor\\
+\vspace{5pt} 2017 & Acreditación ANECA, Profesor Ayudante Doctor\\
 
 \vspace{5pt} 2016 & Universidad de Salamanca, Premio extraordinario de doctorado\\
 

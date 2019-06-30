@@ -1,22 +1,21 @@
 ---
 title: "Focus Colombia"
-subtitle: "Recent Economic Developments and Forecasts"
-author: "César Castro Rozo"
-date: "Updated: September 28, 2018" # !!!! cambiar sombras (sumar 1 observación en fila 221)
+subtitle: <font size="4">Economic Developments and Forecasts
 output: html_document
 ---
-
-****
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ****
+##### Introduction {#pub}
+
 > This section presents the monthly updating forecasts for the GDP, inflation and monetary policy in Colombia. The forecasts are analyzed with time series techniques, especially Bottom-Up procedures in hierarchical structures. The methodology consider the idiosincracy of models at disaggregate level of the variables, with the advantage of including proper monthly indicators for each sector. The forecasts also include a scenario for the movements of one of the most important variable for the Colombian economy: the world oil price. The bottom of the section shows the expected key interest from the Central Bank, based on the Taylor rule.
 
 ****
-See monthly reports in PDF (Spanish):\
+
+##### See monthly reports in PDF (Spanish):\
  \
  2018\
 · [September](9Septiembre18.pdf)\
@@ -61,11 +60,9 @@ libs <- c('readxl',            # leer excel
 lapply(libs, require, character.only=T)
 ```
 
-## GDP GROWTH: COLOMBIA
+#### GDP GROWTH: COLOMBIA
 
-****
-
-### Quarterly GDP growth: change in forecasts
+##### Quarterly GDP growth: change in forecasts
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
@@ -82,7 +79,7 @@ dygraph(data, width = 900, height = 450) %>%
   #             hideOnMouseOut = FALSE) %>%
 ```
 
-### Innovations by sectors in the GDP growth of quarter 2, 2018
+#### Innovations by sectors in the GDP growth of quarter 2, 2018
 
 ```{r, echo=FALSE, warning=FALSE, results='asis', message=FALSE}
 # GDP: errors
@@ -104,7 +101,7 @@ datatable(t.gerror,
 ```
 
 ****
-### Quarterly GDP growth: fan-chart
+#### Quarterly GDP growth: fan-chart
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos6.xls", "figura2")
@@ -152,7 +149,7 @@ t.error.growth <- xtable(t.gerror,
 
 ****
 
-### Dissagregated GDP Forecasts: Supply
+#### Dissagregated GDP Forecasts: Supply
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos3.xls", "cuadro3")
 rownames(data) <- c('Agriculture', 'Mining', 'Industry', 'Household services',
@@ -166,7 +163,7 @@ datatable(data,
 ```
 
 ****
-### Dissagregated GDP Forecasts: Demand
+#### Dissagregated GDP Forecasts: Demand
 
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos7.xls", "cuadro5")
@@ -180,10 +177,10 @@ datatable(data,
 ```
 
 ****
-## INFLATION: COLOMBIA
+##### INFLATION: COLOMBIA
 
 ****
-### Monthly inflation: change in forecasts
+#### Monthly inflation: change in forecasts
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
@@ -201,7 +198,7 @@ dygraph(data, width = 900, height = 450) %>%
 ```
 
 ****
-### Innovations by sectors in the inflation of August, 2018
+#### Innovations by sectors in the inflation of August, 2018
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos8.xls", "cuadro6")
 rownames(data) <- c('TOTAL', 'CORE', 'FOOD', 'Processed food', 'Non-processed food',
@@ -214,7 +211,7 @@ datatable(data,
 ```
 
 ****
-### Monthly inflation: fan-chart
+#### Monthly inflation: fan-chart
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}
 
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos10.xls", "figura3")
@@ -243,7 +240,7 @@ dygraph(prueba, width = 900, height = 450) %>%
 <!-- ### Innovations by sectors -->
 
 ****
-### Disaggregated Inflation Forecasts
+#### Disaggregated Inflation Forecasts
 ```{r, warning=FALSE, echo=FALSE, message=FALSE, results='asis'}
 data <- read_excel("/Users/cesarcastrorozo/Dropbox/SpinOff/colombia/datos9.xls",
                        "cuadro7")
@@ -260,7 +257,7 @@ datatable(data,
 ```
 
 ****
-## SYSTEMATIC MONETARY POLICY: COLOMBIA
+##### SYSTEMATIC MONETARY POLICY: COLOMBIA
 
 ****
 ```{r, warning=F, results='asis', echo=FALSE, fig.align='center'}

@@ -3,6 +3,8 @@
 \usepackage{marvosym} % Required for symbols in the colored box
 \usepackage{ifsym} % Required for symbols in the colored box
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+\usepackage{tabularx}
+
 
 % Colors for links, text and headings
 %-----------------------------------------------------------------------
@@ -38,7 +40,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize January, 2019}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize June, 2019}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -49,49 +51,82 @@
 \onehalfspacing
 \begin{document}
 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
 \par{
 \centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{January, 2019}}\\
+{\color{headings} \scshape{June, 2019}}\\
 \vspace{10pt}
 }
 
 \centering
 \colorbox{shade}{{
 \begin{tabular}{c|p{8cm}}
-{\textifsymbol{18}} & Universidad Pública de Navarra\\
-& \href{https://www.unavarra.es/departamento-economia}{Department of Economics}\\
-& Campus Arrosadia\\
-\vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Telefon} & Phone: (+34) 948 16 93 60\\
-\vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
-\vspace{5pt}\raisebox{-4pt}{\Mundus} & Website: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+{\textifsymbol{18}} & \href{https://www.unavarra.es/departamento-economia}{Department of Economics}\\
+& Campus Arrosadia, Madroño Building\\
+& Universidad Pública de Navarra\\
+\vspace{5pt}\raisebox{-4pt} & Pamplona, Spain 31006\\
+% \vspace{5pt}\raisebox{-4pt}{\Telefon} & Phone: (+34) 948 16 93 60\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & Email: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & Homepage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
 }\\[10pt]
+\vspace{10pt}
 
+\raggedright
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Education} 
 
-\begin{tabular}{rl{-2cm}} % Start a table with two columns, one for dates and one for qualifications
+\section{Current Position} 
 
-2016 & Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain\\
-\vspace{1pt}& Outstanding Doctorate Award, 2016\\
-\vspace{1pt}& Dissertation title: Three Essays on Applied Time Series Econometrics\\
-\vspace{1pt}& Advisor: Rebeca Jiménez-Rodríguez\\
-\vspace{5pt}& Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós\\
+\begin{tabular}{R{2cm} | L{12cm}}
 
-\vspace{5pt}2002 & D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain\\
-
-\vspace{5pt}2000 & M.A. in Economics, Universidad Nacional de Colombia\\
-
-\vspace{5pt}1995 & B.A. in Economics, Universidad Nacional de Colombia\\
-
-1993 & B.Sc. in Forestry Engineering, Universidad Distrital, Bogotá, Colombia\\
+2018 -- & Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain\\
 
 \end{tabular}
 \vspace{10pt}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Previous Positions} 
+
+\begin{tabular}{R{2cm} | L{12cm}}
+
+2002--2014 &  Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain \\[.1cm]
+
+2000 & Economist, Macroeconomics Division, General Controller of Colombia \\[.1cm]
+
+1995--1999 & Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia \\[.1cm]
+
+1995--1999 & Lecturer, Department of Economics, Universidad Nacional de Colombia \\
+
+\end{tabular}
+\vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Degrees} 
+
+\begin{tabular}{R{2cm} | L{12cm}}
+
+2016 & Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain\\
+& Outstanding Doctorate Award, 2016\\
+& Dissertation title: Three Essays on Applied Time Series Econometrics\\
+& Advisor: Rebeca Jiménez-Rodríguez\\
+& Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós\\[.3cm]
+
+2002 & D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain\\
+
+2000 & M.A. in Economics, Universidad Nacional de Colombia\\
+
+1995 & B.A. in Economics, Universidad Nacional de Colombia\\
+
+\end{tabular}
+\vspace{10pt}
+
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Interests}
 
@@ -99,113 +134,82 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 \vspace{10pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Professional Appointments} 
-
-\begin{tabular}{lp{0.8\textwidth}}
-
-\vspace{5pt} 2018 -- & Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain\\
-
-\vspace{5pt} 2002 -- 2014 &  Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain\\
-
-\vspace{5pt} 2000 & Economist, Macroeconomics Division, General Controller of Colombia\\
-
-\vspace{5pt} 1995--1999 & Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia\\
-
-\vspace{5pt} 1995--1999 & Lecturer, Department of Economics, Universidad Nacional de Colombia\\
-
-\end{tabular}
-\vspace{10pt}
-
-\clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \section{Publications}
 
-\begin{enumerate}
+ \textbf{``Oil price pass-through along the price chain in the euro area''} with R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{Energy Economics}, (2017), \textbf{64}, 24--30.
 
-\item \textbf{``Oil price pass-through along the price chain in the euro area.''} Joint with R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{Energy Economics}, (2017), \textbf{64}, 24--30.
+ \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''} with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2017), \textbf{34(1)}, 55--82.
 
-\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Joint with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2017), \textbf{34(1)}, 55--82.
+ \textbf{``The deflationary effect of oil prices in the euro area''} with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
 
-\item \textbf{``The deflationary effect of oil prices in the euro area.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
+ \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain''} with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
 
-\item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''} Joint with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
+ \textbf{``Do we see the effects of oil variations in official statistics price data?''} with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
 
-\item \textbf{``Do we see the effects of oil variations in official statistics price data?''} Joint with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
+ \textbf{``El diferencial de inflación en los servicios entre España y la euro área''} with E. Carluccio (Universidad Carlos III de Madrid). \emph{Papeles de Economía Española}, (2009), \textbf{120}, 69--89.
 
-\item \textbf{``El diferencial de inflación en los servicios entre España y la euro área.''} Joint with E. Carluccio (Universidad Carlos III de Madrid). \emph{Papeles de Economía Española}, (2009), \textbf{120}, 69--89.
+ \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento''} with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). \emph{Gestión Fiscal}, (2000), \textbf{8}, 6--33.
 
-\item \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento.''} Joint with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). \emph{Gestión Fiscal}, (2000), \textbf{8}, 6--33.
+ \textbf{``La demanda de lotería y juegos de azar''} with J.I. González (Universidad Nacional de Colombia). \emph{INNOVAR, Revista de Ciencias Administrativas y Sociales}, (2000), \textbf{16}, 27--48.}
 
-\item \textbf{``La demanda de lotería y juegos de azar''} Joint with J.I. González (Universidad Nacional de Colombia). \emph{INNOVAR, Revista de Ciencias Administrativas y Sociales}, (2000), \textbf{16}, 27--48.}
-\\
-
-\noindent
-\vspace{10pt}
 \section{Work in progress or submitted}
 
-\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Joint with R. Jiménez-Rodríguez (Universidad de Salamanca).
+ \textbf{``Time-varying relationship between oil shocks and European stock market returns''} with R. Jiménez-Rodríguez (Universidad de Salamanca) and Renatas Kizys (University of Portsmouth).
 
-\item \textbf{``Oil price shocks and inflation across euro area countries.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+ \textbf{``A new approach to modelling interactions between oil price and exchange rate''} with R. Jiménez-Rodríguez (Universidad de Salamanca). Previously circulated under the title \underline{``Time-varying relationship between oil price changes and exchange rates''}.
 
-\item \textbf{``Oil price pass-through into inflation in Spain at national and regional level.''} Joint with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+ \textbf{``Oil price shocks and inflation across euro area countries''} with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
+
+ \textbf{``Oil price pass-through into inflation in Spain at national and regional level''} with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid).
 
 \\
-\end{enumerate}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Research Projects} 
 
-\begin{enumerate}
+ \textbf{Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
 
-\item \textbf{Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
+ \textbf{Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.} Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007--2009.
 
-\item \textbf{Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.} Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007--2009.
+ \textbf{Analysis and forecasts of inflation.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
 
-\item \textbf{Analysis and forecasts of inflation.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
+ \textbf{Analysis and forecasts of inflation in the region of Madrid, Spain.} Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002--2006.
 
-\item \textbf{Analysis and forecasts of inflation in the region of Madrid, Spain.} Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002--2006.
+ \textbf{Lottery demand.} Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999--2000.
 
-\item \textbf{Lottery demand.} Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999--2000.
+ \textbf{Development plan in the region of Guavio, Colombia.} Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999--2000.
 
-\item \textbf{Development plan in the region of Guavio, Colombia.} Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999--2000.
+ \textbf{Environmental management in Colombian environmental ministry.} Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.
 
-\item \textbf{Environmental management in Colombian environmental ministry.} Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.
-
-\item \textbf{Economic impact of logging in indigenous area.} Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997--1999.
-
-\end{enumerate}
+ \textbf{Economic impact of logging in indigenous area.} Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997--1999.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conference and Seminar Presentations} 
 
-\begin{enumerate}
+ XX Conference on International Economics, Granada, Spain, 2019.
+ 
+ Department of Economics, Universidad de Malaga, Spain, 2018.
+ 
+ Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.
+ 
+ 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
+ 
+ 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
+ 
+ 7th Research Workshop on Energy Markets, Universidad de Valencia, Spain, 2016.
+ 
+ Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
+ 
+ 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
 
-\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Department of Economics, Universidad de Malaga, Spain, 2018.
+ XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
+ 
+ Association of Southern European Economic Theorists, Évora, Portugal, 2011.
 
-\item \textbf{``Time-varying relationship between oil price changes and exchange rates.''} Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.
-
-\item \textbf{``Oil price pass-through along the price chain in the euro area.''} 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
-
-\item \textbf{``Oil price pass-through along the price chain in the euro area.''} 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.
-
-\item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} 7th Research Workshop on Energy Markets, Universidad de Valencia, Spain, 2016.
-
-\item \textbf{``The deflationary effect of oil prices in the euro area.''} Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
-
-\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
-
-\item \textbf{``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías.''} XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
-
-\item \textbf{``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain.''} Association of Southern European Economic Theorists, Évora, Portugal, 2011.
-
-\item \textbf{``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany.``} Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
-
-\end{itemize}
+ Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -216,17 +220,29 @@ Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · T
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Teaching} 
+
+\begin{tabular}{R{2cm} | L{12cm}}
+
+2018-2019 & Industrial Organization (undergraduate)\\
+
+2018-2019 & Microeconomics (undergraduate)\\
+
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Honors} 
 
-\begin{tabular}{lp{0.9\textwidth}}
+\begin{tabular}{R{2cm} | L{12cm}}
 
-\vspace{5pt} 2017 & ANECA, Assistant Professor\\
+2017 & ANECA, Assistant Professor\\
 
-\vspace{5pt} 2016 & Universidad de Salamanca, Outstanding Doctorate Award\\
+2016 & Universidad de Salamanca, Outstanding Doctorate Award\\
 
-\vspace{5pt} 2000	& Santander Bank - Universidad de Alcalá, Scholarship\\
+2000	& Santander Bank - Universidad de Alcalá, Scholarship\\
 
-\vspace{5pt} 1995 & Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel.\\
+1995 & Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel.\\
 
 \end{tabular}
 

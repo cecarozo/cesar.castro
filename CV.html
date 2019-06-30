@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <html>
 
 <head>
@@ -81,9 +80,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -108,6 +105,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -122,7 +122,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -142,6 +141,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -163,19 +199,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -241,125 +343,123 @@ $(document).ready(function () {
 
 </div>
 
-<div id="TOC">
-<ul>
-<li><a href="#education">Education</a></li>
-<li><a href="#research-interests">Research Interests</a></li>
-<li><a href="#professional-appointments">Professional Appointments</a></li>
-<li><a href="#presentations-at-academic-institutions">Presentations at Academic Institutions</a></li>
-<li><a href="#journal-referee"> Journal Referee</a></li>
-<li><a href="#honors"> Honors</a></li>
-<li><a href="#computer-skills"> Computer Skills</a></li>
-</ul>
-</div>
 
 <hr />
 <blockquote>
-<p><a href="CVE.pdf">Download CV (English)</a><br />
-<a href="CV.pdf">Descargar CV (Español)</a></p>
+<p><a href="CVE.pdf">Download CV</a><br />
+</p>
 </blockquote>
 <hr />
-<div id="education" class="section level3">
-<h3>Education</h3>
-<ul>
-<li>Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain, 2016.<br />
-Outstanding Doctorate Award, 2016.<br />
-Dissertation: Three Essays on Applied Time Series Econometrics.<br />
-Advisor: Rebeca Jiménez-Rodríguez.<br />
-Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.<br />
-</li>
-<li>D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain, 2002.<br />
-</li>
-<li>M.A. in Economics, Universidad Nacional de Colombia, 2000.<br />
-</li>
-<li>B.A. in Economics, Universidad Nacional de Colombia, 1995. (Approved Spanish equivalent B.A.)<br />
-</li>
-<li>B.Sc. in Forestry Engineering, Universidad Distrital, Bogotá, Colombia, 1993.</li>
-</ul>
+<div id="current-position" class="section level5">
+<h5>Current Position</h5>
+<p><font size="4"> Assistant Professor, Department of Economics, Universidad Pública de Navar4a, Spain. (2018–present)<br />
+</p>
 <hr />
 </div>
-<div id="research-interests" class="section level3">
-<h3>Research Interests</h3>
+<div id="previous-positions" class="section level5">
+<h5>Previous Positions</h5>
+<p>Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain. (2002–2014)<br />
+</p>
+<p>Economist, Macroeconomics Division, General Controller of Colombia. (2000)<br />
+</p>
+<p>Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia. (1995–1999)<br />
+</p>
+<p>Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995–1999)</p>
+<hr />
+</div>
+<div id="degrees" class="section level5">
+<h5>Degrees</h5>
+<p>Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain, 2016.<br />
+   Outstanding Doctorate Award, 2016.<br />
+   Dissertation: Three Essays on Applied Time Series Econometrics.<br />
+   Advisor: Rebeca Jiménez-Rodríguez.<br />
+   Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.</p>
+<p>D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain, 2002.</p>
+<p>M.A. in Economics, Universidad Nacional de Colombia, 2000.</p>
+<p>B.A. in Economics, Universidad Nacional de Colombia, 1995. (Approved Spanish equivalent B.A.)</p>
+<hr />
+</div>
+<div id="research-interests" class="section level5">
+<h5>Research Interests</h5>
 <p>Time Series Econometrics, Empirical Macroeconomics, Energy Economics</p>
 <hr />
 </div>
-<div id="professional-appointments" class="section level3">
-<h3>Professional Appointments</h3>
-<ul>
-<li>Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain. (2018–present)<br />
-</li>
-<li>Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain. (2002–2014)<br />
-</li>
-<li>Economist, Macroeconomics Division, General Controller of Colombia. (2000)<br />
-</li>
-<li>Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia. (1995–1999)<br />
-</li>
-<li>Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995–1999)</li>
-</ul>
+<div id="conference-and-seminar-presentations" class="section level5">
+<h5>Conference and Seminar Presentations</h5>
+<p>XX Conference on International Economics, Granada, Spain, 2019.</p>
+<p>Department of Economics, Universidad de Malaga, Spain, 2018.</p>
+<p>Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.</p>
+<p>12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.</p>
+<p>7th Research Workshop on Energy Markets, Valencia, Spain, 2016.</p>
+<p>Energy Economics Iberian Conference, Lisboa, Portugal, 2016.</p>
+<p>32nd International Symposium on Forecasting, Boston, U.S.A., 2012. <a href="https://isf.forecasters.org/overview/about/locations/">https://isf.forecasters.org/</a></p>
+<p>XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.</p>
+<p>Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.</p>
+<p>Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.</p>
 <hr />
 </div>
-<div id="presentations-at-academic-institutions" class="section level3">
-<h3>Presentations at Academic Institutions</h3>
-<ol style="list-style-type: decimal">
-<li><p><strong>``Time-varying relationship between oil price changes and exchange rates’’.</strong> Department of Economics, Universidad de Malaga, Spain, 2018.</p></li>
-<li><p><strong>``Time-varying relationship between oil price changes and exchange rates’’.</strong> Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.</p></li>
-<li><p><strong>``Oil price pass-through along the price chain in the euro area.’’.</strong> 12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.</p></li>
-<li><p><strong>``A new look at oil price pass-through into inflation: Evidence from disaggregated European data’’.</strong> 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.</p></li>
-<li><p><strong>``The deflationary effect of oil prices in the euro area’’.</strong> Energy Economics Iberian Conference, Lisboa, Portugal, 2016.</p></li>
-<li><p><strong>``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain’’.</strong> 32nd International Symposium on Forecasting, Boston, U.S.A., 2012. <a href="https://isf.forecasters.org/overview/about/locations/">https://isf.forecasters.org/</a></p></li>
-<li><p><strong>``Factores comunes en los precios de las materias primas e inflación en la euro área y sus principales economías’’.</strong> XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.</p></li>
-<li><p><strong>``Oil prices and inflation in the euro area and its main countries: Germany, France, Italy and Spain’’.</strong> Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.</p></li>
-<li><p><strong>``Oil Prices and inflation in the euro area and main partners: Spain, Italy, France and Germany’’.</strong> Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.</p></li>
-</ol>
-<hr />
-</div>
-<div id="journal-referee" class="section level3">
-<h3> Journal Referee</h3>
+<div id="journal-referee" class="section level5">
+<h5>Journal Referee</h5>
 <p>Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · The Energy Journal</p>
 <hr />
 </div>
-<div id="honors" class="section level3">
-<h3> Honors</h3>
-<p>ANECA, Assistant professor. (2017)<br />
-Universidad de Salamanca, Outstanding Doctorate Award. (2016)<br />
-Santander Bank - Universidad de Alcalá, Scholarship. (2000)<br />
-Inter-American Development Bank (IDB). Invited to the Youth and Growth Forum, Jerusalem, Israel. (1995)</p>
+<div id="teaching" class="section level5">
+<h5>Teaching</h5>
+<p>2018-2019 · Industrial Organization (undergraduate)</p>
+<p>2018-2019 · Microeconomics (undergraduate)</p>
 <hr />
 </div>
-<div id="computer-skills" class="section level3">
-<h3> Computer Skills</h3>
-<p><strong>R</strong> programming language<br />
-LaTeX<br />
-Microsoft Office<br />
-<em>MATLAB</em><br />
-<em>Eviews</em><br />
-SCA Statistical System</p>
+<div id="honors" class="section level5">
+<h5>Honors</h5>
+<p>ANECA, Assistant professor, 2017.</p>
+<p>Universidad de Salamanca, Outstanding Doctorate Award, 2016.</p>
+<p>Santander Bank - Universidad de Alcalá, Scholarship, 2000.</p>
+<p>Inter-American Development Bank (IDB). Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.</p>
+<hr />
+</div>
+<div id="computer-skills" class="section level5">
+<h5>Computer Skills</h5>
+<p><strong>R</strong> programming language</p>
+<p>LaTeX</p>
+<p>Microsoft Office</p>
+<p><em>MATLAB</em></p>
+<p>SCA Statistical System</p>
+<p><br></p>
 </div>
 
 <html>
 
 <head>
-<title>Title</title>
-<link rel="icon" href="upna.png">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+<style>
+  body {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.page-footer {
+  padding-top: 20px;
+  color: #D70000;
+  background-color: #D70000;
+}
+</style>
 </head>
 
-<body>
-
-<!--<p>This is an R HTML document. When you click the <b>Knit HTML</b> button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-
-<!--begin.rcode 
-summary(cars)
-end.rcode-->
-
-<!--<p>Copyright &copy; 2016 Skynet, Inc. All rights reserved.</p>-->
-
-<p>César Castro Rozo &copy; February, 2019 </p>
-
-<!--begin.rcode fig.width=7, fig.height=6
-plot(cars)
-end.rcode-->
-
-</body>
+<body> 
+<main>
+</main>  
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+    <a class="social" href="#"><img src="company_logo.png" height="50" width="90"></a> 
+    </div>
+  </div>
+</footer>
+</body>   
 </html>
 
 

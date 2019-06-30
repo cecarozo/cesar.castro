@@ -3,8 +3,11 @@ title: "Links"
 output: html_document
 ---
 
+<div style="width:1024px;">
+
 ****
-### Co-authors
+##### Co-authors
+<font size="4">
 
 1. [Andrés Barge Gil](https://www.ucm.es/fundamentos-analisis-economico2/barge-gil,-andres)\
 2. [Jorge Iván González](http://ieu.unal.edu.co/docentes-e-investigadores/item/jorge-ivan-gonzalez-borrero)\
@@ -15,7 +18,7 @@ output: html_document
 <!-- end of list -->
 
 ****
-### Data
+##### Data
 
 1. [European Central Bank](http://www.ecb.europa.eu/stats/html/index.en.html)
 2. [EIA](http://www.eia.gov/)
@@ -30,16 +33,20 @@ output: html_document
 <!-- end of list -->
 
 ****
-### Media
+##### Media
 
 1. [Blog Alternativas](http://blogs.elpais.com/alternativas/)
 2. [Nada es gratis](http://nadaesgratis.es/)
 
 ****
-### R programming language
+##### R programming language
 
 1. [CRAN R-project: time series analysis](https://cran.r-project.org/web/views/TimeSeries.html)
 2. [CRAN R-project](https://cran.r-project.org/)
 3. [Quick R](http://www.statmethods.net/about/sitemap.html)
 4. [RStudio](https://www.rstudio.com/)
 5. [knitr package](http://yihui.name/knitr/)
+
+</div>
+
+<br>
