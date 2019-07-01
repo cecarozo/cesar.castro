@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Current Position
 
 <font size="4">
-Assistant Professor, Department of Economics, Universidad Pública de Navar4a, Spain. (2018--present)\
+Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain. (2018--present)\
 
 ****
 
