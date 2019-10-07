@@ -40,7 +40,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize July, 2019}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize October, 2019}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -58,7 +58,7 @@
 \par{
 \centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{July, 2019}}\\
+{\color{headings} \scshape{October, 2019}}\\
 \vspace{10pt}
 }
 
@@ -188,6 +188,8 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conference and Seminar Presentations} 
+
+II Workshop of the Spanish Macroeconomics Network, Barcelona, Spain, 2019.
 
  XX Conference on International Economics, Granada, Spain, 2019.
  
