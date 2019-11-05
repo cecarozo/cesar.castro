@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -255,18 +256,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -361,7 +350,7 @@ $(document).ready(function () {
 <h5>Work in progress or submitted</h5>
 <p><q>Time-varying relationship between oil shocks and European stock market returns</q> with R. Jiménez-Rodríguez (Universidad de Salamanca) and Renatas Kizys (University of Portsmouth).</p>
 <p><q>A new approach to modelling interactions between oil price and exchange rate</q> with R. Jiménez-Rodríguez (Universidad de Salamanca). Previously circulated under the title <q><u>Time-varying relationship between oil price changes and exchange rates</u></q>.</p>
-<p><q>Oil price pass-through into inflation in Spain at national and regional level</q> with Ligia Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid) and M. Jerez (Universidad Complutense de Madrid).</p>
+<p><q>Oil price pass-through into inflation in Spain at national and regional level</q> with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid) and M. Jerez (Universidad Complutense de Madrid).</p>
 <p><q>Oil price shocks and inflation across euro area countries</q> with A. Barge-Gil (Universidad Complutense de Madrid) and M. Jerez (Universidad Complutense de Madrid).</p>
 <hr />
 </div>
@@ -393,7 +382,7 @@ $(document).ready(function () {
 <style>
   body {
     display: flex;
-    min-height: 10vh;
+    min-height: 100vh;
     flex-direction: column;
   }
 
@@ -437,6 +426,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
