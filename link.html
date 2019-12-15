@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -255,18 +256,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -351,7 +340,7 @@ $(document).ready(function () {
 <ol style="list-style-type: decimal">
 <li><a href="https://www.ucm.es/fundamentos-analisis-economico2/barge-gil,-andres">Andrés Barge Gil</a><br />
 </li>
-<li><a href="http://ieu.unal.edu.co/docentes-e-investigadores/item/jorge-ivan-gonzalez-borrero">Jorge Iván González</a><br />
+<li>Jorge Iván González<br />
 </li>
 <li><a href="https://www.ucm.es/fundamentos-analisis-economico2/jerez-mendez,-miguel">Miguel Jerez</a><br />
 </li>
@@ -401,7 +390,7 @@ $(document).ready(function () {
 <style>
   body {
     display: flex;
-    min-height: 10vh;
+    min-height: 100vh;
     flex-direction: column;
   }
 
@@ -445,6 +434,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
