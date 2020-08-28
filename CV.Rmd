@@ -9,6 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ****
 
+
 > [Download CV](CVE.pdf)\
 
 ****
@@ -55,7 +56,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics
 ****
 
 ##### Conference and Seminar Presentations
-44th Simposio de la Asociación Española de Economía-Spanish Economic Association (SAEe), Alicante, Spain, 2019.
+44th Symposium Spanish Economic Association (SAEe), Alicante, Spain, 2019.
 
 II Workshop of the Spanish Macroeconomics Network, Barcelona, Spain, 2019.
 

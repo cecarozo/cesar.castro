@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  11 JUN 2020 12:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.12)  28 AUG 2020 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -789,7 +789,7 @@ Overfull \hbox (12.64313pt too wide) in paragraph at lines 128--128
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 ! Extra }, or forgotten \endgroup.
-l.182 ... Sociales}, (2000), \textbf{16}, 27--48.}
+l.183 ... y Sociales}, 16, December 2000, 27--48.}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -802,22 +802,22 @@ deleted material, e.g., by typing `I$}'.
 ] [3] 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (./CVE.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `CVE.out' has not changed.
 (rerunfilecheck)             Checksum: D4AA862CD79F5D2D146AD21902AB4DB2;551.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
  9608 strings out of 493089
  135479 string characters out of 6134842
- 263001 words of memory out of 5000000
+ 263011 words of memory out of 5000000
  12919 multiletter control sequences out of 15000+600000
  9430 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -833,7 +833,7 @@ cm/cmss9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/marvosym/ma
 rvosym.pfb>
-Output written on CVE.pdf (4 pages, 124511 bytes).
+Output written on CVE.pdf (4 pages, 124577 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream

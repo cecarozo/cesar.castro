@@ -11,22 +11,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Publications {#pub}
 
 <font size="4">
-<q>Oil price pass-through along the price chain in the euro area</q> with R. Jiménez-Rodríguez (Universidad de Salamanca). *Energy Economics*, (2017), 64, 24--30.
-[http://www.sciencedirect.com](http://www.sciencedirect.com/science/article/pii/S0140988317300786)
+[<q>Dynamic interactions between oil price and exchange rate</q>](https://doi.org/10.1371/journal.pone.0237172) with R. Jiménez-Rodríguez (Universidad de Salamanca). *PLoS ONE*, 15(8), August 2020, e0237172.
 
-<q>A new look at oil price pass-through into inflation: Evidence from disaggregated European data</q> with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, (2017), 34(1), 55--82. [http://link.springer.com](http://link.springer.com/article/10.1007/s40888-016-0048-9)
+[<q>Oil price pass-through along the price chain in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988317300786) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Energy Economics*, 64, May 2017, 24--30.
 
-<q>The deflationary effect of oil prices in the euro area</q> with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *Energy Economics*, (2016), **56**, 389--397. [http://www.sciencedirect.com](http://www.sciencedirect.com/science/article/pii/S0140988316300482)
+[<q>A new look at oil price pass-through into inflation: Evidence from disaggregated European data</q>](http://link.springer.com/article/10.1007/s40888-016-0048-9) with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, 34(1), December 2016, 55--82.
 
-<q>Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain</q> with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). *FUNCAS Working papers series*, (2012), 701. [http://www.funcas.es](http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701)
+[<q>The deflationary effect of oil prices in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988316300482) with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *Energy Economics*, 56, May 2016, 389--397.
 
-<q>Do we see the effects of oil variations in official statistics price data?</q> with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). *Boletín de Estadística e Investigación Operativa*, (2011), 27, 29--41. [http://www.seio.es/BEIO](http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html)
+[<q>Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain</q>](http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701) with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). *FUNCAS Working papers series*, 701, December 2012.
 
-<q>El diferencial de inflación en los servicios entre España y la euro área</q> with E. Carluccio (Universidad Carlos III de Madrid). *Papeles de Economía Española*, (2009), 120, 69--89. [https://www.funcas.es](https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262)
+[<q>Do we see the effects of oil variations in official statistics price data?</q>](http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html) with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). *Boletín de Estadística e Investigación Operativa*, 27, February 2011, 29--41.
 
-<q>Mercado de crédito 1990-1999. La factura de cobro del financiamiento</q> with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). *Gestión Fiscal*, (2000), 8, 6--33.
+[<q>El diferencial de inflación en los servicios entre España y la euro área</q>](https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262) with E. Carluccio (Universidad Carlos III de Madrid). *Papeles de Economía Española*, 120, June 2009, 69--89.
 
-<q>La demanda de lotería y juegos de azar</q> with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, (2000), 16, 27--48. [https://www.unal.edu.co](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304)
+<q>Mercado de crédito 1990-1999. La factura de cobro del financiamiento</q> with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). *Gestión Fiscal*, 8, 2000, 6--33.
+
+ [<q>La demanda de lotería y juegos de azar</q>](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304) with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, 16, December 2000, 27--48.
 
 ***
 
