@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 
 <!-- > ![](CesarFlorencia.jpg)\ -->
- <img src="CesarFlorencia.jpg" alt="Smiley face" style="width:50%;"> 
+ <img src="Foto2021.jpg" alt="Smiley face" style="width:50%;"> 
 
 ****
 
