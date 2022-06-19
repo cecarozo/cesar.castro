@@ -40,7 +40,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize June, 2021}                                    % Footer: center side empty
+\cfoot{\sffamily\footnotesize June, 2022}                                    % Footer: center side empty
 \rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -58,7 +58,7 @@
 \par{
 \centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\scshape{June, 2021}}\\
+{\scshape{June, 2022}}\\
 \vspace{10pt}
 }
 
@@ -137,7 +137,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Projects}
 \begin{itemize}
-  \item \textbf{Design and application of economic models for institutional analysis.} Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2021.
+  \item \textbf{Design and application of economic models for institutional analysis.} Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
   \item \textbf{Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
   \item \textbf{Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalusia, Spain.} Project leader: Antoni Espasa. Research funding: Government of Andalusia. Spain, 2007--2009.
   \item \textbf{Analysis and forecasts of inflation.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
