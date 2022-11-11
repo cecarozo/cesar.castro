@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -14,12 +13,22 @@
 
 <title>Curriculum Vitae</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,12 +43,16 @@
 
 </html>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +65,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -89,13 +78,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -109,40 +93,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -170,7 +130,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -182,7 +142,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -193,10 +153,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -208,7 +181,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -244,6 +216,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -274,7 +247,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -324,7 +297,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -341,81 +314,102 @@ $(document).ready(function () {
 <hr />
 <div id="current-position" class="section level5">
 <h5>Current Position</h5>
-<p><font size="4"> Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain. (2018–present)<br />
+<p><font size="4"> · Visiting researcher, Departament of Economics, WU
+Vienna University of Economics and Business, Austria, September
+2022-present.</p>
+<p>· Assistant Professor, Department of Economics, Universidad Pública
+de Navarra, Spain, 2018–present.<br />
 </p>
 <hr />
 </div>
 <div id="previous-positions" class="section level5">
 <h5>Previous Positions</h5>
-<p>Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain. (2002–2014)<br />
+<p>· Researcher, Instituto Flores de Lemus, Department of Statistics,
+Universidad Carlos III de Madrid, Spain, 2006–2014.<br />
 </p>
-<p>Economist, Macroeconomics Division, General Controller of Colombia. (2000)<br />
+<p>· Assistant Researcher, Instituto Flores de Lemus, Department of
+Statistics, Universidad Carlos III de Madrid, Spain, 2002–2006.<br />
 </p>
-<p>Assistant Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia. (1995–1999)<br />
+<p>· Researcher, Centro de Investigaciones para el Desarrollo,
+Department of Economics, Universidad Nacional de Colombia,
+1995–1999.<br />
 </p>
-<p>Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995–1999)</p>
+<p>· Lecturer, Department of Economics, Universidad Nacional de
+Colombia. (1995–1999)</p>
 <hr />
 </div>
 <div id="education" class="section level5">
 <h5>Education</h5>
-<p>Ph.D. in Economics (Summa cum laude), Universidad de Salamanca, Spain.<br />
-   Outstanding Doctorate Award.<br />
+<p>· Ph.D. in Economics, Universidad de Salamanca, Spain, 2016.<br />
+   Outstanding doctorate award, summa cum laude.<br />
    Dissertation: Three Essays on Applied Time Series Econometrics.<br />
    Advisor: Rebeca Jiménez-Rodríguez.<br />
-   Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.</p>
-<p>D.E.A. (Doctoral Studies) in Economics, Universidad de Alcalá, Spain.</p>
-<p>M.A. in Economics, Universidad Nacional de Colombia.</p>
-<p>B.A. in Economics, Universidad Nacional de Colombia. (Approved Spanish equivalent B.A.)</p>
+   Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez
+Quirós.</p>
+<p>· M.A. in Economics (Doctoral Studies, D.E.A.), Universidad de
+Alcalá, Spain, 2002.</p>
+<p>· M.A. in Economics, Universidad Nacional de Colombia, 1995.</p>
+<p>· B.A. in Economics, Universidad Nacional de Colombia, 1995.</p>
+<p>· B.Sc. in Forest Engineering, Universidad Distrital, Colombia,
+1993.</p>
 <hr />
 </div>
 <div id="research-interests" class="section level5">
 <h5>Research Interests</h5>
-<p>Time Series Econometrics, Empirical Macroeconomics, Energy Economics</p>
+<p>Time Series Econometrics, Empirical Macroeconomics, Energy
+Economics.</p>
 <hr />
 </div>
 <div id="conference-and-seminar-presentations" class="section level5">
 <h5>Conference and Seminar Presentations</h5>
-<p>44th Symposium Spanish Economic Association (SAEe), Alicante, Spain, 2019.</p>
-<p>II Workshop of the Spanish Macroeconomics Network, Barcelona, Spain, 2019.</p>
-<p>XX Conference on International Economics, Granada, Spain, 2019.</p>
-<p>Department of Economics, Universidad de Malaga, Spain, 2018.</p>
-<p>Department of Economics, Universidad Autónoma de Madrid, Spain, 2017.</p>
-<p>12th Conference of the Spanish Association for Energy Economics, Salamanca, Spain, 2017.</p>
-<p>7th Research Workshop on Energy Markets, Valencia, Spain, 2016.</p>
-<p>Energy Economics Iberian Conference, Lisboa, Portugal, 2016.</p>
-<p>32nd International Symposium on Forecasting, Boston, U.S.A., 2012. <a href="https://isf.forecasters.org/overview/about/locations/">https://isf.forecasters.org/</a></p>
-<p>XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.</p>
-<p>Association of Southern European Economic Theorists, Universidad de Évora, Portugal, 2011.</p>
-<p>Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, Spain, 2011.</p>
+<p>· 44th Symposium Spanish Economic Association (SAEe), Alicante,
+Spain, 2019.</p>
+<p>· II Workshop of the Spanish Macroeconomics Network, Barcelona,
+Spain, 2019.</p>
+<p>· XX Conference on International Economics, Granada, Spain, 2019.</p>
+<p>· Department of Economics, Universidad de Malaga, Spain, 2018.</p>
+<p>· Department of Economics, Universidad Autónoma de Madrid, Spain,
+2017.</p>
+<p>· 12th Conference of the Spanish Association for Energy Economics,
+Salamanca, Spain, 2017.</p>
+<p>· 7th Research Workshop on Energy Markets, Valencia, Spain, 2016.</p>
+<p>· Energy Economics Iberian Conference, Lisboa, Portugal, 2016.</p>
+<p>· 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
+<a
+href="https://isf.forecasters.org/overview/about/locations/">https://isf.forecasters.org/</a></p>
+<p>· XXXIII Congreso Nacional de Estadística e Investigación Operativa,
+Madrid, Spain, 2012.</p>
+<p>· Association of Southern European Economic Theorists, Universidad de
+Évora, Portugal, 2011.</p>
+<p>· Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá,
+Spain, 2011.</p>
 <hr />
 </div>
 <div id="journal-referee" class="section level5">
 <h5>Journal Referee</h5>
-<p>Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · The Energy Journal · Energies</p>
+<p>Energy Economics, Energy Sources, Part B: Economics, Planning, and
+Policy, The Energy Journal, Energies.</p>
 <hr />
 </div>
 <div id="teaching" class="section level5">
 <h5>Teaching</h5>
-<p>2019-present · Industrial Organization (undergraduate)</p>
-<p>2018-2019 · Microeconomics (undergraduate)</p>
-<p>2019-present · Introduction to Economics</p>
+<p>· Industrial Organization (undergraduate), Universidad Pública de
+Navarra, 2019–2021.</p>
+<p>· Microeconomics (undergraduate), Universidad Pública de Navarra,
+2019–2020.</p>
+<p>· Introduction to Economics, Universidad Pública de Navarra,
+2019–2022.</p>
+<p>· Macroeconomics, Universidad Nacional de Colombia, 1997–1999.</p>
 <hr />
 </div>
-<div id="honors" class="section level5">
-<h5>Honors</h5>
-<p>ANECA, Assistant professor, 2017.</p>
-<p>Universidad de Salamanca, Outstanding Doctorate Award, 2016.</p>
-<p>Santander Bank - Universidad de Alcalá, Scholarship, 2000.</p>
-<p>Inter-American Development Bank (IDB). Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.</p>
-<hr />
-</div>
-<div id="computer-skills" class="section level5">
-<h5>Computer Skills</h5>
-<p><strong>R</strong> programming language</p>
-<p>LaTeX</p>
-<p>Microsoft Office</p>
-<p><em>MATLAB</em></p>
-<p>SCA Statistical System</p>
+<div id="awards-and-distinctions" class="section level5">
+<h5>Awards and distinctions</h5>
+<p>· Accredited as Profesor Contratado Doctor by ANECA, 2021.</p>
+<p>· Accredited as Profesor Ayudante Doctor by ANECA, 2017.</p>
+<p>· Universidad de Salamanca, Outstanding Doctorate Award, 2016.</p>
+<p>· Santander Bank - Universidad de Alcalá, Scholarship, 2000.</p>
+<p>· Inter-American Development Bank (IDB). Invited to the Youth and
+Growth Forum, Jerusalem, Israel, 1995.</p>
 <p><br></p>
 </div>
 
@@ -462,7 +456,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -480,7 +474,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

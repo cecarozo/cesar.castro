@@ -10,25 +10,25 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ##### Publications {#pub}
 <font size="4">
-[<q>Oil price pass-through into inflation in Spain at national and regional level</q>](https://doi.org/10.1007/s13209-020-00222-4) with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *SERIEs*, 11(3), September 2020.
+· [<q>Oil price pass-through into inflation in Spain at national and regional level</q>](https://doi.org/10.1007/s13209-020-00222-4) with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *SERIEs*, 11(3), September 2020.
 
-[<q>Dynamic interactions between oil price and exchange rate</q>](https://doi.org/10.1371/journal.pone.0237172) with R. Jiménez-Rodríguez (Universidad de Salamanca). *PLoS ONE*, 15(8), August 2020, e0237172.
+· [<q>Dynamic interactions between oil price and exchange rate</q>](https://doi.org/10.1371/journal.pone.0237172) with R. Jiménez-Rodríguez (Universidad de Salamanca). *PLoS ONE*, 15(8), August 2020, e0237172.
 
-[<q>Oil price pass-through along the price chain in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988317300786) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Energy Economics*, 64, May 2017, 24--30.
+· [<q>Oil price pass-through along the price chain in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988317300786) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Energy Economics*, 64, May 2017, 24--30.
 
-[<q>A new look at oil price pass-through into inflation: Evidence from disaggregated European data</q>](http://link.springer.com/article/10.1007/s40888-016-0048-9) with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, 34(1), December 2016, 55--82.
+· [<q>A new look at oil price pass-through into inflation: Evidence from disaggregated European data</q>](http://link.springer.com/article/10.1007/s40888-016-0048-9) with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). *Economia Politica: Journal of Analytical and Institutional Economics*, 34(1), December 2016, 55--82.
 
-[<q>The deflationary effect of oil prices in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988316300482) with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *Energy Economics*, 56, May 2016, 389--397.
+· [<q>The deflationary effect of oil prices in the euro area</q>](http://www.sciencedirect.com/science/article/pii/S0140988316300482) with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *Energy Economics*, 56, May 2016, 389--397.
 
-[<q>Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain</q>](http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701) with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). *FUNCAS Working papers series*, 701, December 2012.
+· [<q>Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain</q>](http://www.funcas.es/publicaciones/Sumario.aspx?IdRef=7-05701) with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). *FUNCAS Working papers series*, 701, December 2012.
 
-[<q>Do we see the effects of oil variations in official statistics price data?</q>](http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html) with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). *Boletín de Estadística e Investigación Operativa*, 27, February 2011, 29--41.
+· [<q>Do we see the effects of oil variations in official statistics price data?</q>](http://www.seio.es/BEIO/Do-we-see-the-effects-of-oil-variations-in-official-statistics-price-data.html) with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). *Boletín de Estadística e Investigación Operativa*, 27, February 2011, 29--41.
 
-[<q>El diferencial de inflación en los servicios entre España y la euro área</q>](https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262) with E. Carluccio (Universidad Carlos III de Madrid). *Papeles de Economía Española*, 120, June 2009, 69--89.
+· [<q>El diferencial de inflación en los servicios entre España y la euro área</q>](https://www.funcas.es/Publicaciones/Detalle.aspx?IdArt=19262) with E. Carluccio (Universidad Carlos III de Madrid). *Papeles de Economía Española*, 120, June 2009, 69--89.
 
-<q>Mercado de crédito 1990-1999. La factura de cobro del financiamiento</q> with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). *Gestión Fiscal*, 8, 2000, 6--33.
+· <q>Mercado de crédito 1990-1999. La factura de cobro del financiamiento</q> with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). *Gestión Fiscal*, 8, 2000, 6--33.
 
- [<q>La demanda de lotería y juegos de azar</q>](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304) with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, 16, December 2000, 27--48.
+· [<q>La demanda de lotería y juegos de azar</q>](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304) with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, 16, December 2000, 27--48.
 
 ***
 
@@ -36,31 +36,33 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Articles in the Spanish blog El País, [**Fundación Alternativas**](http://blogs.elpais.com/alternativas/):
 
-Julio 11, 2018. [Efectos Regionales de los Shocks Petroleros en España](http://blogs.elpais.com/alternativas/2018/07/efectos-regionales-de-los-shocks-petroleros-en-espa%C3%B1a.html)
+· Julio 11, 2018. [Efectos Regionales de los Shocks Petroleros en España](http://blogs.elpais.com/alternativas/2018/07/efectos-regionales-de-los-shocks-petroleros-en-espa%C3%B1a.html)
 
-Julio 15, 2015. [El Optimismo y Pesimismo del FMI en sus Predicciones](http://blogs.elpais.com/alternativas/2015/07/el-optimismo-y-pesimismo-del-fmi-en-sus-predicciones-econ%C3%B3micas.html)
+· Julio 15, 2015. [El Optimismo y Pesimismo del FMI en sus Predicciones](http://blogs.elpais.com/alternativas/2015/07/el-optimismo-y-pesimismo-del-fmi-en-sus-predicciones-econ%C3%B3micas.html)
 
-Marzo 11, 2015. [España y el Petróleo](http://blogs.elpais.com/alternativas/2015/03/espa%C3%B1a-y-el-petr%C3%B3leo-1.html)
+· Marzo 11, 2015. [España y el Petróleo](http://blogs.elpais.com/alternativas/2015/03/espa%C3%B1a-y-el-petr%C3%B3leo-1.html)
 
 ****
 
 ##### Research Projects {#rp} 
-<q>Design and application of economic models for institutional analysis.</q> Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
+· <q>New developments in economic modelling: Mechanisms, causality and institutional analysis.</q> Project leader: Javier Hualde–Jorge Alcalde. Research funding: Spanish Ministry of Science PID2021-127119NB-I0. Spain, 2022--present.
 
-<q>Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
+· <q>Design and application of economic models for institutional analysis.</q> Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
 
-<q>Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.</q> Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007--2009.
+· <q>Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
 
-<q>Analysis and forecasts of inflation.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
+· <q>Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalucia, Spain.</q> Project leader: Antoni Espasa. Research funding: Government of Andalucia. Spain, 2007--2009.
 
-<q>Analysis and forecasts of inflation in the region of Madrid, Spain</q> Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002--2006.
+· <q>Analysis and forecasts of inflation.</q> Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2006--2007.
 
-<q>Lottery demand.</q> Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999--2000.
+· <q>Analysis and forecasts of inflation in the region of Madrid, Spain</q> Project leader: Antoni Espasa. Research funding: Government of Madrid and Caja Madrid. Spain, 2002--2006.
 
-<q>Development plan in the region of Guavio, Colombia.</q> Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999--2000.
+· <q>Lottery demand.</q> Project leader: Jorge Iván González. Research funding: Lottery of Bogota. Colombia, 1999--2000.
 
-<q>Environmental management in Colombian environmental ministry.</q> Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.
+· <q>Development plan in the region of Guavio, Colombia.</q> Project leader: César Castro. Research funding: Regional environment corporation, CORPOGUAVIO. Colombia, 1999--2000.
 
-<q>Economic impact of logging in indigenous area.</q> Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997--1999.
+· <q>Environmental management in Colombian environmental ministry.</q> Project leader: César Castro. Research funding: Environmental ministry of Colombia. Colombia, 1999.
+
+· <q>Economic impact of logging in indigenous area.</q> Project leader: César Castro. Research funding: Regional environment corporation, CODECHOCO. Colombia, 1997--1999.
 
 <br>

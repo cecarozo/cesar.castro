@@ -10,7 +10,7 @@
 \definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
 \definecolor{shade}{HTML}{F0F6F7} % Peach color for the contact information box
 \definecolor{text1}{HTML}{62797B} % Main document font color, off-black
-\definecolor{headings}{HTML}{000066} % Dark red color for headings
+% \definecolor{headings}{HTML}{000066} % Dark red color for headings
 % Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
 
 \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
@@ -23,14 +23,15 @@
 \titleformat{\section}{\color{headings}
 \scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
 \titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
-\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{enumitem}
 \usepackage{datetime}
 \setlength{\itemsep}{0.4cm} 
 \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
 
-%==================================HEADERS AND FOOTERS=============================
+%=============================HEADERS AND FOOTERS=============================
 \usepackage{fancyhdr}							          % Custom headers\pagestyle{fancy}		  					            
 \pagestyle{fancy}
 \usepackage{lastpage}	                      % page number
@@ -38,7 +39,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize Junio de 2021}                                    % Footer: center side empty
+\cfoot{\footnotesize Noviembre de 2022}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -51,7 +52,7 @@
 
 \par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{Junio de 2021}}\\
+{\color{headings} \scshape{Noviembre de 2022}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -65,8 +66,8 @@
 \vspace{5pt}\raisebox{-4pt}{\Mundus} & Webpage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
-}\\[10pt]
-
+}
+\vspace{15pt}
 
 % \section{Resumen}
 
@@ -77,33 +78,34 @@
 \section{Educación} 
 
 \begin{itemize}
-  \item {\textbf{Doctorado en Economía} (Summa cum laude), Universidad de Salamanca, España
-  Premio Extraordinario de Doctorado.\\
-  Título de la Tesis: "Three Essays on Applied Time Series Econometrics".\\
+  \item {\textbf{Doctorado en Economía}, Universidad de Salamanca, España, 2016.\\
+  Premio Extraordinario de Doctorado, Summa cum laude.\\
+  Título de la Tesis: \emph{Three Essays on Applied Time Series Econometrics}.\\
   Directora: Rebeca Jiménez-Rodríguez.\\
-  Commité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós}.
-  \item \textbf{Diploma de Estudios Avanzados (D.E.A.) en Economía}, Universidad de Alcalá, España.
-  \item \textbf{Máster en Economía}, Universidad Nacional de Colombia.
-  \item \textbf{Licenciatura en Economía}, Universidad Nacional de Colombia.
-  \item \textbf{Licenciatura en Ingeniería Forestal}, Universidad Distrital (Bogotá, Colombia).
+  Comité: Dolores Gadea (presidente), Marcelo Sánchez, Gabriel Pérez Quirós}.
+  \item \textbf{Diploma de Estudios Avanzados en Economía}, Universidad de Alcalá, España, 2002.
+  \item \textbf{Máster en Economía}, Universidad Nacional de Colombia, 2000.
+  \item \textbf{Licenciatura en Economía}, Universidad Nacional de Colombia, 1995.
+  \item \textbf{Licenciatura en Ingeniería Forestal}, Universidad Distrital, Colombia, 1993.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Posición actual} 
 
-\textbf{Profesor Ayudante Doctor}, Departamento de Economía, Universidad Pública de Navarra (UPNA), España.\\
+\begin{itemize}
+\item\textbf{Investigador visitante}, Departament of Economics, WU Vienna University of Economics and Business, Austria, Septiembre 2022-presente.\\
 
-\vspace{10pt}
+\item\textbf{Profesor Ayudante Doctor}, Departamento de Economía, Universidad Pública de Navarra (UPNA), España, Noviembre 2018-presente.\\
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experiencia Profesional} 
 
 \begin{itemize}
-  \item \textbf{Investigador contratado}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España.
-  \item \textbf{Economista}, Contraloría General de la República, Dirección de Estudios Macroeconómicos, Bogotá, Colombia.
-  \item \textbf{Investigador contratado}, Centro de Investigaciones para el Desarrollo, Escuela de Economía, Universidad Nacional de Colombia, Bogotá.
-  \item \textbf{Profesor asistente}, Escuela de Economía, Universidad Nacional de Colombia, Bogotá.
+  \item \textbf{Investigador}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2006-2014.
+  \item \textbf{Becario de investigación}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2002-2006.
+  \item \textbf{Investigador}, Centro de Investigaciones para el Desarrollo, Escuela de Economía, Universidad Nacional de Colombia, 1997-2000.
+  \item \textbf{Profesor asistente}, Escuela de Economía, Universidad Nacional de Colombia, 1997-1999.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,17 +114,24 @@
 Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Publicaciones}
+\section{Publicaciones en revistas indexadas}
 
 \begin{itemize}
   \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level''.} Coautores: L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), y M. Jerez (Universidad Complutense de Madrid). \emph{SERIEs}, 11(3), Septiembre 2020.
+  
   \item \textbf{``Dynamic interactions between oil price and exchange rate''.} Coautor: R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{PLoS ONE}, 15(8), Agosto 2020,  e0237172.
+  
   \item \textbf{``Oil price pass-through along the price chain in the euro area.''} Coautor: R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{Energy Economics}, (2017), \textbf{64}, 24--30.
 
 \item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data.''} Coautores: R. Jiménez-Rodríguez (Universidad de  Salamanca), P. Poncela (JRC, Comisión Europea), y E. Senra (Universidad de Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, (2017), \textbf{34(1)}, 55--82.
 
 \item \textbf{``The deflationary effect of oil prices in the euro area.''} Coautores: A. Barge-Gil (Universidad Complutense de Madrid), y M. Jerez (Universidad Complutense de Madrid). \emph{Energy Economics}, (2016), \textbf{56}, 389--397.
+\end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Otras publicaciones}
+
+\begin{itemize}
 \item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain.''} Coautores: P. Poncela (Universidad Autónoma de Madrid) y E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, (2012), \textbf{701}.
 
 \item \textbf{``Do we see the effects of oil variations in official statistics price data?''} Coautores: P. Poncela (Universidad Autónoma de Madrid), y E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, (2011), \textbf{27}, 29--41.
@@ -134,22 +143,34 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 \item \textbf{``La demanda de lotería y juegos de azar''} Coautor: J.I. González (Universidad Nacional de Colombia). \emph{INNOVAR, Revista de Ciencias Administrativas y Sociales}, (2000), \textbf{16}, 27--48.}
 \end{itemize}
 
-\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proyectos de investigación} 
 
 \begin{itemize}
-  \item \textbf{Diseño y aplicación de modelos económicos para el análisis institucional.} Investigador Principal: José E. Galdón. Financiación: Ministerio de Ciencia, Innovación y Universidades. PCG2018-093542-B-100. España, 2019--2021.
-  
+  \item \textbf{Nuevos desarrollos en modelización económica: mecanismos, causalidad y análisis institucional.} Investigador Principal: Javier Hualde Bilbao, Jorge Alcalde Unzu. Financiación: Ministerio de Ciencia e Innovación PID2021-127119NB-I0. España, 2022--presente.
+
+  \item \textbf{Diseño y aplicación de modelos económicos para el análisis institucional.} Investigador Principal: José E. Galdón. Financiación: Ministerio de Ciencia, Innovación y Universidades PCG2018-093542-B-100. España, 2019--2021.
+
+\item \textbf{Análisis y predicción de la distribución y consumo de la energía eléctrica.} Investigador principal: Antoni Espasa. Financiación: Red Eléctrica de España. España, Septiembre 2011--Junio 2012.
+
+\item \textbf{Predicción de ingresos turísticos para los próximos años según los datos de la balanza de pagos.} Investigador principal: Antoni Espasa. Financiación: Instituto de Turismo de España. España, Julio 2011--Septiembre 2011.
+
+\item \textbf{Estudio para el seguimiento mensual de la inflación en la Comunidad Autónoma de Cataluña.} Investigador principal: Antoni Espasa. Financiación: Generalitat de Catalunya. España, Enero 2011--Diciembre 2011.
+
+\item \textbf{Elaboración del anuario 2010 del Boletín del Observatorio de Precios y Competencia de Andalucía.} Investigador principal: Antoni Espasa. Financiación: Agencia de Defensa de la Competencia de Andalucía. España, Diciembre 2010--Enero 2011.
+
 \item \textbf{Modelos econométricos dinámicos, predicción, análisis de la
 coyuntura económica, inflación, modelos macroeconómicos, series temporales.} Investigador principal: Antoni Espasa. Financiación: Universidad Carlos III de Madrid. España, 2010--2014.
 
-\item \textbf{Predicción y análisis macroeconómico y creación de una unidad de seguimiento mensual de la inflación y de los precios relativos de la Comunidad Autónoma de Andalucía, España.} Investigador principal: Antoni Espasa. Financiación: Gobierno de Andalucía. España, 2007--2009.
+\item \textbf{Aplicación de Técnicas Econométricas para el Análisis de variables económicas de Asturias.} Investigador principal: Antoni Espasa. Financiación: Principado de Asturias. España, Diciembre 2009--Diciembre 2011.
 
-\item \textbf{Análisis y predicción de la inflación.} Investigador principal: Antoni Espasa. Financiación: Universidad Carlos III de Madrid. España, 2006--2007.
+\item \textbf{Seguimiento y Predicción de la Inflación y de los Precios relativos de la Comunidad Autónoma de Andalucía.} Investigador principal: Antoni Espasa. Financiación: Junta de Andalucía, Consejería de Economía y Hacienda. España, Diciembre 2008--Diciembre 2010.
 
-\item \textbf{Apoyo al estudio y análisis de la inflación en la Comunidad 
-Autónoma de Madrid, España.} Investigador principal: Antoni Espasa. Financiación: Gobierno de Madrid y Caja Madrid. España, 2002--2006.
+\item \textbf{Estudio sobre competitividad y competencia en Andalucía.} Investigador principal: Antoni Espasa. Financiación: Agencia de Defensa de la Competencia de Andalucía. España, Octubre 2008--Octubre 2009.
+
+\item \textbf{Asesoramiento sobre la Evolución del IPC en Andalucía, España.} Investigador principal: Antoni Espasa. Financiación: Agencia de Defensa de la Competencia de Andalucía. España, Septiembre 2008.
+
+\item \textbf{Seguimiento y predicción y análisis macroeconómico y creación de una unidad de seguimiento mensual de la inflación y de los precios relativos de la Comunidad Autónoma de Andalucía, España.} Investigador principal: Antoni Espasa. Financiación: Gobierno de Andalucía. España, 2007--2009.
 
 \item \textbf{La demanda de Lotería y juegos de azar.} Investigador principal: Jorge Iván González. Financiación: Lotería de Bogota. Colombia, 1999--2000.
 
@@ -158,7 +179,6 @@ Autónoma de Madrid, España.} Investigador principal: Antoni Espasa. Financiaci
 \item \textbf{Gestión Ambiental en el Ministerio de Medio Ambiente de Colombia.} Investigador principal: César Castro. Financiación: Ministerio de Medio Ambiente de Colombia. Colombia, 1999.
 
 \item \textbf{Impacto Económico de la Explotación Maderera en un Resguardo Indígena.} Investigador principal: César Castro. Financiación: Corporación Autónoma Regional CODECHOCO. Colombia, 1997--1999.
-
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -184,42 +204,33 @@ Autónoma de Madrid, España.} Investigador principal: Antoni Espasa. Financiaci
   Association of Southern European Economic Theorists, Évora, Portugal\\
   Euro-Mediterranean Competitiveness Meeting, Universidad de Alcalá, España.
 \end{itemize}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Referee} 
-\raggedright
 
-Energy Economics · Energy Sources, Part B: Economics, Planning, and Policy · The Energy Journal.
+\raggedright
+Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal,  Energies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Docencia} 
 
 \begin{itemize}
-  \item Economía Industrial 2019 - 2021.
-  \item Microeconomía 2019 -2020.
-  \item Introducción a la Economía 2019 - 2021.
+  \item Economía Industrial, Universidad Pública de Navarra, 2019--2021.
+  \item Microeconomía, Universidad Pública de Navarra, 2019--2020.
+  \item Introducción a la Economía, Universidad Pública de Navarra, 2019--2022.
+  \item Macroeconomía, Universidad Nacional de Colombia, 1997--1999.
 \end{itemize}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Reconocimientos} 
 
 \begin{itemize}
-  \item Acreditación ANECA, Profesor Ayudante Doctor.
-  \item Universidad de Salamanca, Premio extraordinario de doctorado.
-  \item Banco Santander - Universidad de Alcalá, Beca de estudios doctorado.
-  \item Banco Inter-Americano de Desarrollo, Invitado al foro Juventud y Crecimiento, Jerusalem, Israel.
-
-\end{tabular}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Conocimiento Informático} 
-
-\begin{tabular}{ll}
-
-Lenguaje de programación \textbf{\textsf{R}}\\
-{\LaTeX}\\
-\textsc{MATLAB}\\
+  \item Acreditación ANECA, profesor Contratado Doctor, 2021.
+  \item Acreditación ANECA, profesor Ayudante Doctor, 2017.
+  \item Universidad de Salamanca, premio extraordinario de doctorado, 2016.
+  \item Banco Santander - Universidad de Alcalá, Beca de estudios doctorado, 2000.
+  \item Banco Inter-Americano de Desarrollo, Invitado al foro Juventud y Crecimiento, Jerusalem, Israel, 1995.
 
 \end{tabular}
 

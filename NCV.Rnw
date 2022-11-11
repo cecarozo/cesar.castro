@@ -1,0 +1,69 @@
+\documentclass[11pt]{article} % Font size - 10pt, 11pt or 12pt
+\usepackage[T1]{fontenc} 
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[authoryear]{natbib} 
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{amsmath}        % split equations
+\usepackage{rotating}    % landscape tables
+\usepackage{tablefootnote}
+\usepackage{booktabs, colortbl}				      % Nicer tables
+\usepackage{float} 
+\usepackage{authblk}
+\usepackage{placeins}
+\usepackage{amssymb}                 % additional math symbols
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}   % for table notes
+\usepackage{booktabs}
+\usepackage{appendix}
+\usepackage{setspace}
+\usepackage{bm}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[svgnames]{xcolor} 
+\definecolor{headings}{HTML}{F7D1D1}        % Dark red color for headings
+\usepackage{soul}       % striketrough
+\usepackage[format=plain, justification=raggedright,singlelinecheck=true]{caption}
+
+%=============================HEADERS AND FOOTERS=============================
+\usepackage{fancyhdr}							          % Custom headers\pagestyle{fancy}		  					            
+\pagestyle{fancy}
+\usepackage{lastpage}	                      % page number
+\lhead{}                                    % Header: left side empty
+\chead{}                                    % Header: center side empty
+\rhead{}                                    % Header: rigth side empty
+\lfoot{\footnotesize César Castro Rozo}   % Footer: left side
+\cfoot{\footnotesize Junio de 2021}                                    % Footer: center side empty
+\rfoot{\footnotesize\thepage}	% "Page 1 of 2"
+
+% \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
+\fancypagestyle{firststyle}{\fancyhf{} \fancyfoot[R]{\footnotesize Página \thepage\ de \pageref{LastPage}} }
+%============================================================================
+\par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
+\vspace{5pt}
+{\color{headings} \scshape{Junio de 2021}}\\
+\vspace{10pt}}
+
+\colorbox{shade}{{
+\begin{tabular}{c|p{8cm}}
+{\textifsymbol{18}} & Universidad Pública de Navarra\\
+& \href{https://www.unavarra.es/departamento-economia}{Departamento de Economía}\\
+& Campus Arrosadia\\
+\vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
+\vspace{5pt}\raisebox{-4pt}{\Telefon} & Teléfono: (+34) 948 16 93 60\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & Webpage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+\end{tabular}
+}
+}\\[10pt]
+
+
+\begin{document}
+
+
+
+
+
+
+\end{document}

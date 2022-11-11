@@ -49,12 +49,10 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt} % Font size - 10pt, 11pt or 12pt
-\usepackage[top=1in, bottom=1.25in, left=1.25in, right=1.25in]{geometry} % Document margins
+\usepackage[hmargin=3cm, vmargin=2.5cm]{geometry} % Document margins
 \usepackage{marvosym} % Required for symbols in the colored box
 \usepackage{ifsym} % Required for symbols in the colored box
 \usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
-\usepackage{tabularx}
-
 
 % Colors for links, text and headings
 %-----------------------------------------------------------------------
@@ -62,7 +60,7 @@
 \definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
 \definecolor{shade}{HTML}{F0F6F7} % Peach color for the contact information box
 \definecolor{text1}{HTML}{62797B} % Main document font color, off-black
-\definecolor{headings}{HTML}{000066} % Dark red color for headings
+% \definecolor{headings}{HTML}{000066} % Dark red color for headings
 % Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
 
 \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
@@ -75,26 +73,27 @@
 \titleformat{\section}{\color{headings}
 \scshape\large\raggedright}{}{0em}{}[\color{black}\titlerule]
 \titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
-\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc} 
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{enumitem}
 \usepackage{datetime}
 \setlength{\itemsep}{0.4cm} 
 \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
 
-%==================================HEADERS AND FOOTERS=============================
+%=============================HEADERS AND FOOTERS=============================
 \usepackage{fancyhdr}							          % Custom headers\pagestyle{fancy}		  					            
 \pagestyle{fancy}
 \usepackage{lastpage}	                      % page number
 \lhead{}                                    % Header: left side empty
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
-\lfoot{\sffamily\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\sffamily\footnotesize June, 2022}                                    % Footer: center side empty
-\rfoot{\sffamily\footnotesize \thepage}	% "Page 1 of 2"
+\lfoot{\footnotesize César Castro Rozo}   % Footer: left side
+\cfoot{\footnotesize November 2022}                                    % Footer: center side empty
+\rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
-\fancypagestyle{firststyle}{\fancyhf{} \fancyfoot[R]{\footnotesize Page \thepage\ de \pageref{LastPage}} }
+\fancypagestyle{firststyle}{\fancyhf{} \fancyfoot[R]{\footnotesize Página \thepage\ de \pageref{LastPage}} }
 %============================================================================
 
 \setlength{\parskip}{1em}            % paragraph separation
@@ -102,21 +101,15 @@
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
 
-\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
-\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
-\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
-
-\par{
-\centering{\color{gray}\sffamily\Huge César Castro Rozo}\\
+\par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\scshape{June, 2022}}\\
-\vspace{10pt}
-}
+{\color{headings} \scshape{November 2022}}\\
+\vspace{10pt}}
 
-\centering
 \colorbox{shade}{{
 \begin{tabular}{c|p{8cm}}
-{\textifsymbol{18}} & \href{https://www.unavarra.es/departamento-economia}{Department of Economics}\\
+
+{\textifsymbol{18}} & \href{https://www.unavarra.es/departament-economia}{Department of Economics}\\
 & Universidad Pública de Navarra\\
 & Campus Arrosadia, Madroño Building\\
 \vspace{5pt}\raisebox{-4pt} & Pamplona, Spain 31006\\
@@ -125,69 +118,76 @@
 \vspace{5pt}\raisebox{-4pt}{\Mundus} & Homepage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
-}\\[10pt]
-\vspace{10pt}
+}
+\vspace{15pt}
 
-\raggedright
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Education} 
-
+\section{Education}
 \begin{itemize}
-  \item {\textbf{Ph.D. in Economics} (Summa cum laude), Universidad de Salamanca, Spain
-  Outstanding Doctorate Award.\\
-  Dissertation title: Three Essays on Applied Time Series Econometrics.\\
+  \item {\textbf{Ph.D. in Economics}, Universidad de Salamanca, Spain, 2016.\\
+  Outstanding Doctorate Award, summa cum laude.\\
+  Dissertation title: \emph{Three Essays on Applied Time Series Econometrics}.\\
   Advisor: Rebeca Jiménez-Rodríguez.\\
   Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.}
-  \item \textbf{D.E.A. (Doctoral Studiesin Economics)}, Universidad de Alcalá, Spain.
-  \item \textbf{M.A. in Economics}, Universidad Nacional de Colombia.
-  \item \textbf{B.A. in Economics}, Universidad Nacional de Colombia.
+  \item \textbf{M.A. in Economics (Doctoral Studies, D.E.A.)}, Universidad de Alcalá, Spain, 2002.
+  \item \textbf{M.A. in Economics}, Universidad Nacional de Colombia, 2000.
+  \item \textbf{B.A. in Economics}, Universidad Nacional de Colombia, 1995.
+  \item \textbf{B.Sc. in Forest Engineering}, Universidad Distrital, Colombia, 1993.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Current Position} 
+\begin{itemize}
+\item\textbf{Visiting researcher}, Departament of Economics, WU Vienna University of Economics and Business, Austria, September 2022-present.\\
 
-\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra (UPNA), Spain.\\
-
-\vspace{10pt}
+\item\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra (UPNA), Spain, November 2018--present.\\
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Previous Positions} 
-
 \begin{itemize}
-  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain.
-  \item \textbf{Economist}, Macroeconomics Division, General Controller of Colombia.
-  \item \textbf{Assistant Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia.
-  \item \textbf{Lecturer}, Department of Economics, Universidad Nacional de Colombia.
+  \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006--2014.
+  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2006.
+  \item \textbf{Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.
+  \item \textbf{Lecturer}, Department of Economics, Universidad Nacional de Colombia, 1997--1999.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Interests}
-
 Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 
-\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Publications}
+\section{Papers in refereed journals}
 \begin{itemize}
   \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level''} with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). \emph{SERIEs}, 11(3), September 2020.
+
   \item \textbf{``Dynamic interactions between oil price and exchange rate''} with R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{PLoS ONE}, 15(8), August 2020,  e0237172.
+
   \item \textbf{``Oil price pass-through along the price chain in the euro area''} with R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{Energy Economics}, 64, May 2017, 24--30.
+
   \item \textbf{``A new look at oil price pass-through into inflation: Evidence from disaggregated European data''} with R. Jiménez-Rodríguez (Universidad de Salamanca), P. Poncela (JRC, European Commission), and E. Senra (Universidad de Alcalá). \emph{Economia Politica: Journal of Analytical and Institutional Economics}, 34(1), December 2016, 55--82.
+
   \item \textbf{``The deflationary effect of oil prices in the euro area''} with A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). \emph{Energy Economics}, 56, May 2016, 389--397.
-  \item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain''} with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, 701, December 2012.
-  \item \textbf{``Do we see the effects of oil variations in official statistics price data?''} with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, 27, February 2011, 29--41.
-  \item \textbf{``El diferencial de inflación en los servicios entre España y la euro área''} with E. Carluccio (Universidad Carlos III de Madrid). \emph{Papeles de Economía Española}, 120, June 2009, 69--89.
-  \item \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento''} with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). \emph{Gestión Fiscal}, 8, 2000, 6--33.
-  \item \textbf{``La demanda de lotería y juegos de azar''} with J.I. González (Universidad Nacional de Colombia). \emph{INNOVAR, Revista de Ciencias Administrativas y Sociales}, 16, December 2000, 27--48.}
 \end{itemize}
 
-\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Other publications}
+\begin{itemize}
+\item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain''} with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, 701, December 2012.
+
+  \item \textbf{``Do we see the effects of oil variations in official statistics price data?''} with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, 27, February 2011, 29--41.
+
+  \item \textbf{``El diferencial de inflación en los servicios entre España y la euro área''} with E. Carluccio (Universidad Carlos III de Madrid). \emph{Papeles de Economía Española}, 120, June 2009, 69--89.
+
+  \item \textbf{``Mercado de crédito 1990-1999. La factura de cobro del financiamiento''} with J. Espitia (General Controller of Colombia), and J. Villamizar (General Controller of Colombia). \emph{Gestión Fiscal}, 8, 2000, 6--33.
+
+  \item \textbf{``La demanda de lotería y juegos de azar''} with J.I. González (Universidad Nacional de Colombia). \emph{INNOVAR, Revista de Ciencias Administrativas y Sociales}, 16, December 2000, 27--48.}
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Projects}
 \begin{itemize}
+  \item \textbf{New developments in economic modelling: Mechanisms, causality and institutional analysis.} Project leader: Javier Hualde--Jorge Alcalde. Research funding: Spanish Ministry of Science PID2021-127119NB-I0. Spain, 2022--present.
   \item \textbf{Design and application of economic models for institutional analysis.} Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
   \item \textbf{Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
   \item \textbf{Forecast and macroeconomic analysis. Inflation and relative prices in the region of Andalusia, Spain.} Project leader: Antoni Espasa. Research funding: Government of Andalusia. Spain, 2007--2009.
@@ -200,9 +200,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Conference and Seminar Presentations} 
-
 \begin{itemize}
   \item \textbf{2019}\\
   44th Symposium Spanish Economic Association (SAEe), Alicante, Spain.\\
@@ -223,41 +221,27 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Referee} 
-
+\section{Refereeing}
 \raggedright
-Energy Economics; Energy Sources, Part B: Economics, Planning, and Policy; The Energy Journal; Energies.\\
+Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal, Energies.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Teaching} 
-
 \begin{itemize}
-  \item Industrial Organization 2019 - present.
-  \item Microeconomics 2019 -2020.
-  \item Introduction to Economics 2019 - present.
+  \item Industrial Organization, Universidad Pública de Navarra, 2019--2021.
+  \item Microeconomics, Universidad Pública de Navarra, 2019--2020.
+  \item Introduction to Economics, Universidad Pública de Navarra, 2019--2022.
+  \item Macroeconomics, Universidad Nacional de Colombia, 1997--1999.
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Honors \& Awards} 
-
+\section{Awards and distinctions} 
 \begin{itemize}
-  \item Profesor Ayudante Doctor by Agencia Nacional de Evaluacion de la Calidad y la Acreditación (ANECA).
-  \item Universidad de Salamanca, Outstanding Doctorate Award.
-  \item Santander Bank - Universidad de Alcalá, Scholarship.
-  \item Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Computer skills} 
-
-\begin{itemize}
-  \item \textbf{\textsf{R}} programming language
-  \item {\LaTeX}
-  \item \textsc{MATLAB}
+  \item Accredited as \emph{Profesor Contratado Doctor} by ANECA, 2021.
+  \item Accredited as \emph{Profesor Ayudante Doctor} by ANECA, 2017.
+  \item Universidad de Salamanca, Outstanding Doctorate Award, 2016.
+  \item Santander Bank--Universidad de Alcalá, Scholarship, 2000.
+  \item Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.
 \end{itemize}
 
 \end{document}
