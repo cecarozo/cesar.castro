@@ -18,13 +18,15 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Current Position
 
 <font size="4">
-· Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Austria, September 2022-present.
+· Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Austria, September 2022--present.
 
-· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2018--present.\
+· Associate Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2023--present.\
 
 ****
 
 ##### Previous Positions
+
+· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2018--2022.\
 
 · Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006--2014.\
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  11 NOV 2022 15:37
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  1 FEB 2023 09:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,7 +625,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.106 {\color{headings}
-                        \scshape{November 2022}}\\
+                        \scshape{February 2023}}\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -681,11 +681,14 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 \section{Previous Positions}
+l.146 \section{Previous Positions}
                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[1
+
+]
 
 ! Package xcolor Error: Undefined color `headings'.
 
@@ -698,9 +701,6 @@ l.156 \section{Research Interests}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[1
-
-]
 
 ! Package xcolor Error: Undefined color `headings'.
 
@@ -734,6 +734,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+[2]
 
 ! Package xcolor Error: Undefined color `headings'.
 
@@ -746,7 +747,6 @@ l.188 \section{Research Projects}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[2]
 
 ! Package xcolor Error: Undefined color `headings'.
 
@@ -814,12 +814,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
 ### simple group (level 1) entered at line 104 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12760 strings out of 493706
- 177592 string characters out of 6145769
+ 12758 strings out of 493706
+ 177571 string characters out of 6145769
  280333 words of memory out of 5000000
- 15936 multiletter control sequences out of 15000+600000
- 13988 words of font info for 35 fonts, out of 8000000 for 9000
+ 15935 multiletter control sequences out of 15000+600000
+ 13224 words of font info for 34 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 35i,12n,48p,1042b,549s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,48p,1042b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CVE.pdf (4 pages).
