@@ -58,7 +58,7 @@
 \colorbox{shade}{{
 \begin{tabular}{c|p{8cm}}
 
-{\textifsymbol{18}} & \href{https://www.unavarra.es/departament-economia}{Department of Economics}\\
+{\textifsymbol{18}} & \href{https://www.unavarra.es/sites/centrosydepartamentos/economia.html}{Department of Economics}\\
 & Universidad Pública de Navarra\\
 & Campus Arrosadia, Madroño Building\\
 \vspace{5pt}\raisebox{-4pt} & Pamplona, Spain 31006\\
