@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  2 FEB 2023 10:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  24 FEB 2023 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,7 +625,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.106 {\color{headings}
-                        \scshape{February 2023}}\\
+                        \scshape{February, 2023}}\\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -816,7 +816,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
 Here is how much of TeX's memory you used:
  12758 strings out of 493706
  177571 string characters out of 6145769
- 280333 words of memory out of 5000000
+ 280335 words of memory out of 5000000
  15935 multiletter control sequences out of 15000+600000
  13224 words of font info for 34 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191

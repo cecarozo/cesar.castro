@@ -39,7 +39,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize February 2023}                                    % Footer: center side empty
+\cfoot{\footnotesize February, 2023}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -52,7 +52,7 @@
 
 \par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{February 2023}}\\
+{\color{headings} \scshape{February, 2023}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -172,7 +172,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Refereeing}
 \raggedright
-Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal, Energies.\\
+Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal, Energies, The World Economy.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Teaching} 
@@ -186,8 +186,8 @@ Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The E
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Awards and distinctions} 
 \begin{itemize}
-  \item Accredited as \emph{Profesor Contratado Doctor} by ANECA, 2021.
-  \item Accredited as \emph{Profesor Ayudante Doctor} by ANECA, 2017.
+  \item Officially certified as Associate Professor by the Ministry of Universities in Spain, 2021.
+  \item Officially certified as Assistant Professor by the Ministry of Universities in Spain, 2017.
   \item Universidad de Salamanca, Outstanding Doctorate Award, 2016.
   \item Santander Bank--Universidad de Alcalá, Scholarship, 2000.
   \item Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.
