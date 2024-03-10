@@ -39,7 +39,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize May, 2023}                                    % Footer: center side empty
+\cfoot{\footnotesize March, 2024}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -52,7 +52,7 @@
 
 \par{\centering{\color{black}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{May, 2023}}\\
+{\color{headings} \scshape{March, 2024}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -71,6 +71,23 @@
 \vspace{15pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Current Position} 
+\begin{itemize}
+\textbf{Associate Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Spain, 2023--present.\\
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Previous Positions} 
+\begin{itemize}
+  \item\textbf{Visiting researcher}, Departament of Economics, WU Vienna University of Economics and Business, Austria, 2022-2023.\\
+  \item\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Spain, 2018--2022.
+  \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006--2014.
+  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2006.
+  \item \textbf{Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.
+  \item \textbf{Lecturer}, Department of Economics, Universidad Nacional de Colombia, 1997--1999.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Education}
 \begin{itemize}
   \item {\textbf{Ph.D. in Economics}, Universidad de Salamanca, Spain, 2016.\\
@@ -85,29 +102,15 @@
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Current Position} 
-\begin{itemize}
-\item\textbf{Visiting researcher}, Departament of Economics, WU Vienna University of Economics and Business, Austria, September 2022-present.\\
-\item\textbf{Associate Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Spain, 2023--present.\\
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Previous Positions} 
-\begin{itemize}
-  \item\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Spain, 2018--2022.
-  \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006--2014.
-  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2006.
-  \item \textbf{Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.
-  \item \textbf{Lecturer}, Department of Economics, Universidad Nacional de Colombia, 1997--1999.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Interests}
 Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Papers in refereed journals}
 \begin{itemize}
+
+\item \textbf{``Time-Varying Relation between Oil Shocks and European Stock Market Returns''} with Jiménez-Rodríguez, R. (Universidad de Salmanca), & Kizys, R. (University of Southampton). Journal of Risk and Financial Management, 16(3), 174, 2023.
+
   \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level''} with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). \emph{SERIEs}, 11(3), September 2020.
 
   \item \textbf{``Dynamic interactions between oil price and exchange rate''} with R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{PLoS ONE}, 15(8), August 2020,  e0237172.
@@ -152,8 +155,9 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 \section{Conference and Seminar Presentations} 
 \begin{itemize}
   \item \textbf{2023}\\
-  WU Department of Economics-National Bank of Slovakia: Internal Economic Research Seminar, Bratislava, Slovakia, 2023.\\
-  XI Meeting on International Economics, Castelló, Spain, 2023.
+  Workshop on Energy Policy, Castelló, Spain.\\
+  WU Department of Economics-National Bank of Slovakia: Internal Economic Research Seminar, Bratislava, Slovakia.\\
+  XI Meeting on International Economics, Castelló, Spain.
   \item \textbf{2019}\\
   44th Symposium Spanish Economic Association (SAEe), Alicante, Spain.\\
   II Workshop of the Spanish Macroeconomics Network, Barcelona, Spain.\\
@@ -180,9 +184,10 @@ Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The E
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Teaching} 
 \begin{itemize}
+  \item Economics of the European Union, Universidad Pública de Navarra, 2024.
+  \item Introduction to Economics, Universidad Pública de Navarra, 2019--2023.
   \item Industrial Organization, Universidad Pública de Navarra, 2019--2021.
   \item Microeconomics, Universidad Pública de Navarra, 2019--2020.
-  \item Introduction to Economics, Universidad Pública de Navarra, 2019--2022.
   \item Macroeconomics, Universidad Nacional de Colombia, 1997--1999.
 \end{itemize}
 

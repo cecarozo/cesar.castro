@@ -39,7 +39,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize Febrero de 2023}                                    % Footer: center side empty
+\cfoot{\footnotesize Marzo, 2024}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -52,18 +52,19 @@
 
 \par{\centering{\color{gray}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{Febrero de 2023}}\\
+{\color{headings} \scshape{Marzo, 2024}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
 \begin{tabular}{c|p{8cm}}
-{\textifsymbol{18}} & Universidad Pública de Navarra\\
-& \href{https://www.unavarra.es/departamento-economia}{Departamento de Economía}\\
-& Campus Arrosadia\\
-\vspace{5pt}\raisebox{-4pt} & 31006 Pamplona, Spain\\
-\vspace{5pt}\raisebox{-4pt}{\Telefon} & Teléfono: (+34) 948 16 93 60\\
-\vspace{5pt}\raisebox{-4pt}{\Letter} & E-mail: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
-\vspace{5pt}\raisebox{-4pt}{\Mundus} & Webpage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
+
+{\textifsymbol{18}} & \href{https://www.unavarra.es/sites/centrosydepartamentos/economia.html}{Department of Economics}\\
+& Universidad Pública de Navarra\\
+& Campus Arrosadia, Madroño Building\\
+\vspace{5pt}\raisebox{-4pt} & Pamplona, Spain 31006\\
+\vspace{5pt}\raisebox{-4pt}{\Telefon} & Phone: (+34) 948 16 93 60\\
+\vspace{5pt}\raisebox{-4pt}{\Letter} & Email: \href{mailto:cesar.castro@unavarra.es}{cesar.castro@unavarra.es} \\
+\vspace{5pt}\raisebox{-4pt}{\Mundus} & Homepage: \href{https://cecarozo.github.io/cesar.castro}{https://cecarozo.github.io/cesar.castro}\\
 \end{tabular}
 }
 }
@@ -73,6 +74,25 @@
 
 % \textsc\textbf{Soy economista interesado en i) Análisis de coyuntura y previsión de variables económicas; ii) Mercado petrolero y sus efectos económicos; iii) Modelos de series de tiempo y desagregación en el análisis de variables económicas; iv) Programación en R y su potencial como herramienta de visualización de datos. He trabajado por varios años como analista económico en la Universidad Carlos III de Madrid analizando variables macroeconómicas de España y la euro área a través de técnicas econométricas (series de tiempo) y elaborando informes de coyuntura y predicciones económicas. También he trabajado como director, coordinador y asistente en varias investigaciones realizadas en la Universidad Nacional de Colombia, así como profesor asistente en esta misma Universidad. Doctor en economía por la Universidad de Salamanca, he obtenido el Diploma de Estudios Avanzados (DEA) en economía por la Universidad de Alcalá, y el Magister y la licenciatura en economía por la Universidad Nacional de Colombia.}
 % \vspace{10pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Posición actual} 
+
+\begin{itemize}
+\textbf{Profesor Contratado Doctor}, Departamento de Economía, Universidad Pública de Navarra (UPNA), España, Noviembre 2023--2024.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiencia Profesional} 
+
+\begin{itemize}
+  \item\textbf{Investigador visitante}, Departament of Economics, WU Vienna University of Economics and Business, Austria, 2022--2023.
+  \item\textbf{Profesor Ayudante Doctor}, Departamento de Economía, Universidad Pública de Navarra (UPNA), España, Noviembre 2018--2023.
+  \item \textbf{Investigador}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2006--2014.
+  \item \textbf{Becario de investigación}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2002--2006.
+  \item \textbf{Investigador}, Centro de Investigaciones para el Desarrollo, Escuela de Economía, Universidad Nacional de Colombia, 1997--2000.
+  \item \textbf{Profesor asistente}, Escuela de Economía, Universidad Nacional de Colombia, 1997--1999.
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Educación} 
@@ -90,25 +110,6 @@
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Posición actual} 
-
-\begin{itemize}
-\item\textbf{Investigador visitante}, Departament of Economics, WU Vienna University of Economics and Business, Austria, Septiembre 2022-presente.\\
-
-\item\textbf{Profesor Ayudante Doctor}, Departamento de Economía, Universidad Pública de Navarra (UPNA), España, Noviembre 2018-presente.\\
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experiencia Profesional} 
-
-\begin{itemize}
-  \item \textbf{Investigador}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2006-2014.
-  \item \textbf{Becario de investigación}, Instituto Flores de Lemus, Departamento de Estadística, Universidad Carlos III de Madrid, España, 2002-2006.
-  \item \textbf{Investigador}, Centro de Investigaciones para el Desarrollo, Escuela de Economía, Universidad Nacional de Colombia, 1997-2000.
-  \item \textbf{Profesor asistente}, Escuela de Economía, Universidad Nacional de Colombia, 1997-1999.
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Temas de interés}
 
 Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética.
@@ -117,6 +118,7 @@ Econometría de series de tiempo, Macroeconomía aplicada, Economía Energética
 \section{Publicaciones en revistas indexadas}
 
 \begin{itemize}
+  \item \textbf{``Time-Varying Relation between Oil Shocks and European Stock Market Returns''} con Jiménez-Rodríguez, R. (Universidad de Salmanca), & Kizys, R. (University of Southampton). Journal of Risk and Financial Management, 16(3), 174, 2023.
   \item \textbf{``Oil price pass-through into inflation in Spain at national and regional level''.} Coautores: L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), y M. Jerez (Universidad Complutense de Madrid). \emph{SERIEs}, 11(3), Septiembre 2020.
   
   \item \textbf{``Dynamic interactions between oil price and exchange rate''.} Coautor: R. Jiménez-Rodríguez (Universidad de Salamanca). \emph{PLoS ONE}, 15(8), Agosto 2020,  e0237172.
@@ -185,6 +187,10 @@ coyuntura económica, inflación, modelos macroeconómicos, series temporales.} 
 \section{Presentaciones en conferencias y seminarios} 
 
 \begin{itemize}
+ \item \textbf{2023}\\
+  Workshop on Energy Policy, Castelló, Spain.\\
+  WU Department of Economics-National Bank of Slovakia: Internal Economic Research Seminar, Bratislava, Slovakia.\\
+  XI Meeting on International Economics, Castelló, Spain.
   \item \textbf{2019}\\
   44th Symposium Spanish Economic Association (SAEe), Alicante, España.\\
   II Workshop of the Spanish Macroeconomics Network, Barcelona, España.\\

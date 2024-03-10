@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- > ![](CesarFlorencia.jpg)\ -->
  <img src="Foto2021.jpg" alt="Smiley face" style="width:50%;"> 
 
-****
+***
 
 <font size="4">
 Associate Professor\
@@ -25,9 +25,9 @@ Universidad Pública de Navarra
 ##### Research Interests:
 
 <ul>
-<li>Applied time series econometrics</li>
-<li>Analysis and forecasts of macroeconomic variables</li>
-<li>Effects of oil price shocks on macroeconomic variables</li>
+<li>Time series econometrics</li>
+<li>Empirical macroeconomics</li>
+<li>Energy economics</li>
 </ul>
 
 ****
