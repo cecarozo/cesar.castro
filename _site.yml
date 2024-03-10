@@ -1,7 +1,7 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "César Castro"
+  title: "César Castro Rozo"
   left:
     - text: "Curriculum Vitae"
       icon:  fa-graduation-cap
