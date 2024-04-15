@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  10 MAR 2024 12:08
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  15 APR 2024 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,54 +639,11 @@ Overfull \hbox (11.20532pt too wide) in paragraph at lines 121--121
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...omics, Universidad Pública de Navarra\\ 
-                                                  (UPNA), Spain, 2023--prese...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...Navarra\\ (UPNA), Spain, 2023--present.\\
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 \end{itemize}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (12.63554pt too wide) in paragraph at lines 127--128
-[]\T1/cmr/bx/n/10.95 Associate Pro-fes-sor\T1/cmr/m/n/10.95 , De-part-ment of E
-co-no-mics, Uni-ver-si-dad Pú-bli-ca de Na-va-rra(UPNA),
- []
-
 [1
 
 ]
 ! Misplaced alignment tab character &.
-l.163 ...dríguez, R. (Universidad de Salmanca), &
+l.167 ...ríguez, R. (Universidad de Salamanca), &
                                                    Kizys, R. (University of ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -697,7 +654,7 @@ might try typing `S' now just to see what is salvageable.
 
 [2]
 ! Extra }, or forgotten \endgroup.
-l.187 ... y Sociales}, 16, December 2000, 27--48.}
+l.191 ... y Sociales}, 16, December 2000, 27--48.}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -708,15 +665,15 @@ deleted material, e.g., by typing `I$}'.
 [3] [4] 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./CVE.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 255.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 259.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  )
 (\end occurred inside a group at level 1)
 
@@ -729,6 +686,6 @@ Here is how much of TeX's memory you used:
  15935 multiletter control sequences out of 15000+600000
  13224 words of font info for 34 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 35i,11n,48p,1042b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,48p,1042b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CVE.pdf (5 pages).
