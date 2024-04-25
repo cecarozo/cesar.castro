@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 · Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2006.\
 
-· Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1995--1999.\
+· Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.\
 
 · Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995--1999)
 
