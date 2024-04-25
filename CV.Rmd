@@ -18,7 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Current Position
 
 <font size="4">
-Associate Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2023--present.\
+· Associate Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2023--present.\
+· Member of the Institute for Advanced Research in Business and Economics (INARBE), Universidad Pública de Navarra (Spain) 2022--present.\
 
 ****
 
@@ -96,9 +97,9 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 
 ****
 
-##### Journal Referee
+##### Referee Activity
 
-Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal, Energies, The World Economy.
+Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Planning, and Policy | The Energy Journal | Energies |The World Economy
 
 ****
 

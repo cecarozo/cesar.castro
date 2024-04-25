@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 <font size="4">
 · [<q>The impact of oil shocks on the stock market</q>](https://doi.org/10.1016/j.gfj.2024.100967) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Global Finance Journal*, 60, 2024, 100967.
 
+· [<q>Time-Varying Relation between Oil Shocks and European Stock Market Returns</q>](https://doi.org/10.3390/jrfm16030174) with R. Jiménez-Rodríguez, (Universidad de Salamanca), & R. Kizys, (University of Southampton). *Journal of Risk and Financial Management*, 16(3), 174, 2023.
+
 · [<q>Oil price pass-through into inflation in Spain at national and regional level</q>](https://doi.org/10.1007/s13209-020-00222-4) with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *SERIEs*, 11(3), September 2020.
 
 · [<q>Dynamic interactions between oil price and exchange rate</q>](https://doi.org/10.1371/journal.pone.0237172) with R. Jiménez-Rodríguez (Universidad de Salamanca). *PLoS ONE*, 15(8), August 2020, e0237172.

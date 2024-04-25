@@ -15,7 +15,7 @@
 
 \hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
 
-\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+\renewcommand{\headrulewidth}{1pt} % Get rid of the default rule in the header
 
 \usepackage{titlesec} % Allows creating custom \section's
 
@@ -39,7 +39,7 @@
 \chead{}                                    % Header: center side empty
 \rhead{}                                    % Header: rigth side empty
 \lfoot{\footnotesize César Castro Rozo}   % Footer: left side
-\cfoot{\footnotesize March, 2024}                                    % Footer: center side empty
+\cfoot{\footnotesize April, 2024}                                    % Footer: center side empty
 \rfoot{\footnotesize\thepage}	% "Page 1 of 2"
 
 % \renewcommand{\footrulewidth}{0.1pt}        % Footer: line
@@ -52,7 +52,7 @@
 
 \par{\centering{\color{black}{\sffamily\Huge César Castro Rozo}\\
 \vspace{5pt}
-{\color{headings} \scshape{March, 2024}}\\
+{\color{headings} \scshape{April, 2024}}\\
 \vspace{10pt}}
 
 \colorbox{shade}{{
@@ -181,9 +181,9 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Refereeing}
+\section{Referee Activity}
 \raggedright
-Energy Economics, Energy Sources, Part B: Economics, Planning, and Policy, The Energy Journal, Energies, The World Economy.\\
+Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Planning, and Policy | The Energy Journal | Energies | The World Economy\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Teaching} 
