@@ -18,24 +18,24 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Current Position
 
 <font size="4">
-· Associate Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2023--present.\
-· Member of the Institute for Advanced Research in Business and Economics (INARBE), Universidad Pública de Navarra (Spain) 2022--present.\
+· Associate Professor, Department of Economics, Universidad Pública de Navarra (UPNA), Pamplona, Spain, 2023/02--present.\
+· Member of the Institute for Advanced Research in Business and Economics (INARBE), Universidad Pública de Navarra (UPNA) Pamplona, Spain, 2021/06--present.\
 
 ****
 
 ##### Previous Positions
 
-· Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Austria, 2022--2023.
+· Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Vienna, Austria, 2022/09--2023/08.
 
-· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Spain, 2018--2022.\
+· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Pamplona, Spain, 2018/11--2023/01.\
 
-· Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2008--2014.\
+· Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2008/09--2014/03.\
 
-· Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2008.\
+· Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002/01--2008/08.\
 
-· Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.\
+· Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, Bogotá, 1997/09--2000/08.\
 
-· Lecturer, Department of Economics, Universidad Nacional de Colombia. (1997--1999)
+· Lecturer, Department of Economics, Universidad Nacional de Colombia, Bogotá, 1997/08--1999/11.
 
 ****
 
@@ -65,11 +65,11 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 
 ##### Conference and Seminar Presentations
 
-· Workshop on Energy Policy, Castelló, Spain, 2023.
+· Workshop on Energy Policy, Castelló de la Plana, Spain, 2023.
 
 · WU Department of Economics-National Bank of Slovakia: Internal Economic Research Seminar, Bratislava, Slovakia, 2023.
 
-· XI Meeting on International Economics, Castelló, Spain, 2023.
+· XI Meeting on International Economics, Castelló de la Plana, Spain, 2023.
 
 · 44th Symposium Spanish Economic Association (SAEe), Alicante, Spain, 2019.
 
@@ -99,22 +99,26 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 
 ##### Referee Activity
 
-Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Planning, and Policy | The Energy Journal | Energies |The World Economy
+Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Planning, and Policy | The Energy Journal | Energies | The World Economy
 
 ****
 
 ##### Teaching
 
-· Economics of the European Union, Universidad Pública de Navarra, 2024.
+Universidad Pública de Navarra (UPNA):
 
-· Introduction to Economics, Universidad Pública de Navarra, 2019--2023.
+· Economics of the European Union, (UG), 2024.
 
-· Industrial Organization, Universidad Pública de Navarra, 2019--2021.
+· Introduction to Economics, (UG), 2019--2023.
 
-· Microeconomics, Universidad Pública de Navarra, 2019--2020.
+· Industrial Organization, (UG), 2019--2021.
 
-· Macroeconomics, Universidad Nacional de Colombia, 1997--1999.
+· Microeconomics, (UG), 2019--2020.
 
+\
+Universidad Nacional de Colombia:
+
+· Macroeconomics, (UG, PG), 1997--1999.
 
 ****
 
