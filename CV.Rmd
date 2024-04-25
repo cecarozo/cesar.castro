@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 · Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.\
 
-· Lecturer, Department of Economics, Universidad Nacional de Colombia. (1995--1999)
+· Lecturer, Department of Economics, Universidad Nacional de Colombia. (1997--1999)
 
 ****
 
