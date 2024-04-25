@@ -83,8 +83,8 @@
 \begin{itemize}
   \item\textbf{Visiting researcher}, Departament of Economics, WU Vienna University of Economics and Business, Austria, 2022-2023.\\
   \item\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Spain, 2018--2022.
-  \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006--2014.
-  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2006.
+  \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2008--2014.
+  \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002--2008.
   \item \textbf{Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, 1997--2000.
   \item \textbf{Lecturer}, Department of Economics, Universidad Nacional de Colombia, 1997--1999.
 \end{itemize}
