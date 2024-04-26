@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 · Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Vienna, Austria, 2022/09--2023/08.
 
-· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Pamplona, Spain, 2018/11--2023/01.\
+· Assistant Professor, Department of Economics, Universidad Pública de Navarra, Pamplona (UPNA), Spain, 2018/11--2023/01.\
 
 · Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2008/09--2014/03.\
 
@@ -87,7 +87,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.
 
 · Energy Economics Iberian Conference, Lisboa, Portugal, 2016.
 
-· 32nd International Symposium on Forecasting, Boston, U.S.A., 2012. [https://isf.forecasters.org/](https://isf.forecasters.org/overview/about/locations/)
+· 32nd International Symposium on Forecasting, Boston, U.S.A., 2012.
 
 · XXXIII Congreso Nacional de Estadística e Investigación Operativa, Madrid, Spain, 2012.
 
@@ -124,9 +124,9 @@ Universidad Nacional de Colombia:
 
 ##### Awards and distinctions
 
-· Officially certified as Associate Professor by the Ministry of Universities in Spain, 2021.
+· Accredited for Associate Professor by the Ministry of Universities in Spain, 2021.
 
-· Officially certified as Assistant Professor by the Ministry of Universities in Spain, 2017.
+· Accredited for Assistant Professor by the Ministry of Universities in Spain, 2017.
 
 · Universidad de Salamanca, Outstanding Doctorate Award, 2016.
 

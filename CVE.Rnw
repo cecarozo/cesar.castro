@@ -159,9 +159,9 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 \section{Conference and Seminar Presentations} 
 \begin{itemize}
   \item \textbf{2023}\\
-  Workshop on Energy Policy, Castelló, Spain.\\
+  Workshop on Energy Policy, Castelló de la Plana, Spain.\\
   WU Department of Economics-National Bank of Slovakia: Internal Economic Research Seminar, Bratislava, Slovakia.\\
-  XI Meeting on International Economics, Castelló, Spain.
+  XI Meeting on International Economics, Castelló de la Plana, Spain.
   \item \textbf{2019}\\
   44th Symposium Spanish Economic Association (SAEe), Alicante, Spain.\\
   II Workshop of the Spanish Macroeconomics Network, Barcelona, Spain.\\
@@ -206,7 +206,7 @@ Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Plann
   \item Accredited for Assistant Professor by the Ministry of Universities in Spain, 2017.
   \item Universidad de Salamanca, Outstanding Doctorate Award, 2016.
   \item Santander Bank--Universidad de Alcalá, Scholarship, 2000.
-  \item Inter-American Development Bank, Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.
+  \item Inter-American Development Bank (IDB), Invited to the Youth and Growth Forum, Jerusalem, Israel, 1995.
 \end{itemize}
 
 \end{document}
