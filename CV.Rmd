@@ -29,9 +29,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 · Assistant Professor, Department of Economics, Universidad Pública de Navarra, Pamplona (UPNA), Spain, 2018/11--2023/01.\
 
-· Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2008/09--2014/03.\
+· Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006/10--2014/03.\
 
-· Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002/01--2008/08.\
+· Assistant Researcher, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002/12--2006/10.\
 
 · Researcher, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, Bogotá, 1997/09--2000/08.\
 
