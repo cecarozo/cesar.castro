@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  22 MAY 2024 10:39
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  8 OCT 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -659,15 +659,15 @@ deleted material, e.g., by typing `I$}'.
 [3] [4] 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./CVE.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 271.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 271.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
  )
 (\end occurred inside a group at level 1)
 
@@ -680,6 +680,6 @@ Here is how much of TeX's memory you used:
  15939 multiletter control sequences out of 15000+600000
  13565 words of font info for 35 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 35i,11n,48p,1042b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,48p,1042b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CVE.pdf (5 pages).
