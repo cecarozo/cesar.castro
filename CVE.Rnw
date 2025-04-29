@@ -75,7 +75,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Current Position} 
 \begin{itemize}
-  \item\textbf{Associate Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Pamplona, Spain, 2023/02--present.\\
+  \item\textbf{Associate Professor of Economics}, Universidad Pública de Navarra\\ (UPNA), Pamplona, Spain, 2023/02--present.\\
 
   \item\textbf{Member} of the Institute for Advanced Research in Business and Economics (INARBE), Universidad Pública de Navarra (UPNA), Pamplona, Spain, 2021/06--present.
 \end{itemize}
@@ -84,7 +84,7 @@
 \section{Previous Positions} 
 \begin{itemize}
   \item\textbf{Visiting researcher}, Department of Economics, WU Vienna University of Economics and Business, Vienna, Austria, 2022/09--2023/08.\\
-  \item\textbf{Assistant Professor}, Department of Economics, Universidad Pública de Navarra\\ (UPNA), Pamplona, Spain, 2018/11--2023/01.
+  \item\textbf{Assistant Professor of Economics}, Universidad Pública de Navarra\\ (UPNA), Pamplona, Spain, 2018/11--2023/01.
   \item \textbf{Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2006/10--2014/03.
   \item \textbf{Assistant Researcher}, Instituto Flores de Lemus, Department of Statistics, Universidad Carlos III de Madrid, Spain, 2002/12--2006/10.
   \item \textbf{Researcher}, Centro de Investigaciones para el Desarrollo, Department of Economics, Universidad Nacional de Colombia, Bogotá, 1997/09--2000/08.
@@ -144,8 +144,8 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Work in Progress}
 \begin{itemize}
-\item \textbf{``Shocks and elasticities in the global oil market''} 
-\item \textbf{``The pass-through of commodity price volatility to inflation''} (with Rebeca Jiménez-Rodríguez)
+\item \textbf{``Re-Thinking Elasticities in the Global Oil Market''} 
+\item \textbf{``The Pass-Through of Oil Price Volatility to Macroeconomic Variables in the Euro Area''} (with Rebeca Jiménez-Rodríguez)
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -32,8 +32,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 · [<q>La demanda de lotería y juegos de azar</q>](https://revistas.unal.edu.co/index.php/innovar/issue/view/2304) with J.I. González (Universidad Nacional de Colombia). *INNOVAR, Revista de Ciencias Administrativas y Sociales*, 16, December 2000, 27--48.
 
-***
+****
+##### Work in Progress {#wip}
 
+· Re-Thinking Elasticities in the Global Oil Market
+
+· Pass-Trough of Oil Price volatilities to Macroeconomic Variables in the Euro Area, with Rebeca Jiménez Rodríguez
+
+***
 ##### Media
 
 Articles in the Spanish blog El País, [**Fundación Alternativas**](http://blogs.elpais.com/alternativas/):
