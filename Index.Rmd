@@ -39,7 +39,7 @@ Universidad Pública de Navarra
 <!--     alt="Eiffel tower"> -->
 <!-- </figure> -->
 
-[Department of Economics](https://www.unavarra.es/sites/centrosydepartamentos/economia.html)\
+[Department of Economics](https://www.unavarra.es/en/sites/departamentos/economia.html)\
 Universidad Pública de Navarra\
 [Campus Arrosadia](https://www.unavarra.es/en/sites/la-upna/la-universidad/campus/campus-de-arrosadia.html)\
 31006 Pamplona, Spain
