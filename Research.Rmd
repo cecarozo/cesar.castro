@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ##### Publications {#pub}
 <font size="4">
+· [<q>The pass-through of energy commodity price volatility along the pricing chain in the euro area: A disaggregate approach</q>](https://doi.org/10.1016/j.iref.2025.104733) with R. Jiménez-Rodríguez (Universidad de Salamanca). *International Review of Economics and Business*, 104, 2025, 104733.
+
 · [<q>The impact of oil shocks on the stock market</q>](https://doi.org/10.1016/j.gfj.2024.100967) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Global Finance Journal*, 60, 2024, 100967.
 
 · [<q>Oil price pass-through into inflation in Spain at national and regional level</q>](https://doi.org/10.1007/s13209-020-00222-4) with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *SERIEs*, 11(3), September 2020.
@@ -35,7 +37,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ##### Work in Progress {#wip}
 
-· Re-Thinking Elasticities in the Global Oil Market
+· Expectations in the Global Market of Crude Oil
 
 · Pass-Trough of Oil Price volatilities to Macroeconomic Variables in the Euro Area, with Rebeca Jiménez Rodríguez
 

@@ -18,12 +18,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ##### Current Position
 
 <font size="4">
-· Associate Professor of Economics (with Tenure), Universidad Pública de Navarra (UPNA), Pamplona, Spain, 2023/02--present.\
+· Associate Professor of Economics (with Tenure), Universidad Pública de Navarra (UPNA), Pamplona, Spain, 2025/01--present.\
 · Member of the Institute for Advanced Research in Business and Economics (INARBE), Universidad Pública de Navarra (UPNA) Pamplona, Spain, 2021/06--present.\
 
 ****
 
 ##### Previous Positions
+· Associate Professor of Economics, Universidad Pública de Navarra (UPNA), Pamplona, Spain, 2023/02--2025/01.\
 
 · Visiting researcher, Departament of Economics, WU Vienna University of Economics and Business, Vienna, Austria, 2022/09--2023/08.
 
@@ -41,19 +42,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##### Education
 
-· Ph.D. in Economics, Universidad de Salamanca, Spain, 2016.\
+· Ph.D. in Economics, Universidad de Salamanca, Spain.\
 &emsp;&emsp; Outstanding doctorate award, summa cum laude.\
 &emsp;&emsp; Dissertation: Three Essays on Applied Time Series Econometrics.\
 &emsp;&emsp; Advisor: Rebeca Jiménez-Rodríguez.\
 &emsp;&emsp; Committee: Dolores Gadea (chair), Marcelo Sánchez, Gabriel Pérez Quirós.
 
-· M.A. in Economics (Doctoral Studies, D.E.A.), Universidad de Alcalá, Spain, 2002.
+· M.A. in Economics (Doctoral Studies, D.E.A.), Universidad de Alcalá, Spain.
 
-· M.A. in Economics, Universidad Nacional de Colombia, 1995.
+· M.A. in Economics, Universidad Nacional de Colombia.
 
-· B.A. in Economics, Universidad Nacional de Colombia, 1995.
+· B.A. in Economics, Universidad Nacional de Colombia.
 
-· B.Sc. in Forest Engineering, Universidad Distrital, Colombia, 1993.
+· B.Sc. in Forest Engineering, Universidad Distrital, Colombia.
 
 ****
 
@@ -107,9 +108,11 @@ Economic Modelling | Energy Economics | Energy Sources, Part B: Economics, Plann
 
 Universidad Pública de Navarra (UPNA):
 
-· Economics of the European Union, (UG), 2024.
+· Macroeconomics, (UG), 2024--2025.
 
-· Introduction to Economics, (UG), 2019--2023.
+· Introduction to Economics, (UG), 2019--2025.
+
+· Economics of the European Union, (UG), 2024.
 
 · Industrial Organization, (UG), 2019--2021.
 
@@ -124,11 +127,13 @@ Universidad Nacional de Colombia:
 
 ##### Awards and distinctions
 
-· Accredited for Associate Professor by the Ministry of Universities in Spain, 2021.
+· Positive evaluation for Associate Professor (<q>Profesor Titular de Universidad</q>) by ANECA, Spain, 2025.
 
-· Accredited for Assistant Professor by the Ministry of Universities in Spain, 2017.
+· Positive evaluation for Associate Professor (<q>Profesor Contratado Doctor</q>) by ANECA, Spain, 2021.
 
-· Universidad de Salamanca, Outstanding Doctorate Award, 2016.
+· Positive evaluation for Assistant Professor (<q>Profesor Ayudante Doctor</q>) by ANECA, Spain, 2017.
+
+· Outstanding Doctorate Award, Universidad de Salamanca, 2016.
 
 · Santander Bank - Universidad de Alcalá, Scholarship, 2000.
 

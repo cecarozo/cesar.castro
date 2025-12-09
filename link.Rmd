@@ -13,24 +13,24 @@ output: html_document
 2. Jorge Iván González\
 3. [Miguel Jerez](https://www.ucm.es/fundamentos-analisis-economico2/jerez-mendez,-miguel)\
 4. [Rebeca Jiménez-Rodríguez](http://diarium.usal.es/rebecajimenez/)\
-5. [Pilar Poncela](https://www.uam.es/ss/Satellite/Economicas/es/1234888160191/1234888367480/persona/detallePDI/Poncela_Blanco,_Pilar.htm)\
-6. [Eva Senra](http://www3.uah.es/esd/)\
+5. [Pilar Poncela](https://www.uam.es/economicas/facultad/departamentos/analisis-economico-economia-cuantitativa/poncela-blanco-pilar/f1-1606968999588)\
+6. Eva Senra\
 <!-- end of list -->
 
-****
-##### Data
+<!-- **** -->
+<!-- ##### Data -->
 
-1. [European Central Bank](http://www.ecb.europa.eu/stats/html/index.en.html)
-2. [EIA](http://www.eia.gov/)
-3. [Eurostat](http://ec.europa.eu/eurostat/data/database)
-4. [FED](http://www.federalreserve.gov/)
-5. [Colombian statistic office: DANE](http://www.dane.gov.co/)
-6. [Banco de la República de Colombia](http://www.banrep.gov.co/)
-7. [OECD](https://data.oecd.org/)
-8. [CEPAL](http://www.cepal.org/es/datos-y-estadisticas)
-9. [St. Luois FED: FRED](https://fred.stlouisfed.org/)
-10. [Spanish statistic office: INE](http://www.ine.es/)
-<!-- end of list -->
+<!-- 1. [European Central Bank](http://www.ecb.europa.eu/stats/html/index.en.html) -->
+<!-- 2. [EIA](http://www.eia.gov/) -->
+<!-- 3. [Eurostat](http://ec.europa.eu/eurostat/data/database) -->
+<!-- 4. [FED](http://www.federalreserve.gov/) -->
+<!-- 5. [Colombian statistic office: DANE](http://www.dane.gov.co/) -->
+<!-- 6. [Banco de la República de Colombia](http://www.banrep.gov.co/) -->
+<!-- 7. [OECD](https://data.oecd.org/) -->
+<!-- 8. [CEPAL](http://www.cepal.org/es/datos-y-estadisticas) -->
+<!-- 9. [St. Luois FED: FRED](https://fred.stlouisfed.org/) -->
+<!-- 10. [Spanish statistic office: INE](http://www.ine.es/) -->
+<!-- <!-- end of list --> -->
 
 ****
 ##### Media
