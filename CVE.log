@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  9 DEC 2025 09:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.2.12)  12 DEC 2025 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,7 +646,13 @@ ni-ver-si-dad Na-cio-nal de Co-lom-bia, Bo-go-tá, 1997/08--
 
 [1
 
-] [2]
+]
+Overfull \hbox (7.0777pt too wide) in paragraph at lines 169--170
+\T1/cmr/m/n/10.95 (Uni-ver-si-dad de Sa-la-man-ca). \T1/cmr/m/it/10.95 In-ter-n
+a-tio-nal Re-view of Eco-no-mics and Fi-nan-ce\T1/cmr/m/n/10.95 , 104, 104733,
+ []
+
+[2]
 ! Extra }, or forgotten \endgroup.
 l.195 ... y Sociales}, 16, December 2000, 27--48.}
                                                   

@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ##### Publications {#pub}
 <font size="4">
-· [<q>The pass-through of energy commodity price volatility along the pricing chain in the euro area: A disaggregate approach</q>](https://doi.org/10.1016/j.iref.2025.104733) with R. Jiménez-Rodríguez (Universidad de Salamanca). *International Review of Economics and Business*, 104, 2025, 104733.
+· [<q>The pass-through of energy commodity price volatility along the pricing chain in the euro area: A disaggregate approach</q>](https://doi.org/10.1016/j.iref.2025.104733) with R. Jiménez-Rodríguez (Universidad de Salamanca). *International Review of Economics and Finance*, 104, 2025, 104733.
 
 · [<q>The impact of oil shocks on the stock market</q>](https://doi.org/10.1016/j.gfj.2024.100967) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Global Finance Journal*, 60, 2024, 100967.
 
