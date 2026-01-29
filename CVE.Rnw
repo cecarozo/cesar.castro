@@ -112,7 +112,7 @@
 Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Papers in refereed journals}
+\section{Publications}
 \begin{itemize}
 
   \item \textbf{``The pass-through of energy commodity price volatility along the  pricing chain in the euro area: A disaggregate approach''} with Jiménez-Rodríguez, R. (Universidad de Salamanca). \emph{International Review of Economics and Finance}, 104, 104733, December 2025.
@@ -133,6 +133,8 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Other publications}
 \begin{itemize}
+\item \textbf{``Time-Varying Relation between Oil Shocks and European Stock Market Returns''} with R. Jiménez-Rodríguez (Universidad de Salamanca), & R. Kizys (University of Southampton). \emph{Journal of Risk and Financial Management}, 16(3), 174. March 2023.
+
 \item \textbf{``Oil Prices and Inflation in the Euro Area and its Main Countries: Germany, France, Italy and Spain''} with P. Poncela (Universidad Autónoma de Madrid) and E. Senra (Universidad de Alcalá). \emph{FUNCAS Working papers series}, 701, December 2012.
 
   \item \textbf{``Do we see the effects of oil variations in official statistics price data?''} with P. Poncela (Universidad Autónoma de Madrid), and E. Senra (Universidad de Alcalá). \emph{Boletín de Estadística e Investigación Operativa}, 27, February 2011, 29--41.
