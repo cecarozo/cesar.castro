@@ -154,6 +154,7 @@ Time Series Econometrics, Empirical Macroeconomics, Energy Economics.\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Research Projects}
 \begin{itemize}
+  \item \textbf{Re-thinking elasticities in the global oil market.} Project leader: César Castro Rozo. Research funding: Universidad Pública de Navarra. Spain, 2025--2027.
   \item \textbf{New developments in economic modelling: Mechanisms, causality and institutional analysis.} Project leader: Javier Hualde--Jorge Alcalde. Research funding: Spanish Ministry of Science PID2021-127119NB-100. Spain, 2022--present.
   \item \textbf{Design and application of economic models for institutional analysis.} Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
   \item \textbf{Dynamic econometric models, forecasts, economic outlook, inflation, macroeconomic models and time series.} Project leader: Antoni Espasa. Research funding: Universidad Carlos III de Madrid. Spain, 2010--2014.
