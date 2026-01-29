@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ****
 ##### Publications {#pub}
 <font size="4">
-· [<q>The pass-through of energy commodity price volatility along the pricing chain in the euro area: A disaggregate approach</q>](https://doi.org/10.1016/j.iref.2025.104733) with R. Jiménez-Rodríguez (Universidad de Salamanca). *International Review of Economics and Finance*, 104, 2025, 104733.
+· [<q>The pass-through of energy commodity price volatility along the pricing chain in the euro area: A disaggregate approach</q>](https://doi.org/10.1016/j.iref.2025.104733) with R. Jiménez-Rodríguez (Universidad de Salamanca). *International Review of Economics and Finance*, 104, December 2025, 104733.
 
-· [<q>The impact of oil shocks on the stock market</q>](https://doi.org/10.1016/j.gfj.2024.100967) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Global Finance Journal*, 60, 2024, 100967.
+· [<q>The impact of oil shocks on the stock market</q>](https://doi.org/10.1016/j.gfj.2024.100967) with R. Jiménez-Rodríguez (Universidad de Salamanca). *Global Finance Journal*, 60, May 2024, 100967.
 
 · [<q>Oil price pass-through into inflation in Spain at national and regional level</q>](https://doi.org/10.1007/s13209-020-00222-4) with L. Topan (Universidad Complutense de Madrid), A. Barge-Gil (Universidad Complutense de Madrid), and M. Jerez (Universidad Complutense de Madrid). *SERIEs*, 11(3), September 2020.
 
@@ -55,6 +55,8 @@ Articles in the Spanish blog El País, [**Fundación Alternativas**](http://blog
 ****
 
 ##### Research Projects {#rp} 
+· <q>Re-thinking elasticities in global oil market</q> Project leader: César Castro Rozo. Research funding: Universidad Pública de Navarra. Spain, 2025--2027.
+
 · <q>New developments in economic modelling: Mechanisms, causality and institutional analysis.</q> Project leader: Javier Hualde–Jorge Alcalde. Research funding: Spanish Ministry of Science PID2021-127119NB-100. Spain, 2022--present.
 
 · <q>Design and application of economic models for institutional analysis.</q> Project leader: José E. Galdón. Research funding: Spanish Comission of Science PCG2018-093542-B-100. Spain, 2019--2022.
